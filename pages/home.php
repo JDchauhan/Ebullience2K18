@@ -159,9 +159,9 @@
       <div class="line_3"></div>
         Designed And Developed By 
 
-        <a class="author" href="https://github.com/ashigupta007"> Ashish Gupta </a>
+        <a class="author" target="_blank" href="https://github.com/ashigupta007"> Ashish Gupta </a>
         and
-        <a class="author" href="https://github.com/JDchauhan"> Jagdish Singh </a>
+        <a class="author" target="_blank" href="https://github.com/JDchauhan"> Jagdish Singh </a>
       
       </div>
 
