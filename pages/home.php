@@ -11,7 +11,11 @@
 
     <meta name="theme-color" content="#030710">
 
-    <link rel="manifest" href="manifest.json">
+    <meta name="description" content="NIET Zonal Techfest Website">
+    
+    <meta name="keywords" content="NIET, Zonal, Techfest, Ebullience, 2018, AKTU, Jagdish, Ashish">
+    
+    <meta name="author" content="Jagdish Singh, Ashish Gupta">
 
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 
@@ -153,15 +157,20 @@
 
     <div class="footer">
       <div class="line_3"></div>
-        Designed And Developed By Ashish Gupta and Jagdish Singh
+        Designed And Developed By 
+
+        <a class="author" href="https://github.com/ashigupta007"> Ashish Gupta </a>
+        and
+        <a class="author" href="https://github.com/JDchauhan"> Jagdish Singh </a>
+      
       </div>
 
-        <div class="menu">
-          <button><div class="btn-text">HOME</div></button><br><br><br>
-          <button><div class="btn-text">ABOUT</div></button><br><br><br>
-          <button><div class="btn-text">EVENTS</div></button><br><br><br>
-          <button><div class="btn-text">REGISTRATION</div></button><br><br><br>
-          <button><div class="btn-text">SCHEDULE</div></button><br><br><br> 
+      <div class="menu">
+        <button><div class="btn-text">HOME</div></button><br><br><br>
+        <button><div class="btn-text">ABOUT</div></button><br><br><br>
+        <button><div class="btn-text">EVENTS</div></button><br><br><br>
+        <button><div class="btn-text">REGISTRATION</div></button><br><br><br>
+        <button><div class="btn-text">SCHEDULE</div></button><br><br><br> 
       </div>
     </div>
 </body>
