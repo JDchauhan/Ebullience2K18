@@ -17,12 +17,12 @@
 
     <link rel="stylesheet" type="text/css" href="../css/style-extended.css">
 
-    <script>
+  <script>
 		var countDownDate = new Date("Mar 22, 2018 09:30:00").getTime();
 		var x = setInterval(function() {
   		var now = new Date().getTime();
   		var distance = countDownDate - now;
-		var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   		var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   		var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   		var seconds = Math.floor((distance % (1000 * 60)) / 1000);
@@ -30,8 +30,8 @@
   		document.getElementById("timer").innerHTML = days + "  days   " + hours + " hours "
   		+ minutes + " mins " + seconds + " secs ";
   		if (distance < 0) {
-    	clearInterval(x);
-    	document.getElementById("timer").innerHTML = "Get Set Go For The TechFest";
+        clearInterval(x);
+        document.getElementById("timer").innerHTML = "Get Set Go For The TechFest";
   		}
 		}, 1000);
 	</script>
@@ -153,7 +153,7 @@
 
     <div class="footer">
       <div class="line_3"></div>
-        Designed And Developed By Ashish Gupta
+        Designed And Developed By Ashish Gupta and Jagdish Singh
       </div>
 
         <div class="menu">
@@ -165,115 +165,24 @@
       </div>
     </div>
 </body>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-
-    <script type="text/javascript" src="../js/jquery.particleground.js"></script>
-
-    <script type="text/javascript" src="../js/sine-waves.js"></script>
-
-    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
-
-    <script type="text/javascript">
-      particleground(document.getElementById('skill'), {
-      dotColor: 'rgba(255,255,255,0.5)',
-        lineColor: 'rgba(255,255,255,0.1)',
-        density:50000,
-        maxSpeedX:5,
-        maxSpeedY:3
-      });
-    </script>
-
-    <script>
-    $(window).on('load',(function() {
-      $("#overlayer").delay(2000).fadeOut("slow");
-    }));
-  </script>
-
-  <script type="text/javascript">
-    var waves = new SineWaves({
-  el: document.getElementById('waves'),
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
   
-  speed: 3,
-  
-  width: function() {
-    return $(window).width();
-  },
-  
-  height: function() {
-    return $(window).height();
-  },
-  
-  ease: 'SineInOut',
-  
-  wavesWidth: '50%',
-  
-  waves: [
-    {
-    
-      timeModifier: 4,
-      lineWidth: 1,
-      amplitude: -100,
-      waveLength: 600
-    },
-    {
-      type: 'SineWave',
-      segmentLength: 1,
-    },
-    {
-      timeModifier: 2,
-      lineWidth: 2,
-      amplitude: -150,
-      wavelength: 50
-    },
-    {
-      timeModifier: 1,
-      lineWidth: 1,
-      amplitude: -200,
-      wavelength: 150
-    },
-    {
-      timeModifier: 0.5,
-      lineWidth: 1,
-      amplitude: -120,
-      wavelength: 100
-    },
-    {
-      timeModifier: 0.25,
-      lineWidth: 2,
-      amplitude: -75,
-      wavelength: 400
-    }
-  ],
- 
-  // Called on window resize
-  resizeEvent: function() {
-    
-    var gradient = this.ctx.createLinearGradient(0, 0, this.width, 0);
-    gradient.addColorStop(0,"rgba(230, 255,255, 0.0)");
-    gradient.addColorStop(0.5,"rgba(255, 255, 255, 0.05)");
-    gradient.addColorStop(1,"rgba(255, 255, 255, 0.0)");
-    
-    var index = -1;
-    var length = this.waves.length;
-  for(index=0;index< length;index++){
-      this.waves[index].strokeStyle = gradient;
-    }
-    
-    // Clean Up
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">  
 
-  }
-});
+  <script type="text/javascript" src="../js/jquery.particleground.js"></script>
 
-  </script>
+  <script type="text/javascript" src="../js/sine-waves.js"></script>
+
+  <script type="text/javascript" src="../js/main.js"></script>
 
 </html>
