@@ -184,10 +184,17 @@
       <li>There will be 5 to 10 rounds depending upon number of team participating and availability of team. </li>
       <li>The Judges decision will be final and binding to all. </li>
     </ul>
+
+    <form action="" method="POST">
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+    </form>
   </div>
 
   <div class="item">
     <h3>CODING CONTEST</h3>
+    <ul>
+      <li></li>
+    </ul>
   </div>
 
   <div class="item">
