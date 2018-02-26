@@ -28,7 +28,7 @@ function OTM($email, $roll, $name, $verification_token, $services){
             <p>
                 Dear <b>" . $name . "</b>, <br />
                 You have registered for an account in the <b>Cloudy Vault</b> with the following credentials:<br />
-                Username: <b>" . $ID . "</b><br />
+                Roll No.: <b>" . $roll . "</b><br />
                 Email-ID: <b>" . $email . "</b><br />
                 Name: <b>" . $name . "</b><br />" . $dyn_message1 .
                 "<a href='https://ebullience.niet.co.in/resources/api.php?action=authenticate&token=" . $verification_token .

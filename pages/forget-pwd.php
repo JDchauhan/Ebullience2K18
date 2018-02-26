@@ -79,7 +79,7 @@
           
     </div>
 
-      <form action="forgotpwd.php" method="POST" style="margin-top: 50px;">
+      <form action="../resources/api.php?action=forget_password" method="POST" style="margin-top: 50px;">
 
       <input type="text" name="email" placeholder="Email" class="txt-sml" style="margin-top: 10px;"><br>
       
