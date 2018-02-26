@@ -92,39 +92,39 @@
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="1">
             EVENT ONEds
         </button>
-        <button class="event-linker" type="button">
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="2">
             EVENT TWOsf
         </button>
-        <button class="event-linker" type="button">
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="3">
+            EVENT THRee
+        </button>
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="4">
+            EVENT THRee
+        </button>
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="5">
             EVENT THRee
         </button>
         <br>
-        <button class="event-linker" type="button">
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="6">
             EVENT THRee
         </button>
-        <button class="event-linker" type="button">
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="7">
             EVENT THRee
         </button>
-        <button class="event-linker" type="button">
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="8">
+            EVENT THRee
+        </button>
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="8">
+            EVENT THRee
+        </button>
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="9">
             EVENT THRee
         </button>
     </div>
   </div>
 
   <div class="item">
-    <h3>technical event</h3>
-    <form action="event-register.php">
-      <input type="checkbox" name="Event_name_one"><label>Eveent name</label><br>
-      <input type="checkbox" name="Event_name_one"><label>Eveent name</label><br>
-      <input type="checkbox" name="Event_name_one"><label>Eveent name</label><br>
-      <input type="checkbox" name="Event_name_one"><label>Eveent name</label><br>
-      <input type="checkbox" name="Event_name_one"><label>Eveent name</label><br>
-      <input type="checkbox" name="Event_name_one"><label>Eveent name</label><br>
-      <input type="checkbox" name="Event_name_one"><label>Eveent name</label><br>
-      <input type="checkbox" name="Event_name_one"><label>Eveent name</label><br>
-      <br>
-      <button type="submit" class="register">Register</button>
-    </form>
+    
   </div>
 
   <div class="item">
