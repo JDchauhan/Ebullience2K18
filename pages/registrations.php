@@ -104,11 +104,10 @@
 		</div>
 
       	<div class="menu">
-          <button><div class="btn-text">HOME</div></button><br><br><br>
-          <button><div class="btn-text">ABOUT</div></button><br><br><br>
-          <button><div class="btn-text">EVENTS</div></button><br><br><br>
-          <button><div class="btn-text">REGISTRATION</div></button><br><br><br>
-          <button><div class="btn-text">SCHEDULE</div></button><br><br><br> 
+           <a href="index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
+           <a href="pages/events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
+           <a href="pages/registrations.php"><button><div class="btn-text">REGISTRATION</div></button></a><br><br><br>
+           <a href="pages/login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>
      	</div>
     </div>
 </body>
