@@ -183,8 +183,7 @@
       <div class="menu">
         <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
            <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
-           <a href="registrations.php"><button><div class="btn-text">REGISTRATION</div></button></a><br><br><br>
-           <a href="login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>
+           <a href="logout.php"><button><div class="btn-text">LOGOUT</div></button></a><br><br><br>
       </div>
     </div>
 </body>
