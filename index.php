@@ -82,7 +82,6 @@
 		<h1>ARK 2K18</h1>
 		<center><div class="line_2"></div></center>
        <div class="menu-2">
-      <a href="#">HOME</a>
       <a href="#">ABOUT</a>
       <a href="#">EVENTS</a>
       <a href="#">REGISTRATION</a>
@@ -107,8 +106,6 @@
       	</div>
 
       	<div class="menu">
-			     <a href="index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
-			     <a href="pages/events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
 			     <a href="pages/registrations.php"><button><div class="btn-text">REGISTRATION</div></button></a><br><br><br>
 			     <a href="pages/login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>
            <a href="pages/co-ordinator-panel.php"><button><div class="btn-text">Access Panel</div></button></a>
