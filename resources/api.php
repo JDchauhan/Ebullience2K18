@@ -5,6 +5,10 @@
      *  Github: https://github.com/JDchauhan
      */
 
+    if(!isset($_SESSION)){
+        session_start();
+    }
+
     try {
 
         require_once 'util/config.php';
@@ -96,8 +100,18 @@
                     
                     $sql = "UPDATE Students SET token='$token' WHERE email='$email'";
                     $conn->exec($sql);
-                    echo "login success";       
-                    //success: login success
+                    
+                    $_SESSION["roll"] = $result["roll"];
+                    $_SESSION["name"] = $result["name"];
+                    $_SESSION["email"] = $result["email"];
+                    $_SESSION["mobile"] = $result["mobile"];
+                    $_SESSION["college"] = $result["college"];
+                    $_SESSION["login_status"] = true;
+                    $_SESSION["token"] = $token;
+                    
+                    
+
+                    header("Location: ../pages/home.php");
                     
                 }else{
                     echo "verification pend login";
@@ -129,7 +143,7 @@
                 if($service=="new_registration"){
                     authenticate_newUser($email);
                 }else if($service=="reset_password"){
-
+                    $_SESSION["access_pass"] = true;
                     //success: navigate to change password with authenticated access
                     header("Location: ../pages/forget-pwd-step2.php");
                     
@@ -206,7 +220,7 @@
             }else{
                 $conn = connections();
                 //todo:recieve email in 
-                //$email = $_SESSION["email"];
+                $email = $_SESSION["email"];
                 $sql = "UPDATE Students SET password='$new_pass' WHERE email='$email'";
                 $conn->exec($sql);
                 
@@ -268,7 +282,9 @@
             }
         }
         else{
-           //Wrong link
+            session_unset();
+            session_destroy();
+            header("Location: ../index.php");
         }
         $conn = null;
     }
