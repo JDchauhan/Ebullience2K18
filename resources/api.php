@@ -265,6 +265,27 @@
             }
         }
 
+        function event_unregistered($id){
+            $email = $_SESSION["email"];
+            //check for access
+            if(isset($_SESSION['token']) && isset($_SESSION['login_status']) && $_SESSION['login_status']==true){
+                $conn=connections();
+
+                $sql = "DELETE FROM Participation WHERE email='$email' AND event_id='$id' ";
+                $conn->exec($sql);
+                //success: registeration successfully cancelled
+
+                header("Location: ../pages/home.php");
+
+            }else{
+                // remove all session variables
+                session_unset(); 
+                // destroy the session 
+                session_destroy();
+                header("Location: ../index.php");
+            }
+        }
+
 
 
 
@@ -280,7 +301,7 @@
 
         //url resolving GET 
         $possible_url = array("login","register","authenticate","forget_password", "reset_password",
-                                "logout","event_registered");
+                                "logout","event_registered","event_unregistered");
 
         $value = "An error has occurred";
 
@@ -314,6 +335,10 @@
 
                 case "event_registered":
                     event_registered($_REQUEST["id"]);
+                break;
+
+                case "event_unregistered":
+                    event_unregistered($_REQUEST["id"]);
                 break;
 
 
