@@ -105,40 +105,92 @@
     <div class="event-cont btn-group" role="group">
       
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="1">
-            EVENT ONEds
+            BUISNESS PLAN
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="2">
-            EVENT TWOsf
+            BRIDGE KRITI
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="3">
-            EVENT THRee
+            CHECK YOUR KNOWLEDGE
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="4">
-            EVENT THRee
+            CODING CONTEST
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="5">
-            EVENT THRee
+            DEBATE
         </button>
         <br>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="6">
-            EVENT THRee
+            FRUGAL ENGINEERING
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="7">
-            EVENT THRee
+            JUST A MINUTE
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="8">
-            EVENT THRee
+            ROBO RACE
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="8">
-            EVENT THRee
+            ROBO WAR
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="9">
-            EVENT THRee
+            TECHNICAL POSTER
         </button>
     </div>
   </div>
 
   <div class="item">
+    <h3>BUISNESS PLAN</h3>
+    <ul>
+      <li>Individual participant can take part</li>
+      <li>Have to explore business ideas to run the Business.</li>
+      <li>Topics will be given</li>
+      <li>Means of communication will be English.</li>
+      <li>Duration: 45 Minutes.</li>
+      <li>The Judges decision will be final and binding to all.</li>
+    </ul>
+    <form action="" method="POST">
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+    </form>
+  </div>
+
+  <div class="item">
+    <h3>BRIDGE KRITI</h3>
+    <ul>
+      <li>Be a real builder, identify how the geometry affects the bridge design, functions and apply that knowledge to construct a model of a bridge using ice cream sticks. Bridge kriti provide a platform to young engineers to showcase their construction skills amidst several constraints. </li>
+
+      <li>Each Team can have 2 members. Maximum two teams Design a Bridge of given specifications satisfying the stated constraints using popsicles (ice). </li>
+      <li>Span length: 60-65 cm and 10 cm at both ends </li>
+      <li>Height of the horizontal span: 11 cm (max.) from the ground </li>
+      <li>Stick overlapping should not exceed 3 cm </li>
+      <li>Crown of arch must be above horizontal span and its height should not exceed 25 cm.</li>
+    </ul>
+    <form action="" method="POST">
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+    </form>
+  </div>
+
+  <div class="item">
+    <h3>CHECK YOUR KNOWLEDGE</h3>
+
+    <ul>
+      <li>Questions will be of general awareness type</li>
+      <li>Each college can send one team only</li>
+      <li>Each team to have 2 members</li>
+      <li>To answer question team will be given 10 second. </li>
+      <li> Each question will carry 3 points for correct answer. </li>
+      <li>For wrong answer no point will be given. No negative points will be awarded. </li>
+      <li>Only ONE attempt for one question is permissible</li>
+      <li> For no answer attempted, question will be passed to next team. It will be given chance to answer the question in 5 seconds and Ipoint for right answer will be awarded. </li>
+      <li>There will be 5 to 10 rounds depending upon number of team participating and availability of team. </li>
+      <li>The Judges decision will be final and binding to all. </li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <h3>CODING CONTEST</h3>
+  </div>
+
+  <div class="item">
     
   </div>
 
@@ -146,23 +198,7 @@
     
   </div>
 
-    <div class="item">
-    
-  </div>
-
-    <div class="item">
-    
-  </div>
-
-    <div class="item">
-    
-  </div>
-
-    <div class="item">
-    
-  </div>
-
-    <div class="item">
+  <div class="item">
     
   </div>
 
