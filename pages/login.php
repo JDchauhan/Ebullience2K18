@@ -79,7 +79,7 @@
           
     </div>
 
-      <form action="register.php" method="POST">
+      <form action="register.php" method="POST" style="margin-top: 50px;">
 
       <input type="text" name="email" placeholder="Email" class="txt-sml" style="margin-top: 10px;"><br>
       <input type="pass" name="passwrd" placeholder="Password" class="txt-sml"><br>
