@@ -231,7 +231,18 @@
         }
 
 
+        function logout(){
+            $token=$_SESSION["token"];
+            $conn=connections();
+            $sql = "UPDATE Students SET token=NULL WHERE token='$token'";
+            $conn->exec($sql);
 
+            session_unset();
+            session_destroy();
+            session_start();
+            //success: give logout success message
+            header("Location: ../index.php");
+        }
 
 
 
@@ -250,7 +261,8 @@
 
 
         //url resolving GET 
-        $possible_url = array("login","register","authenticate","forget_password", "reset_password");
+        $possible_url = array("login","register","authenticate","forget_password", "reset_password",
+                                "logout");
 
         $value = "An error has occurred";
 
@@ -278,6 +290,9 @@
                     reset_password();
                     break;
 
+                case "logout":
+                    logout();
+                break;
 
             }
         }
