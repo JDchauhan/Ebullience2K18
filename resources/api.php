@@ -244,8 +244,26 @@
             header("Location: ../index.php");
         }
 
+        function event_registered($id){
+            $email = $_SESSION["email"];
+            //check for access
+            if(isset($_SESSION['token']) && isset($_SESSION['login_status']) && $_SESSION['login_status']==true){
+                $conn=connections();
 
+                $sql = "INSERT INTO Participation VALUES ('$id', '$email')"; 
+                $conn->exec($sql);
+                //success: registeration successfull
 
+                header("Location: ../pages/home.php");
+
+            }else{
+                // remove all session variables
+                session_unset(); 
+                // destroy the session 
+                session_destroy();
+                header("Location: ../index.php");
+            }
+        }
 
 
 
@@ -262,7 +280,7 @@
 
         //url resolving GET 
         $possible_url = array("login","register","authenticate","forget_password", "reset_password",
-                                "logout");
+                                "logout","event_registered");
 
         $value = "An error has occurred";
 
@@ -293,6 +311,11 @@
                 case "logout":
                     logout();
                 break;
+
+                case "event_registered":
+                    event_registered($_REQUEST["id"]);
+                break;
+
 
             }
         }
