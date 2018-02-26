@@ -3,18 +3,12 @@ html, body
 	height: 100%;
 	width: 100%;
 	overflow-x: hidden;
-	overflow-y: hidden;
 	position: fixed;
 	cursor: url(../images/cursor_2.cur), auto;
 }
 html, body:hover
 {
 	cursor: url(../images/cursor_2.cur), auto;
-}
-.custom-container
-{
-	overflow-y: hidden;
-	overflow-x: hidden;
 }
 #overlayer
 {
@@ -28,7 +22,7 @@ html, body:hover
 .arc
 {
 	position: absolute;
-	top: 20%;
+	top: 15%;
 	left: 30%;
 }
 .menu
@@ -112,7 +106,7 @@ html, body:hover
 .main-cont
 {
 	height: 100%;
-	width: 100%;
+	min-width: 100%;
 	padding-top:5px;
 	text-align: center;
 	background-color: transparent;
