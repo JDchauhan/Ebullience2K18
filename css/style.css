@@ -206,8 +206,13 @@ html, body:hover
 	-webkit-animation-fill-mode:forwards;
 }
 
-a.author, a.author:hover {
-    color: wheat;
+a.author, a.author:visited {
+	color: wheat;
+	text-decoration: none;
+}
+
+a.author:hover{
+	color: wheat;
 }
 
 @keyframes rotate_left

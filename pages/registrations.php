@@ -81,14 +81,13 @@
     <div id="timer" class="timer">
           
     </div>
-    <form action="register.php" method="POST">
+    <form action="../resources/api.php?action=register" method="POST">
 
     	<input type="text" name="name" placeholder="Name" class="txt-sml" style="margin-top: 10px;"><br>
     	<input type="text" name="clg_name" placeholder="College" class="txt-sml"><br>
     	<input type="text" name="email" placeholder="Email" class="txt-sml"><br>
     	<input type="text" name="roll_no" placeholder="Roll Number" class="txt-sml"><br>
-    	<input type="text" name="mobno" placeholder="Mobile Number" class="txt-sml"><br>
-
+    	<input type="text" name="mob_no" placeholder="Mobile Number" class="txt-sml"><br>
     	<input type="password" name="pass" placeholder="Password" class="txt-sml"><br>
 
     	<input type="submit" name="submit" placeholder="Register" value="Register" class="btn-sml">
