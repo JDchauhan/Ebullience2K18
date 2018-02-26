@@ -79,11 +79,11 @@
           
     </div>
 
-      <form action="login_action.php" method="POST" style="margin-top: 50px;">
+      <form action="forgotpwd.php" method="POST" style="margin-top: 50px;">
 
       <input type="text" name="email" placeholder="Email" class="txt-sml" style="margin-top: 10px;"><br>
-      <input type="pass" name="passwrd" placeholder="Password" class="txt-sml"><br>
-      <input type="submit" name="submit" placeholder="Login" value="Login" class="btn-sml">
+      
+      <input type="submit" name="submit" placeholder="Send Verification Code" value="Send Verification Code" class="btn-sml" style="width: auto;">
 
       </form>
 
