@@ -1,3 +1,20 @@
+<?php 
+  if(!isset($_SESSION)){
+    session_start();
+  }
+  if(isset($_SESSION['token']) && isset($_SESSION['login_status']) && $_SESSION['login_status']==true){
+
+  }else{
+      // remove all session variables
+      session_unset(); 
+      // destroy the session 
+      session_destroy();
+      header("Location: ../index.php");
+  }
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -79,10 +96,10 @@
           
     </div>
 
-      <form action="forgotpwd.php" method="POST" style="margin-top: 50px;">
+      <form action="../resources/api.php?action=reset_password" method="POST" style="margin-top: 50px;">
 
-      <input type="password" name="passwrd" placeholder="New Password" class="txt-sml" style="margin-top: 10px;"><br>
-      <input type="password" name="passwrd-2" placeholder="New Password" class="txt-sml" style="margin-top: 10px;"><br>
+      <input type="password" name="password" placeholder="New Password" class="txt-sml" style="margin-top: 10px;"><br>
+      <input type="password" name="password-2" placeholder="New Password" class="txt-sml" style="margin-top: 10px;"><br>
       
       <input type="submit" name="submit" placeholder="Change Password" value="Change Password" class="btn-sml" style="width: auto;">
 

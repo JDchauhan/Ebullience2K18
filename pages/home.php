@@ -1,3 +1,18 @@
+<?php 
+  if(!isset($_SESSION)){
+    session_start();
+  }
+  if(isset($_SESSION['token']) && isset($_SESSION['login_status']) && $_SESSION['login_status']==true){
+
+  }else{
+      // remove all session variables
+      session_unset(); 
+      // destroy the session 
+      session_destroy();
+      header("Location: ../index.php");
+  }
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
