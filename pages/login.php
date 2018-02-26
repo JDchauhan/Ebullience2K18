@@ -82,7 +82,7 @@
       <form action="../resources/api.php?action=login" method="POST" style="margin-top: 50px;">
 
       <input type="text" name="email" placeholder="Email" class="txt-sml" style="margin-top: 10px;"><br>
-      <input type="pass" name="password" placeholder="Password" class="txt-sml"><br>
+      <input type="password" name="password" placeholder="Password" class="txt-sml"><br>
       <input type="submit" name="submit" placeholder="Login" value="Login" class="btn-sml">
 
       </form>

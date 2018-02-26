@@ -129,7 +129,10 @@
                 if($service=="new_registration"){
                     authenticate_newUser($email);
                 }else if($service=="reset_password"){
+
                     //success: navigate to change password with authenticated access
+                    header("Location: ../pages/forget-pwd-step2.php");
+                    
                 }
 
 
@@ -185,6 +188,33 @@
         }
 
 
+        function reset_password(){
+            //todo:recieve email in session
+            $new_pass = $_POST["password"];
+            $new_pass1 = $_POST["password-2"];
+            $pass_valid = filter_var($new_pass, FILTER_SANITIZE_STRING);
+            if($new_pass != $new_pass1){
+                echo "pass mismatch";
+                //error: password mismatch
+                //navigate back
+
+            }else if($new_pass != $pass_valid){
+                //error: invalid characters
+                echo "error invalid chars";
+                //navigate back
+
+            }else{
+                $conn = connections();
+                //todo:recieve email in 
+                //$email = $_SESSION["email"];
+                $sql = "UPDATE Students SET password='$new_pass' WHERE email='$email'";
+                $conn->exec($sql);
+                
+                echo "pass updated";
+                //success: password updated
+                
+            }
+        }
 
 
 
@@ -206,7 +236,8 @@
 
 
         //url resolving GET 
-        $possible_url = array("login","register","authenticate","forget_password");
+        $possible_url = array("login","register","authenticate","forget_password", "reset_password");
+
         $value = "An error has occurred";
 
         if (isset($_GET["action"]) && in_array($_GET["action"], $possible_url)){
@@ -229,6 +260,11 @@
                     forget_password();
                     break;
                 
+                case "reset_password":
+                    reset_password();
+                    break;
+
+
             }
         }
         else{

@@ -79,10 +79,10 @@
           
     </div>
 
-      <form action="forgotpwd.php" method="POST" style="margin-top: 50px;">
+      <form action="../resources/api.php?action=reset_password" method="POST" style="margin-top: 50px;">
 
-      <input type="password" name="passwrd" placeholder="New Password" class="txt-sml" style="margin-top: 10px;"><br>
-      <input type="password" name="passwrd-2" placeholder="New Password" class="txt-sml" style="margin-top: 10px;"><br>
+      <input type="password" name="password" placeholder="New Password" class="txt-sml" style="margin-top: 10px;"><br>
+      <input type="password" name="password-2" placeholder="New Password" class="txt-sml" style="margin-top: 10px;"><br>
       
       <input type="submit" name="submit" placeholder="Change Password" value="Change Password" class="btn-sml" style="width: auto;">
 
