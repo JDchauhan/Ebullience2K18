@@ -286,7 +286,47 @@
             }
         }
 
+        function download_event_csv(){
+            $token = $_POST["token"];
+            $statement = executedStatement("SELECT event_id  FROM Events WHERE
+                                             token='$token' ");
+            $result = $statement->Fetch(PDO::FETCH_ASSOC);
 
+            if($result){
+                $event_id = $result["event_id"];
+                
+                
+                $statement = executedStatement("SELECT Students.name,Students.mobile FROM Students INNER JOIN
+                                                Participation ON Students.email = Participation.email WHERE
+                                                Participation.event_id='$event_id' ");
+
+                $filepath = "downloads/" . $event_id . ".csv";
+                $result = $statement->FetchAll(PDO::FETCH_ASSOC);
+                $file = fopen($filepath,"w");
+
+                for($i=0; $i<sizeof($result); $i++ ){
+                    $line = "" . $result[$i]["name"] . "," . $result[$i]["mobile"];
+                    $arr[$i] = $line;   
+                }
+                foreach ($arr as $line){
+                    fputcsv($file,explode(',',$line));
+                }
+                fclose($file); 
+                header('Content-Description: File Transfer');
+                header('Content-Type: application/octet-stream');
+                header('Content-Disposition: attachment; filename="'.basename($filepath).'"');
+                header('Expires: 0');
+                header('Cache-Control: must-revalidate');
+                header('Pragma: public');
+                header('Content-Length: ' . filesize($filepath));
+                flush(); // Flush system output buffer
+                readfile($filepath);
+
+            }else{
+                //error: access denied
+            }
+
+        }
 
 
 
@@ -301,7 +341,7 @@
 
         //url resolving GET 
         $possible_url = array("login","register","authenticate","forget_password", "reset_password",
-                                "logout","event_registered","event_unregistered");
+                                "logout","event_registered","event_unregistered","download_event_csv");
 
         $value = "An error has occurred";
 
@@ -339,6 +379,10 @@
 
                 case "event_unregistered":
                     event_unregistered($_REQUEST["id"]);
+                break;
+
+                case "download_event_csv":
+                    download_event_csv();
                 break;
 
 
