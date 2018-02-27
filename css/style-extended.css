@@ -64,6 +64,7 @@ body
 	display: inline-block;
 	margin-left: 10px;
 	margin-top: 10px;
+	padding-bottom: 0px;
 }
 .item h3
 {
@@ -71,14 +72,6 @@ body
 	color: white;
 	margin-bottom: 20px;
 	text-shadow: 2px 2px 30px rgb(160,226,236); 
-}
-label
-{
-	margin-left: 20px;
-	font-size: 15px;
-	color: rgba(255,255,255,0.8);
-	letter-spacing: 2px;
-	word-spacing: 5px;
 }
 .register
 {

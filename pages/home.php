@@ -102,7 +102,7 @@
   <div class="carousel-inner">
   
   <div class="item active">
-    <div class="event-cont btn-group" role="group">
+    <div class="event-cont">
       
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="1">
             BUISNESS PLAN
