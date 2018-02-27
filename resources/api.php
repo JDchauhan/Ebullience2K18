@@ -288,25 +288,33 @@
 
         function download_event_csv(){
             $token = $_POST["token"];
-            $statement = executedStatement("SELECT event_id  FROM Events WHERE
+            $statement = executedStatement("SELECT event, event_id  FROM Events WHERE
                                              token='$token' ");
             $result = $statement->Fetch(PDO::FETCH_ASSOC);
 
             if($result){
                 $event_id = $result["event_id"];
+                $event_name = $result["event"];
                 
                 
-                $statement = executedStatement("SELECT Students.name,Students.mobile FROM Students INNER JOIN
+                $statement = executedStatement("SELECT Students.roll, Students.name, Students.college, Students.email,
+                                                Students.mobile FROM Students INNER JOIN
                                                 Participation ON Students.email = Participation.email WHERE
                                                 Participation.event_id='$event_id' ");
-
+                //construct file
                 $filepath = "downloads/" . $event_id . ".csv";
                 $result = $statement->FetchAll(PDO::FETCH_ASSOC);
                 $file = fopen($filepath,"w");
 
+                $arr[0] = ",," . $event_name  ;
+                $arr[1] = "";
+                $arr[2] = "Roll No, Name, College, Email, Mobile"  ;
+                $arr[3] = "";
+
                 for($i=0; $i<sizeof($result); $i++ ){
-                    $line = "" . $result[$i]["name"] . "," . $result[$i]["mobile"];
-                    $arr[$i] = $line;   
+                    $line = "" . $result[$i]["roll"] . ","  . $result[$i]["name"] .  ","  . $result[$i]["college"] . 
+                            ","  . $result[$i]["email"] .  ","  . $result[$i]["mobile"];
+                    $arr[$i + 4] = $line;   
                 }
                 foreach ($arr as $line){
                     fputcsv($file,explode(',',$line));
