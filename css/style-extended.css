@@ -55,7 +55,7 @@ body
 }
 .event-linker
 {
-	height: 120px;
+	height: auto;
 	width: 120px;
 	background-color: rgba(255,255,255,0.1);
 	border: 5px double rgba(255,255,255,0.1);
@@ -65,6 +65,7 @@ body
 	margin-left: 10px;
 	margin-top: 10px;
 	padding-bottom: 0px;
+
 }
 .item h3
 {
