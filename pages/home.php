@@ -148,7 +148,7 @@
       <li>Duration: 45 Minutes.</li>
       <li>The Judges decision will be final and binding to all.</li>
     </ul>
-    <form action="" method="POST">
+    <form action="../resources/api.php?action=event_registered&amp;id=1" method="POST">
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
     </form>
   </div>
@@ -164,7 +164,7 @@
       <li>Stick overlapping should not exceed 3 cm </li>
       <li>Crown of arch must be above horizontal span and its height should not exceed 25 cm.</li>
     </ul>
-    <form action="" method="POST">
+    <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
     </form>
   </div>

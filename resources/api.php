@@ -244,10 +244,97 @@
             header("Location: ../index.php");
         }
 
+        function event_registered($id){
+            $email = $_SESSION["email"];
+            //check for access
+            if(isset($_SESSION['token']) && isset($_SESSION['login_status']) && $_SESSION['login_status']==true){
+                $conn=connections();
 
+                $sql = "INSERT INTO Participation VALUES ('$id', '$email')"; 
+                $conn->exec($sql);
+                //success: registeration successfull
 
+                header("Location: ../pages/home.php");
 
+            }else{
+                // remove all session variables
+                session_unset(); 
+                // destroy the session 
+                session_destroy();
+                header("Location: ../index.php");
+            }
+        }
 
+        function event_unregistered($id){
+            $email = $_SESSION["email"];
+            //check for access
+            if(isset($_SESSION['token']) && isset($_SESSION['login_status']) && $_SESSION['login_status']==true){
+                $conn=connections();
+
+                $sql = "DELETE FROM Participation WHERE email='$email' AND event_id='$id' ";
+                $conn->exec($sql);
+                //success: registeration successfully cancelled
+
+                header("Location: ../pages/home.php");
+
+            }else{
+                // remove all session variables
+                session_unset(); 
+                // destroy the session 
+                session_destroy();
+                header("Location: ../index.php");
+            }
+        }
+
+        function download_event_csv(){
+            $token = $_POST["token"];
+            $statement = executedStatement("SELECT event, event_id  FROM Events WHERE
+                                             token='$token' ");
+            $result = $statement->Fetch(PDO::FETCH_ASSOC);
+
+            if($result){
+                $event_id = $result["event_id"];
+                $event_name = $result["event"];
+                
+                
+                $statement = executedStatement("SELECT Students.roll, Students.name, Students.college, Students.email,
+                                                Students.mobile FROM Students INNER JOIN
+                                                Participation ON Students.email = Participation.email WHERE
+                                                Participation.event_id='$event_id' ");
+                //construct file
+                $filepath = "downloads/" . $event_id . ".csv";
+                $result = $statement->FetchAll(PDO::FETCH_ASSOC);
+                $file = fopen($filepath,"w");
+
+                $arr[0] = ",," . $event_name  ;
+                $arr[1] = "";
+                $arr[2] = "Roll No, Name, College, Email, Mobile"  ;
+                $arr[3] = "";
+
+                for($i=0; $i<sizeof($result); $i++ ){
+                    $line = "" . $result[$i]["roll"] . ","  . $result[$i]["name"] .  ","  . $result[$i]["college"] . 
+                            ","  . $result[$i]["email"] .  ","  . $result[$i]["mobile"];
+                    $arr[$i + 4] = $line;   
+                }
+                foreach ($arr as $line){
+                    fputcsv($file,explode(',',$line));
+                }
+                fclose($file); 
+                header('Content-Description: File Transfer');
+                header('Content-Type: application/octet-stream');
+                header('Content-Disposition: attachment; filename="'.basename($filepath).'"');
+                header('Expires: 0');
+                header('Cache-Control: must-revalidate');
+                header('Pragma: public');
+                header('Content-Length: ' . filesize($filepath));
+                flush(); // Flush system output buffer
+                readfile($filepath);
+
+            }else{
+                //error: access denied
+            }
+
+        }
 
 
 
@@ -262,7 +349,7 @@
 
         //url resolving GET 
         $possible_url = array("login","register","authenticate","forget_password", "reset_password",
-                                "logout");
+                                "logout","event_registered","event_unregistered","download_event_csv");
 
         $value = "An error has occurred";
 
@@ -293,6 +380,19 @@
                 case "logout":
                     logout();
                 break;
+
+                case "event_registered":
+                    event_registered($_REQUEST["id"]);
+                break;
+
+                case "event_unregistered":
+                    event_unregistered($_REQUEST["id"]);
+                break;
+
+                case "download_event_csv":
+                    download_event_csv();
+                break;
+
 
             }
         }

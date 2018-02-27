@@ -79,7 +79,7 @@
           
     </div>
 
-      <form action="downloadcsv.php" method="POST" style="margin-top: 50px;">
+      <form action="../resources/api.php?action=download_event_csv" method="POST" style="margin-top: 50px;">
 
       <input type="text" name="token" placeholder="Token-Id" class="txt-sml" style="margin-top: 10px;"><br>
 
