@@ -24,7 +24,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-	<script>
+	<!--<script>
 		var countDownDate = new Date("Mar 22, 2018 09:30:00").getTime();
 		var x = setInterval(function() {
   		var now = new Date().getTime();
@@ -41,7 +41,7 @@
     	document.getElementById("timer").innerHTML = "Get Set Go For The TechFest";
   		}
 		}, 1000);
-	</script>
+	</script>-->
 <body>
 	<div id="overlayer">
 		<div class='triangles'>
@@ -79,23 +79,25 @@
 
 	<div class="main-cont">
 		 <div class="line"></div>
-		<h1>ARK 2K18</h1>
+     <img src="images/biglogo.png" class="aktu">
+
+		<h1><!--Dr. APJ ABDUL KALAM TECHNICAL UNIVERSITY-->
+    NOIDA INSTITUTE OF ENGINEERING AND TECHNOLOGY  
+    </h1>
+    <img src="images/niet.png" class="aktu2">
+    <h5>Accredited by NAAC (A Grade) CSE, ECE, ME, & B.Pharm are NBA accredited 99th Rank by NIRF (2016)</h5>
 		<center><div class="line_2"></div></center>
-       <div class="menu-2">
-      <a href="#">ABOUT</a>
-      <a href="#">EVENTS</a>
-      <a href="#">REGISTRATION</a>
-      <a href="#">SCHEDULE</a>
-    </div>
+      <h3>Dr. APJ ABDUL KALAM TECHNICAL UNIVERSITY</h3>
     <center><div class="line_2"></div></center>  
 		<br>
-    <div id="timer" class="timer">
+   <!-- <div id="timer" class="timer">
           
-    </div>
+    </div>-->
 
     
 
     <div class="footer">
+      <h4>TECHNICAL, LITERARY AND MANAGEMENT ZONAL FEST</h4>
 		<div class="line_3"></div>
 			Designed And Developed By 
 
@@ -105,11 +107,6 @@
 		
       	</div>
 
-      	<div class="menu">
-			     <a href="pages/registrations.php"><button><div class="btn-text">REGISTRATION</div></button></a><br><br><br>
-			     <a href="pages/login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>
-           <a href="pages/co-ordinator-panel.php"><button><div class="btn-text">Access Panel</div></button></a>
-	    </div>
 	</div>
 
 </body>

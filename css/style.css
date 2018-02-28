@@ -122,8 +122,8 @@ html, body:hover
 }
 .main-cont h1
 {
-	font-weight: bolder;
-	font-size: 40px;
+	font-weight: bold;
+	font-size: 25px;
 	font-family: 'Audiowide', cursive;
 	color: white;
 	text-align: center;
@@ -132,7 +132,28 @@ html, body:hover
 	display: inline-block;
 	margin-top: 10px;
 	letter-spacing: 5px;
-	word-spacing: 10px;
+	word-spacing:5px;
+}
+.main-cont h4, .main-cont h5, .main-cont h3
+{
+	font-family: 'Audiowide', cursive;
+	color: white;
+	text-align: center;
+}
+.aktu
+{
+	float: left;
+	display: inline-block;
+	height: 70px;
+	margin-left: -80px;
+	position: absolute;
+}
+.aktu2
+{
+	display: inline-block;
+	height: 70px;
+	margin-right: -80px;
+	position: absolute;
 }
 .one
 {
