@@ -1,6 +1,12 @@
 <?php
   if(!isset($_SESSION)){
-    session_start();
+    if(!isset($_REQUEST["session"])){
+      session_start();
+      $session_get = session_id();
+    }else{
+      session_start($_REQUEST["session"]);
+    }
+    $session_get = session_id();
   }
 ?>
 
@@ -85,7 +91,7 @@
           
     </div>
 
-      <form action="../resources/api.php?action=login" method="POST" style="margin-top: 50px;">
+      <form action="../resources/api.php?action=login&amp;session=<?php echo $session_get;?>" method="POST" style="margin-top: 50px;">
 
       <input type="text" name="email" placeholder="Email" class="txt-sml" style="margin-top: 10px;"><br>
       <input type="password" name="password" placeholder="Password" class="txt-sml"><br>

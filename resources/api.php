@@ -7,7 +7,14 @@
      */
 
     if(!isset($_SESSION)){
-        session_start();
+        if(!isset($_REQUEST["session"])){
+          session_start();
+          $session_get = session_id();
+        }else{
+          session_start($_REQUEST["session"]);
+        }
+        $session_get = session_id();
+        echo $session_get;
     }
 
     try {
@@ -61,19 +68,19 @@
 
                 $_SESSION["msg"]["type"] = "success";
                 $_SESSION["msg"]["head"] = "Registration Successfull";
-                $_SESSION["msg"]["body"] = "Please verify your account by clicking on the link you recieved in your registered
-                                            email ID";
+                $_SESSION["msg"]["body"] = "Please verify your account by clicking on the link you recieved in your registered " .
+                                            "email ID";
                 
-                header("Location: ../pages/login.php");
+                header("Location: ../pages/login.php?session=" . $session_get);
 
             }else if($result && $result["status"] == 1){
                 //user already exists
-                header("Location: ../pages/registrations.php");    
+                header("Location: ../pages/registrations.php?session=" . $session_get);    
                 
                 $_SESSION["msg"]["type"] = "error";
                 $_SESSION["msg"]["head"] = "Registration Failed";
                 $_SESSION["msg"]["body"] = "This email id already exists. Please choose another";                
-                header("Location: ../pages/registrations.php");
+                header("Location: ../pages/registrations.php?session=" . $session_get);
 
             }else{
                 //fresh user
@@ -87,10 +94,10 @@
                 
                 $_SESSION["msg"]["type"] = "success";
                 $_SESSION["msg"]["head"] = "Registration Successfull";
-                $_SESSION["msg"]["body"] = "Please verify your account by clicking on the link you recieved in your registered
-                                            email ID";
+                $_SESSION["msg"]["body"] = "Please verify your account by clicking on the link you recieved in your registered " .
+                                            "email ID";
                 
-                header("Location: ../pages/login.php");   
+                header("Location: ../pages/login.php?session=" . $session_get);   
             }
         }
 
@@ -123,16 +130,16 @@
                     
                     
 
-                    header("Location: ../pages/home.php");
+                    header("Location: ../pages/home.php?session=" . $session_get);
                     
                 }else{
                     //verification pending
                     $_SESSION["msg"]["type"] = "error";
                     $_SESSION["msg"]["head"] = "Login Failed";
-                    $_SESSION["msg"]["body"] = "Please verify your account by clicking on the link you recieved in your registered
-                                                email ID";
+                    $_SESSION["msg"]["body"] = "Please verify your account by clicking on the link you recieved in your registered " . 
+                                                "email ID";
                     
-                    header("Location: ../pages/login.php");
+                    header("Location: ../pages/login.php?session=" . $session_get);
                 }
                 
             }else{
@@ -141,7 +148,7 @@
                 $_SESSION["msg"]["head"] = "Login Failed";
                 $_SESSION["msg"]["body"] = "incorrect email ID and password";
                 
-                header("Location: ../pages/login.php");
+                header("Location: ../pages/login.php?session=" . $session_get);
             }
         
         }
@@ -165,7 +172,7 @@
                     authenticate_newUser($email);
                 }else if($service=="reset_password"){
                     $_SESSION["access_pass"] = true;
-                    header("Location: ../pages/forget-pwd-step2.php");
+                    header("Location: ../pages/forget-pwd-step2.php?session=" . $session_get);
                     
                 }
 
@@ -174,7 +181,7 @@
                 //error: expired link
                 session_unset();
                 session_destroy();
-                header("Location: ../pages/login.php");
+                header("Location: ../pages/login.php?session=" . $session_get);
             }
         }
 
@@ -188,7 +195,7 @@
             $_SESSION["msg"]["head"] = "Verification Successful";
             $_SESSION["msg"]["body"] = "You have been successfully verified";
             
-            header("Location: ../pages/login.php");
+            header("Location: ../pages/login.php?session=" . $session_get);
         
         }
 
@@ -206,10 +213,10 @@
                     //validation pending
                     $_SESSION["msg"]["type"] = "error";
                     $_SESSION["msg"]["head"] = "Login Failed";
-                    $_SESSION["msg"]["body"] = "Please verify your account by clicking on the link you recieved in your 
-                                                registered email ID";
+                    $_SESSION["msg"]["body"] = "Please verify your account by clicking on the link you recieved in your " .
+                                                "registered email ID";
                     
-                    header("Location: ../pages/login.php");
+                    header("Location: ../pages/login.php?session=" . $session_get);
 
                 }else{
                     $email = $result["email"];
@@ -228,10 +235,10 @@
                     
                     $_SESSION["msg"]["type"] = "success";
                     $_SESSION["msg"]["head"] = "Reset Link sended";
-                    $_SESSION["msg"]["body"] = "We have sended you a password reset link. Please click on the link to reset 
-                                                your passeword";
+                    $_SESSION["msg"]["body"] = "We have sended you a password reset link. Please click on the link to reset " . 
+                                                "your passeword";
                     
-                    header("Location: ../pages/login.php");
+                    header("Location: ../pages/login.php?session=" . $session_get);
 
                 }
             
@@ -240,10 +247,10 @@
                 
                 $_SESSION["msg"]["type"] = "error";
                 $_SESSION["msg"]["head"] = "Email Id does not exists";
-                $_SESSION["msg"]["body"] = "Please make sure you have entered a correct email ID. If you are trying to
-                                            register yourself then please fill this form";
+                $_SESSION["msg"]["body"] = "Please make sure you have entered a correct email ID. If you are trying to " .
+                                            "register yourself then please fill this form";
                 
-                header("Location: ../pages/registrations.php");
+                header("Location: ../pages/registrations.php?session=" . $session_get);
             }
         }
 
@@ -258,7 +265,7 @@
                 $_SESSION["msg"]["head"] = "Password mismatch";
                 $_SESSION["msg"]["body"] = "password and confirm password are diffrent";
                 
-                header("Location: ../pages/forget-pwd-step2.php");
+                header("Location: ../pages/forget-pwd-step2.php?session=" . $session_get);
                 //navigate back
 
             }else if($new_pass != $pass_valid){
@@ -267,7 +274,7 @@
                 $_SESSION["msg"]["type"] = "error";
                 $_SESSION["msg"]["head"] = "Invalid characters";
                 $_SESSION["msg"]["body"] = "Your password may contain illegal characters or scripting tags";
-                header("Location: ../pages/forget-pwd-step2.php");
+                header("Location: ../pages/forget-pwd-step2.php?session=" . $session_get);
                 //navigate back
 
             }else{
@@ -282,7 +289,7 @@
                 $_SESSION["msg"]["head"] = "Password updated";
                 $_SESSION["msg"]["body"] = "Your password have been successfully updated. Please login to continue.";
                 
-                header("Location: ../pages/login.php");
+                header("Location: ../pages/login.php?session=" . $session_get);
                 
             }
         }
@@ -303,7 +310,7 @@
             $_SESSION["msg"]["head"] = "Log out Successfully";
             $_SESSION["msg"]["body"] = "You have been successfully logged out";
             
-            header("Location: ../pages/login.php");
+            header("Location: ../pages/login.php?session=" . $session_get);
         }
 
         function event_registered($id){
@@ -320,14 +327,14 @@
                 $_SESSION["msg"]["head"] = "Registration Successfull";
                 $_SESSION["msg"]["body"] = "You have been successfully registerd in the event";
                 
-                header("Location: ../pages/home.php");
+                header("Location: ../pages/home.php?session=" . $session_get);
 
             }else{
                 // remove all session variables
                 session_unset(); 
                 // destroy the session 
                 session_destroy();
-                header("Location: ../index.php");
+                header("Location: ../index.php?session=" . $session_get);
             }
         }
 
@@ -345,14 +352,14 @@
                 $_SESSION["msg"]["head"] = "Successfully Unregistered";
                 $_SESSION["msg"]["body"] = "You have successfully removed yourself from this event";
                 
-                header("Location: ../pages/home.php");
+                header("Location: ../pages/home.php?session=" . $session_get);
 
             }else{
                 // remove all session variables
                 session_unset(); 
                 // destroy the session 
                 session_destroy();
-                header("Location: ../index.php");
+                header("Location: ../index.php?session=" . $session_get);
             }
         }
 
@@ -407,7 +414,7 @@
                 $_SESSION["msg"]["head"] = "Access Denied";
                 $_SESSION["msg"]["body"] = "Please enter the correct key";
                 
-                header("Location: ../pages/registrations.php");
+                header("Location: ../pages/registrations.php?session=" . $session_get);
             }
 
         }
@@ -475,9 +482,9 @@
                     session_start();
                     $_SESSION["msg"]["type"] = "success";
                     $_SESSION["msg"]["head"] = "Reset Link sended";
-                    $_SESSION["msg"]["body"] = "We have sended you a password reset link. Please click on the link to reset 
-                                                your passeword";
-                    header("Location: ../index.php");
+                    $_SESSION["msg"]["body"] = "We have sended you a password reset link. Please click on the link to reset " .
+                                                "your passeword";
+                    header("Location: ../index.php?session=" . $session_get);
                     
 
 
@@ -486,7 +493,7 @@
         else{
             session_unset();
             session_destroy();
-            header("Location: ../index.php");
+            header("Location: ../index.php?session=" . $session_get);
         }
         $conn = null;
     }
