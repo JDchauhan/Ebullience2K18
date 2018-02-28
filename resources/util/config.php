@@ -2,6 +2,7 @@
     /*
      *  Author: Jagdish Singh
      *  Github: https://github.com/JDchauhan
+     *  Email : jagdish.chauhan01@gmail.com
      */
 
     function connections(){
