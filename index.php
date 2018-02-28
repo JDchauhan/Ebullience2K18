@@ -79,7 +79,7 @@
 
 	<div class="main-cont">
 		 <div class="line"></div>
-		<h1>ARK 2K18</h1>
+		<h1>Dr. APJ ABDUL KALAM TECHNICAL UNIVERSITY</h1>
 		<center><div class="line_2"></div></center>
        <div class="menu-2">
       <a href="#">ABOUT</a>

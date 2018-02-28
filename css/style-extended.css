@@ -74,6 +74,18 @@ body
 	margin-bottom: 20px;
 	text-shadow: 2px 2px 30px rgb(160,226,236); 
 }
+.item ul
+{
+	list-style: none;
+	margin-top: 20px;
+}
+.item ul li
+{
+	color: white;
+	font-family: 'Audiowide', cursive;
+	margin-top: 10px;
+	font-size: 14px;
+}
 .register
 {
 	border: 0px;

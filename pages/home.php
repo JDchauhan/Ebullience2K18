@@ -150,6 +150,8 @@
     </ul>
     <form action="../resources/api.php?action=event_registered&amp;id=1" method="POST">
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">Back</button>
     </form>
   </div>
 
