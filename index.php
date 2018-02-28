@@ -79,12 +79,12 @@
 
 	<div class="main-cont">
 		 <div class="line"></div>
-     <img src="images/biglogo.png" class="aktu">
+     <img src="images/aktu_logo.png" class="aktu">
 
 		<h1><!--Dr. APJ ABDUL KALAM TECHNICAL UNIVERSITY-->
     NOIDA INSTITUTE OF ENGINEERING AND TECHNOLOGY  
     </h1>
-    <img src="images/niet.png" class="aktu2">
+    <img src="images/niet_logo.png" class="aktu2">
     <h5>Accredited by NAAC (A Grade) CSE, ECE, ME, & B.Pharm are NBA accredited 99th Rank by NIRF (2016)</h5>
 		<center><div class="line_2"></div></center>
       <h3>Dr. APJ ABDUL KALAM TECHNICAL UNIVERSITY</h3>
