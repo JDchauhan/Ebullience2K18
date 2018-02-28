@@ -60,11 +60,15 @@
                 //alert: please verify your account
                 echo "verification required register";
                 
+                header("Location: ../pages/login.php");
+
             }else if($result && $result["status"] == 1){
                 //user already exists
-                
+                header("Location: ../pages/registrations.php");    
                 //error: email id already registered
                 echo "fail register";
+                
+                header("Location: ../pages/registrations.php");
 
             }else{
                 //fresh user
@@ -76,9 +80,10 @@
                 
                 OTM($email, $roll, $name, $verification_token, "new_registration");//mail the new token
                 
-                //alert: Registration successfull
+                //success: Registration successfull
                 echo "success register fresh";
-            
+                
+                header("Location: ../pages/login.php");   
             }
         }
 
@@ -116,11 +121,13 @@
                 }else{
                     echo "verification pend login";
                     //error: verification pending
+                    header("Location: ../pages/login.php");
                 }
                 
             }else{
                 echo "incorrect cred login";
                 //error: invalid user id or password
+                header("Location: ../pages/login.php");
             }
         
         }
@@ -152,6 +159,9 @@
 
             }else{
                 //error: expired link
+                session_unset();
+                session_destroy();
+                header("Location: ../pages/login.php");
             }
         }
 
@@ -176,6 +186,7 @@
             if($result){
                 if($result["status"]==0){
                     //error: validation pending
+                    header("Location: ../pages/login.php");
 
                 }else{
                     $email = $result["email"];
@@ -193,11 +204,14 @@
                     OTM($email, $email, $name, $verification_token, "reset_password");
                     //message: password reset link sended
                     echo "link sended"; 
+                    header("Location: ../pages/login.php");
+
                 }
             
             }else{
                 echo "email id not exist forget";
                 //error: email id does not exists
+                header("Location: ../pages/registrations.php");
             }
         }
 
@@ -210,11 +224,13 @@
             if($new_pass != $new_pass1){
                 echo "pass mismatch";
                 //error: password mismatch
+                header("Location: ../pages/forget-pwd-step2.php");
                 //navigate back
 
             }else if($new_pass != $pass_valid){
                 //error: invalid characters
                 echo "error invalid chars";
+                header("Location: ../pages/forget-pwd-step2.php");
                 //navigate back
 
             }else{
@@ -226,6 +242,7 @@
                 
                 echo "pass updated";
                 //success: password updated
+                header("Location: ../pages/login.php");
                 
             }
         }
@@ -241,7 +258,7 @@
             session_destroy();
             session_start();
             //success: give logout success message
-            header("Location: ../index.php");
+            header("Location: ../pages/login.php");
         }
 
         function event_registered($id){
@@ -332,6 +349,7 @@
 
             }else{
                 //error: access denied
+                header("Location: ../pages/registrations.php");
             }
 
         }

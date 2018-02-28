@@ -31,7 +31,7 @@ function OTM($email, $roll, $name, $verification_token, $services){
                 Roll No.: <b>" . $roll . "</b><br />
                 Email-ID: <b>" . $email . "</b><br />
                 Name: <b>" . $name . "</b><br />" . $dyn_message1 .
-                "<a href='https://ebullience.niet.co.in/resources/api.php?action=authenticate&token=" . $verification_token .
+                "<a href='http://jagdishchauhan01.000webhostapp.com/resources/api.php?action=authenticate&token=" . $verification_token .
                 "&email=" . $email . "&service=" . $services . "'>" . $dyn_message2 . 
                 "If this request is not made by you do not worry. We'll not activate the account untill requested by you <br />
                 Thanks<br /><br />
@@ -49,8 +49,7 @@ function OTM($email, $roll, $name, $verification_token, $services){
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
     
     $headers .= 'From: <no-reply@niet.co.in>' . "\r\n";
-    echo $message;
-    die();
+
     mail($to,$subject,$message,$headers);
 
 }
