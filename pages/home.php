@@ -249,4 +249,14 @@
 
   <script type="text/javascript" src="../js/main.js"></script>
 
+  <?php 
+		if(isset($_SESSION["msg"])){
+			echo "<script>alert('" . $_SESSION["msg"]["type"] . "\\n" . $_SESSION["msg"]["head"] . "\\n" .
+									$_SESSION["msg"]["body"] .
+				"');</script>" ;
+			unset($_SESSION["msg"]);
+		}
+		
+	?>
+
 </html>

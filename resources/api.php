@@ -3,6 +3,7 @@
     /*
      *  Author: Jagdish Singh
      *  Github: https://github.com/JDchauhan
+     *  Email : jagdish.chauhan01@gmail.com
      */
 
     if(!isset($_SESSION)){
@@ -19,6 +20,7 @@
         header("Expires: 0"); // Proxies.
 
         function guid(){
+            //generates unique id and return it
             $uuid= "" . rand(1,10000) . time() . rand(1,10000);
             return $uuid;
         }
@@ -57,17 +59,20 @@
                 //mail the new token
                 OTM($email, $roll, $name, $verification_token, "new_registration");
 
-                //alert: please verify your account
-                echo "verification required register";
+                $_SESSION["msg"]["type"] = "success";
+                $_SESSION["msg"]["head"] = "Registration Successfull";
+                $_SESSION["msg"]["body"] = "Please verify your account by clicking on the link you recieved in your registered
+                                            email ID";
                 
                 header("Location: ../pages/login.php");
 
             }else if($result && $result["status"] == 1){
                 //user already exists
                 header("Location: ../pages/registrations.php");    
-                //error: email id already registered
-                echo "fail register";
                 
+                $_SESSION["msg"]["type"] = "error";
+                $_SESSION["msg"]["head"] = "Registration Failed";
+                $_SESSION["msg"]["body"] = "This email id already exists. Please choose another";                
                 header("Location: ../pages/registrations.php");
 
             }else{
@@ -80,8 +85,10 @@
                 
                 OTM($email, $roll, $name, $verification_token, "new_registration");//mail the new token
                 
-                //success: Registration successfull
-                echo "success register fresh";
+                $_SESSION["msg"]["type"] = "success";
+                $_SESSION["msg"]["head"] = "Registration Successfull";
+                $_SESSION["msg"]["body"] = "Please verify your account by clicking on the link you recieved in your registered
+                                            email ID";
                 
                 header("Location: ../pages/login.php");   
             }
@@ -119,14 +126,21 @@
                     header("Location: ../pages/home.php");
                     
                 }else{
-                    echo "verification pend login";
-                    //error: verification pending
+                    //verification pending
+                    $_SESSION["msg"]["type"] = "error";
+                    $_SESSION["msg"]["head"] = "Login Failed";
+                    $_SESSION["msg"]["body"] = "Please verify your account by clicking on the link you recieved in your registered
+                                                email ID";
+                    
                     header("Location: ../pages/login.php");
                 }
                 
             }else{
-                echo "incorrect cred login";
-                //error: invalid user id or password
+                //incorrect user ID or password
+                $_SESSION["msg"]["type"] = "error";
+                $_SESSION["msg"]["head"] = "Login Failed";
+                $_SESSION["msg"]["body"] = "incorrect email ID and password";
+                
                 header("Location: ../pages/login.php");
             }
         
@@ -151,7 +165,6 @@
                     authenticate_newUser($email);
                 }else if($service=="reset_password"){
                     $_SESSION["access_pass"] = true;
-                    //success: navigate to change password with authenticated access
                     header("Location: ../pages/forget-pwd-step2.php");
                     
                 }
@@ -166,11 +179,16 @@
         }
 
         function authenticate_newUser($email){
+            //set new user as verified
             $conn = connections();
             $sql = "UPDATE Students SET status=1 WHERE email='$email'";
             $conn->exec($sql);
-            //success: show success message
-            header("Location: ../index.php");
+
+            $_SESSION["msg"]["type"] = "success";
+            $_SESSION["msg"]["head"] = "Verification Successful";
+            $_SESSION["msg"]["body"] = "You have been successfully verified";
+            
+            header("Location: ../pages/login.php");
         
         }
 
@@ -185,7 +203,12 @@
             
             if($result){
                 if($result["status"]==0){
-                    //error: validation pending
+                    //validation pending
+                    $_SESSION["msg"]["type"] = "error";
+                    $_SESSION["msg"]["head"] = "Login Failed";
+                    $_SESSION["msg"]["body"] = "Please verify your account by clicking on the link you recieved in your 
+                                                registered email ID";
+                    
                     header("Location: ../pages/login.php");
 
                 }else{
@@ -202,46 +225,63 @@
                     $conn->exec($sql);
 
                     OTM($email, $email, $name, $verification_token, "reset_password");
-                    //message: password reset link sended
-                    echo "link sended"; 
+                    
+                    $_SESSION["msg"]["type"] = "success";
+                    $_SESSION["msg"]["head"] = "Reset Link sended";
+                    $_SESSION["msg"]["body"] = "We have sended you a password reset link. Please click on the link to reset 
+                                                your passeword";
+                    
                     header("Location: ../pages/login.php");
 
                 }
             
             }else{
-                echo "email id not exist forget";
-                //error: email id does not exists
+                //email id does not exists
+                
+                $_SESSION["msg"]["type"] = "error";
+                $_SESSION["msg"]["head"] = "Email Id does not exists";
+                $_SESSION["msg"]["body"] = "Please make sure you have entered a correct email ID. If you are trying to
+                                            register yourself then please fill this form";
+                
                 header("Location: ../pages/registrations.php");
             }
         }
 
 
         function reset_password(){
-            //todo:recieve email in session
             $new_pass = $_POST["password"];
             $new_pass1 = $_POST["password-2"];
             $pass_valid = filter_var($new_pass, FILTER_SANITIZE_STRING);
             if($new_pass != $new_pass1){
-                echo "pass mismatch";
-                //error: password mismatch
+                //password mismatch
+                $_SESSION["msg"]["type"] = "error";
+                $_SESSION["msg"]["head"] = "Password mismatch";
+                $_SESSION["msg"]["body"] = "password and confirm password are diffrent";
+                
                 header("Location: ../pages/forget-pwd-step2.php");
                 //navigate back
 
             }else if($new_pass != $pass_valid){
-                //error: invalid characters
-                echo "error invalid chars";
+                //invalid characters
+                
+                $_SESSION["msg"]["type"] = "error";
+                $_SESSION["msg"]["head"] = "Invalid characters";
+                $_SESSION["msg"]["body"] = "Your password may contain illegal characters or scripting tags";
                 header("Location: ../pages/forget-pwd-step2.php");
                 //navigate back
 
             }else{
-                $conn = connections();
-                //todo:recieve email in 
+                $conn = connections(); 
                 $email = $_SESSION["email"];
                 $sql = "UPDATE Students SET password='$new_pass' WHERE email='$email'";
                 $conn->exec($sql);
+                //remove additional access
+                unset($_SESSION["access"]);
+                //password updated successfully
+                $_SESSION["msg"]["type"] = "success";
+                $_SESSION["msg"]["head"] = "Password updated";
+                $_SESSION["msg"]["body"] = "Your password have been successfully updated. Please login to continue.";
                 
-                echo "pass updated";
-                //success: password updated
                 header("Location: ../pages/login.php");
                 
             }
@@ -257,7 +297,12 @@
             session_unset();
             session_destroy();
             session_start();
-            //success: give logout success message
+            //successfully logged out
+            
+            $_SESSION["msg"]["type"] = "success";
+            $_SESSION["msg"]["head"] = "Log out Successfully";
+            $_SESSION["msg"]["body"] = "You have been successfully logged out";
+            
             header("Location: ../pages/login.php");
         }
 
@@ -269,8 +314,12 @@
 
                 $sql = "INSERT INTO Participation VALUES ('$id', '$email')"; 
                 $conn->exec($sql);
-                //success: registeration successfull
-
+                //registeration successfull
+                
+                $_SESSION["msg"]["type"] = "success";
+                $_SESSION["msg"]["head"] = "Registration Successfull";
+                $_SESSION["msg"]["body"] = "You have been successfully registerd in the event";
+                
                 header("Location: ../pages/home.php");
 
             }else{
@@ -290,8 +339,12 @@
 
                 $sql = "DELETE FROM Participation WHERE email='$email' AND event_id='$id' ";
                 $conn->exec($sql);
-                //success: registeration successfully cancelled
-
+                //registeration successfully cancelled
+                
+                $_SESSION["msg"]["type"] = "success";
+                $_SESSION["msg"]["head"] = "Successfully Unregistered";
+                $_SESSION["msg"]["body"] = "You have successfully removed yourself from this event";
+                
                 header("Location: ../pages/home.php");
 
             }else{
@@ -304,6 +357,7 @@
         }
 
         function download_event_csv(){
+            //for coordinators- enter their unique id and this function download their event participations
             $token = $_POST["token"];
             $statement = executedStatement("SELECT event, event_id  FROM Events WHERE
                                              token='$token' ");
@@ -348,7 +402,11 @@
                 readfile($filepath);
 
             }else{
-                //error: access denied
+                
+                $_SESSION["msg"]["type"] = "error";
+                $_SESSION["msg"]["head"] = "Access Denied";
+                $_SESSION["msg"]["body"] = "Please enter the correct key";
+                
                 header("Location: ../pages/registrations.php");
             }
 
@@ -410,6 +468,17 @@
                 case "download_event_csv":
                     download_event_csv();
                 break;
+
+                default:    
+                    session_unset();
+                    session_destroy();
+                    session_start();
+                    $_SESSION["msg"]["type"] = "success";
+                    $_SESSION["msg"]["head"] = "Reset Link sended";
+                    $_SESSION["msg"]["body"] = "We have sended you a password reset link. Please click on the link to reset 
+                                                your passeword";
+                    header("Location: ../index.php");
+                    
 
 
             }
