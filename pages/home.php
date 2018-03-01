@@ -19,6 +19,24 @@
       session_destroy();
       header("Location: ../index.php");
   }
+
+//checking event registrations
+  $i = 0;
+  for($j = 0; $j < 10; $j++){
+    if(!(isset($_SESSION["event_participated"]) && $_SESSION["event_participated"][$j] == 1 )){
+      $form_data[$j] = '<form action="../resources/api.php?action=event_registered&amp;id=' . ($j + 1) . '&amp;session=' .  $session_get . ' " method="POST">
+              <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+        
+              <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">Back</button>
+            </form>'  ;  
+    } else{
+      $form_data[$j] = '<form action="../resources/api.php?action=event_unregistered&amp;id=' . ($j + 1) . '&amp;session=' .  $session_get . ' " method="POST">
+              <input type="submit" name="submit" placeholder="Unregister" value="UNREGISTER" class="btn-sml" style="width: auto;">
+        
+              <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">Back</button>
+            </form>'   ; 
+    }
+  }
 ?>
 
 <!DOCTYPE html>
@@ -156,11 +174,10 @@
       <li>Duration: 45 Minutes.</li>
       <li>The Judges decision will be final and binding to all.</li>
     </ul>
-    <form action="../resources/api.php?action=event_registered&amp;id=1&amp;session=<?php echo $session_get; ?>" method="POST">
-      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-
-      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">Back</button>
-    </form>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
   </div>
 
   <div class="item">
@@ -174,9 +191,10 @@
       <li>Stick overlapping should not exceed 3 cm </li>
       <li>Crown of arch must be above horizontal span and its height should not exceed 25 cm.</li>
     </ul>
-    <form action="../resources/api.php?action=event_registered&amp;id=2&amp;session=<?php echo $session_get; ?>" method="POST">
-      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-    </form>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
   </div>
 
   <div class="item">
@@ -195,17 +213,22 @@
       <li>The Judges decision will be final and binding to all. </li>
     </ul>
 
-    <form action="../resources/api.php?action=event_registered&amp;id=3&amp;session=<?php echo $session_get; ?>" method="POST">
-      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-    </form>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
   </div>
 
-  <!-- When updating data for other fields just use the same submit link for
-   register as in above with incremented attribute id(apperar after &amp;id=<here> ) in link -->
+  <!-- in place of form to submit register or unregister event
+      use following code inside php opening and closing tags 
+      
+      >>>echo $form_data[$i];
+      >>>$i++;
 
-  <!-- for removal copy the register link and just change the action attribute of URL to 
-    action=event_unregistered in place of action=event_registered-->
-
+      this code will check the regitry in events and displays register/unregister button with proper
+      functionality
+    
+  -->
   <div class="item">
     <h3>CODING CONTEST</h3>
     <ul>

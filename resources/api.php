@@ -212,7 +212,26 @@
                         $_SESSION["college"] = $result["college"];
                         $_SESSION["login_status"] = true;
                         $_SESSION["token"] = $token;
+
+                        $email = $_SESSION["email"];
+
+                        $statement = executedStatement("SELECT event_id FROM Participation WHERE email='$email' ");
+                        $result = $statement->FetchAll(PDO::FETCH_ASSOC); 
                         
+                        if($result){
+                            
+                            //create binary table for event list
+                            $j=0;
+                            for( $i = 0; $i <10; $i++){
+                                $event_ids[$i] = 0;
+                            }
+                            foreach($result as $k => $v){
+                                $event_ids[$v["event_id"] - 1] = 1;
+                            }
+                            $_SESSION["event_participated"] = $event_ids;
+                        }else{
+                            unset($_SESSION["event_participated"]);
+                        }
                         
                         $head = "Location: ../pages/home.php?session=" . $session_get;
                         header($head);  
@@ -442,9 +461,6 @@
                     $_SESSION["msg"]["type"] = "err";
                     $_SESSION["msg"]["head"] = "Already registered";
                     $_SESSION["msg"]["body"] = "You have been already registerd in the event";
-                    
-                    $head = "Location: ../pages/home.php?session=" . $session_get;
-                    header($head);
                 }else{
                     $sql = "INSERT INTO Participation VALUES ('$id', '$email')"; 
                     $conn->exec($sql);
@@ -453,11 +469,30 @@
                     $_SESSION["msg"]["type"] = "success";
                     $_SESSION["msg"]["head"] = "Registration Successfull";
                     $_SESSION["msg"]["body"] = "You have been successfully registerd in the event";
-                    
-                    $head = "Location: ../pages/home.php?session=" . $session_get;
-                    header($head);
                 }
+                $email = $_SESSION["email"];
+
+                $statement = executedStatement("SELECT event_id FROM Participation WHERE email='$email' ");
+                $result = $statement->FetchAll(PDO::FETCH_ASSOC); 
                 
+                if($result){
+                    
+                    //create binary table for event list
+                    $j=0;
+                    for( $i = 0; $i <10; $i++){
+                        $event_ids[$i] = 0;
+                    }
+                    foreach($result as $k => $v){
+                        $event_ids[$v["event_id"] - 1] = 1;
+                    }
+                    $_SESSION["event_participated"] = $event_ids;
+                }else{
+                    unset($_SESSION["event_participated"]);
+                }
+                    
+                $head = "Location: ../pages/home.php?session=" . $session_get;
+                header($head);
+            
 
             }else{
                 // remove all session variables
@@ -483,6 +518,26 @@
                 $_SESSION["msg"]["type"] = "success";
                 $_SESSION["msg"]["head"] = "Successfully Unregistered";
                 $_SESSION["msg"]["body"] = "You have successfully removed yourself from this event";
+
+                $email = $_SESSION["email"];
+
+                $statement = executedStatement("SELECT event_id FROM Participation WHERE email='$email' ");
+                $result = $statement->FetchAll(PDO::FETCH_ASSOC); 
+                
+                if($result){
+                    
+                    //create binary table for event list
+                    $j=0;
+                    for( $i = 0; $i <10; $i++){
+                        $event_ids[$i] = 0;
+                    }
+                    foreach($result as $k => $v){
+                        $event_ids[$v["event_id"] - 1] = 1;
+                    }
+                    $_SESSION["event_participated"] = $event_ids;
+                }else{
+                    unset($_SESSION["event_participated"]);
+                }
                 
                 $head = "Location: ../pages/home.php?session=" . $session_get;
                 header($head);
