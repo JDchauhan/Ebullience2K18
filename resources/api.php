@@ -34,7 +34,7 @@
             return $uuid;
         }
 
-        //function validater($value,$type,$len = NULL){
+        function validater($value,$type,$len = NULL){
             /*
             * :$value:  value to check
             * :$type:   "int/email"   to check whether value is type of or not
@@ -42,23 +42,16 @@
             *
             * return true/ false accordingly
             */
-/*
+
             if($type == "int"){
                 //number
                 if (filter_var($value, FILTER_VALIDATE_INT) === 0 || !filter_var($value, FILTER_VALIDATE_INT) === false) {
                     if(strlen((string)$value) == 10){
-                        echo "0";
-                        //die();
                         return true;
                     }else{
-                        echo "1";
-                        //die();
                         return false;
                     }   
                 } else {
-                    echo "2";
-                    echo strlen((string)$value);
-                    //die();
                     return false;
                 }
             }else{
@@ -72,86 +65,103 @@
 
         }
 
-*/
         function register(){
             /*
              * function used to register a new user through POST data
              */
             global $session_get;
 
-            $name=$_POST["name"];
-            $clg=$_POST["clg_name"]; 
-            $email=$_POST["email"];
-            $roll=$_POST["roll_no"];
-            $mobile=$_POST["mob_no"];
-            $pass=$_POST["pass"];
+            $name = $_POST["name"];
+            $clg = $_POST["clg_name"]; 
+            $email = $_POST["email"];
+            $roll = (int)$_POST["roll_no"];
+            $mobile = (int)$_POST["mob_no"];
+            $pass = $_POST["pass"];
             $verification_token = guid();
-/*
-            if(validater($roll,"int")){
-                echo "validater true";
-                //die();
-            }else{
-                echo "validater false";
-                //die();
+
+            $err_form = "";
+            $err_status = 0;
+
+            if(!validater($mobile,"int")){
+                $err_form .= "invalid mobile <br/>";
+                $err_status = 1;
             }
-*/
-            $conn=connections();
-            
-            //check if user exists
-            $statement = executedStatement("SELECT email , status FROM Students WHERE
-                                             email='$email' ");
-            $result = $statement->Fetch(PDO::FETCH_ASSOC);
-            
-            if($result && $result["status"] == 0){
-                //verification pending
-                //update data for user and send verification link
+            if(!validater($roll,"int")){
+                $err_form .= "invalid roll number <br/>";
+                $err_status = 1;
+            }
+            if(!validater($email,"email")){
+                $err_form .= "invalid email <br/>";
+                $err_status = 1;
+            }
+            if($name == "" || $clg == "" || $email == "" || $roll == "" || $mobile == "" || $pass == ""){
+                $err_form .= "Please fill all the details <br/>";
+                $err_status = 1;
+            }
 
-                $sql = "UPDATE Students SET roll='$roll', name='$name', password='$pass', mobile='$mobile', college='$clg', status=0  WHERE email='$email'";
-                $conn->exec($sql);
-                
-                //create Access_key for new registration-mail verification 
-                $sql = "UPDATE Access_key SET token='$verification_token' WHERE email='$email'AND service='new_registration' ";
-                $conn->exec($sql);
-                
-                //mail the new token
-                OTM($email, $roll, $name, $verification_token, "new_registration");
-
-                $_SESSION["msg"]["type"] = "success";
-                $_SESSION["msg"]["head"] = "Registration Successfull";
-                $_SESSION["msg"]["body"] = "Please verify your account by clicking on the link you recieved in your registered " .
-                                            "email ID";
-                
-                $head = "Location: ../pages/login.php?session=" . $session_get;                     
-                header($head);
-
-            }else if($result && $result["status"] == 1){
-                //user already exists
-                $head = "Location: ../pages/registrations.php?session=" . $session_get;
-                header($head);    
-                
+            if($err_status){
                 $_SESSION["msg"]["type"] = "error";
                 $_SESSION["msg"]["head"] = "Registration Failed";
-                $_SESSION["msg"]["body"] = "This email id already exists. Please choose another";                
-                $head = "Location: ../pages/registrations.php?session=" . $session_get;
+                $_SESSION["msg"]["body"] = $err_form;
+                $head = "Location: ../pages/registrations.php?session=" . $session_get;                     
                 header($head);
-
             }else{
-                //fresh user
-                $sql = "INSERT INTO Students VALUES ('$roll', '$name', '$pass', '$email', '$mobile', '$clg', 0, NULL)"; 
-                $conn->exec($sql); 
+                $conn=connections();
+                
+                //check if user exists
+                $statement = executedStatement("SELECT email , status FROM Students WHERE
+                                                email='$email' ");
+                $result = $statement->Fetch(PDO::FETCH_ASSOC);
+                
+                if($result && $result["status"] == 0){
+                    //verification pending
+                    //update data for user and send verification link
 
-                $sql = "INSERT INTO Access_key VALUES ('$email', '$verification_token','new_registration')"; 
-                $conn->exec($sql);
-                
-                OTM($email, $roll, $name, $verification_token, "new_registration");//mail the new token
-                
-                $_SESSION["msg"]["type"] = "success";
-                $_SESSION["msg"]["head"] = "Registration Successfull";
-                $_SESSION["msg"]["body"] = "Please verify your account by clicking on the link you recieved in your registered " .
-                                            "email ID";
-                
-                $head = "Location: ../pages/login.php?session=" . $session_get;
-                header($head);   
+                    $sql = "UPDATE Students SET roll='$roll', name='$name', password='$pass', mobile='$mobile', college='$clg', status=0  WHERE email='$email'";
+                    $conn->exec($sql);
+                    
+                    //create Access_key for new registration-mail verification 
+                    $sql = "UPDATE Access_key SET token='$verification_token' WHERE email='$email'AND service='new_registration' ";
+                    $conn->exec($sql);
+                    
+                    //mail the new token
+                    OTM($email, $roll, $name, $verification_token, "new_registration");
+
+                    $_SESSION["msg"]["type"] = "success";
+                    $_SESSION["msg"]["head"] = "Registration Successfull";
+                    $_SESSION["msg"]["body"] = "Please verify your account by clicking on the link you recieved in your registered " .
+                                                "email ID";
+                    
+                    $head = "Location: ../pages/login.php?session=" . $session_get;                     
+                    header($head);
+
+                }else if($result && $result["status"] == 1){
+                    //user already exists
+                    
+                    $_SESSION["msg"]["type"] = "error";
+                    $_SESSION["msg"]["head"] = "Registration Failed";
+                    $_SESSION["msg"]["body"] = "This email id already exists. Please choose another";                
+                    $head = "Location: ../pages/registrations.php?session=" . $session_get;
+                    header($head);
+
+                }else{
+                    //fresh user
+                    $sql = "INSERT INTO Students VALUES ('$roll', '$name', '$pass', '$email', '$mobile', '$clg', 0, NULL)"; 
+                    $conn->exec($sql); 
+
+                    $sql = "INSERT INTO Access_key VALUES ('$email', '$verification_token','new_registration')"; 
+                    $conn->exec($sql);
+                    
+                    OTM($email, $roll, $name, $verification_token, "new_registration");//mail the new token
+                    
+                    $_SESSION["msg"]["type"] = "success";
+                    $_SESSION["msg"]["head"] = "Registration Successfull";
+                    $_SESSION["msg"]["body"] = "Please verify your account by clicking on the link you recieved in your registered " .
+                                                "email ID";
+                    
+                    $head = "Location: ../pages/login.php?session=" . $session_get;
+                    header($head);   
+                }
             }
         }
 
@@ -162,52 +172,72 @@
             $email=$_POST["email"]; 
             $pass=$_POST["password"];
 
-            $statement = executedStatement("SELECT roll, name, status, password, email, mobile, college FROM
-                                            Students WHERE email='$email' and password='$pass'");
-            $result = $statement->Fetch(PDO::FETCH_ASSOC); 
-            
-            if($result){
-                if($result["status"]){
-                    
-                    $token = guid(); 
-                    
-                    $conn = connections();
-                    
-                    $sql = "UPDATE Students SET token='$token' WHERE email='$email'";
-                    $conn->exec($sql);
-                    
-                    $_SESSION["roll"] = $result["roll"];
-                    $_SESSION["name"] = $result["name"];
-                    $_SESSION["email"] = $result["email"];
-                    $_SESSION["mobile"] = $result["mobile"];
-                    $_SESSION["college"] = $result["college"];
-                    $_SESSION["login_status"] = true;
-                    $_SESSION["token"] = $token;
-                    
-                    
-                    $head = "Location: ../pages/home.php?session=" . $session_get;
-                    header($head);  
+            $err_form = "";
+            $err_status = 0;
+
+            if(!validater($email,"email")){
+                $err_form .= "invalid email <br/>";
+                $err_status = 1;
+            }
+            if($email == "" ||  $pass == ""){
+                $err_form .= "Please fill all the details <br/>";
+                $err_status = 1;
+            }
+
+            if($err_status){
+                $_SESSION["msg"]["type"] = "error";
+                $_SESSION["msg"]["head"] = "Registration Failed";
+                $_SESSION["msg"]["body"] = $err_form;
+                $head = "Location: ../pages/login.php?session=" . $session_get;                     
+                header($head);
+            }else{
+                $statement = executedStatement("SELECT roll, name, status, password, email, mobile, college FROM
+                                                Students WHERE email='$email' and password='$pass'");
+                $result = $statement->Fetch(PDO::FETCH_ASSOC); 
+                
+                if($result){
+                    if($result["status"]){
+                        
+                        $token = guid(); 
+                        
+                        $conn = connections();
+                        
+                        $sql = "UPDATE Students SET token='$token' WHERE email='$email'";
+                        $conn->exec($sql);
+                        
+                        $_SESSION["roll"] = $result["roll"];
+                        $_SESSION["name"] = $result["name"];
+                        $_SESSION["email"] = $result["email"];
+                        $_SESSION["mobile"] = $result["mobile"];
+                        $_SESSION["college"] = $result["college"];
+                        $_SESSION["login_status"] = true;
+                        $_SESSION["token"] = $token;
+                        
+                        
+                        $head = "Location: ../pages/home.php?session=" . $session_get;
+                        header($head);  
+                        
+                    }else{
+                        //verification pending
+                        $_SESSION["msg"]["type"] = "error";
+                        $_SESSION["msg"]["head"] = "Login Failed";
+                        $_SESSION["msg"]["body"] = "Please verify your account by clicking on the link you recieved in your registered " . 
+                                                    "email ID";
+                        $head = "Location: ../pages/login.php?session=" . $session_get;
+                        header($head);  
+                    }
                     
                 }else{
-                    //verification pending
+                    //incorrect user ID or password
                     $_SESSION["msg"]["type"] = "error";
                     $_SESSION["msg"]["head"] = "Login Failed";
-                    $_SESSION["msg"]["body"] = "Please verify your account by clicking on the link you recieved in your registered " . 
-                                                "email ID";
+                    $_SESSION["msg"]["body"] = "incorrect email ID and password";
+                    
                     $head = "Location: ../pages/login.php?session=" . $session_get;
-                    header($head);  
+                    header($head);
                 }
                 
-            }else{
-                //incorrect user ID or password
-                $_SESSION["msg"]["type"] = "error";
-                $_SESSION["msg"]["head"] = "Login Failed";
-                $_SESSION["msg"]["body"] = "incorrect email ID and password";
-                
-                $head = "Location: ../pages/login.php?session=" . $session_get;
-                header($head);
-            }
-        
+            }    
         }
 
 
