@@ -156,7 +156,7 @@
       <li>Duration: 45 Minutes.</li>
       <li>The Judges decision will be final and binding to all.</li>
     </ul>
-    <form action="../resources/api.php?action=event_registered&amp;id=1" method="POST">
+    <form action="../resources/api.php?action=event_registered&amp;id=1&amp;session=<?php echo $session_get; ?>" method="POST">
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
 
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">Back</button>
@@ -174,7 +174,7 @@
       <li>Stick overlapping should not exceed 3 cm </li>
       <li>Crown of arch must be above horizontal span and its height should not exceed 25 cm.</li>
     </ul>
-    <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
+    <form action="../resources/api.php?action=event_registered&amp;id=2&amp;session=<?php echo $session_get; ?>" method="POST">
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
     </form>
   </div>
@@ -195,10 +195,16 @@
       <li>The Judges decision will be final and binding to all. </li>
     </ul>
 
-    <form action="" method="POST">
+    <form action="../resources/api.php?action=event_registered&amp;id=3&amp;session=<?php echo $session_get; ?>" method="POST">
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
     </form>
   </div>
+
+  <!-- When updating data for other fields just use the same submit link for
+   register as in above with incremented attribute id(apperar after &amp;id=<here> ) in link -->
+
+  <!-- for removal copy the register link and just change the action attribute of URL to 
+    action=event_unregistered in place of action=event_registered-->
 
   <div class="item">
     <h3>CODING CONTEST</h3>
