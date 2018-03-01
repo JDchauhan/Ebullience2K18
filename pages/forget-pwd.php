@@ -1,3 +1,16 @@
+<?php
+if(!isset($_REQUEST["session"])){
+		if(!isset($_SESSION)){
+			session_start();
+		}
+	}else{
+		if(!isset($_SESSION)){
+			session_start(array($_REQUEST["session"]));
+		}
+	}
+	$session_get = session_id();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -79,7 +92,7 @@
           
     </div>
 
-      <form action="../resources/api.php?action=forget_password" method="POST" style="margin-top: 50px;">
+      <form action="../resources/api.php?action=forget_password&amp;session=<?php echo $session_get; ?>" method="POST" style="margin-top: 50px;">
 
       <input type="text" name="email" placeholder="Email" class="txt-sml" style="margin-top: 10px;"><br>
       

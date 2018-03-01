@@ -356,6 +356,18 @@
             $new_pass = $_POST["password"];
             $new_pass1 = $_POST["password-2"];
             $pass_valid = filter_var($new_pass, FILTER_SANITIZE_STRING);
+            
+            if($new_pass == ""){
+                //password blank
+                $_SESSION["msg"]["type"] = "error";
+                $_SESSION["msg"]["head"] = "Password Must not be empty";
+                $_SESSION["msg"]["body"] = "please do not leave the password field blank";
+                $head = "Location: ../pages/forget-pwd-step2.php?session=" . $session_get;
+                header($head);
+                return; 
+                //navigate back
+            }
+
             if($new_pass != $new_pass1){
                 //password mismatch
                 $_SESSION["msg"]["type"] = "error";
@@ -364,16 +376,17 @@
                 
                 $head = "Location: ../pages/forget-pwd-step2.php?session=" . $session_get;
                 header($head);
+                return;
                 //navigate back
 
             }else if($new_pass != $pass_valid){
                 //invalid characters
-                
                 $_SESSION["msg"]["type"] = "error";
                 $_SESSION["msg"]["head"] = "Invalid characters";
                 $_SESSION["msg"]["body"] = "Your password may contain illegal characters or scripting tags";
                 $head = "Location: ../pages/forget-pwd-step2.php?session=" . $session_get;
                 header($head);
+                return;
                 //navigate back
 
             }else{
@@ -382,7 +395,7 @@
                 $sql = "UPDATE Students SET password='$new_pass' WHERE email='$email'";
                 $conn->exec($sql);
                 //remove additional access
-                unset($_SESSION["access"]);
+                unset($_SESSION["access_pass"]);
                 //password updated successfully
                 $_SESSION["msg"]["type"] = "success";
                 $_SESSION["msg"]["head"] = "Password updated";
