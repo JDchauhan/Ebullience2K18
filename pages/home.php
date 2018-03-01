@@ -97,7 +97,7 @@
       <a href="#">SCHEDULE</a>
     </div>
     <div class="navigator">
-    	HOME | NAME OF STUDENT
+    	HOME | <?php echo ucwords($_SESSION["name"]); ?>
     </div>
     <center><div class="line_2"></div></center>  
 		<br>

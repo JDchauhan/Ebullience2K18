@@ -422,17 +422,29 @@
             //check for access
             if(isset($_SESSION['token']) && isset($_SESSION['login_status']) && $_SESSION['login_status']==true){
                 $conn=connections();
-
-                $sql = "INSERT INTO Participation VALUES ('$id', '$email')"; 
-                $conn->exec($sql);
-                //registeration successfull
+                //check if entry exists
+                $statement = executedStatement("SELECT * FROM Participation WHERE email='$email' AND event_id='$id' ");
+                $result = $statement->Fetch(PDO::FETCH_ASSOC);
+                if($result){
+                    $_SESSION["msg"]["type"] = "err";
+                    $_SESSION["msg"]["head"] = "Already registered";
+                    $_SESSION["msg"]["body"] = "You have been already registerd in the event";
+                    
+                    $head = "Location: ../pages/home.php?session=" . $session_get;
+                    header($head);
+                }else{
+                    $sql = "INSERT INTO Participation VALUES ('$id', '$email')"; 
+                    $conn->exec($sql);
+                    //registeration successfull
+                    
+                    $_SESSION["msg"]["type"] = "success";
+                    $_SESSION["msg"]["head"] = "Registration Successfull";
+                    $_SESSION["msg"]["body"] = "You have been successfully registerd in the event";
+                    
+                    $head = "Location: ../pages/home.php?session=" . $session_get;
+                    header($head);
+                }
                 
-                $_SESSION["msg"]["type"] = "success";
-                $_SESSION["msg"]["head"] = "Registration Successfull";
-                $_SESSION["msg"]["body"] = "You have been successfully registerd in the event";
-                
-                $head = "Location: ../pages/home.php?session=" . $session_get;
-                header($head);
 
             }else{
                 // remove all session variables
@@ -485,7 +497,7 @@
                 $event_name = $result["event"];
                 
                 
-                $statement = executedStatement("SELECT Students.roll, Students.name, Students.college, Students.email,
+                $statement = executedStatement("SELECT DISTINCT Students.roll, Students.name, Students.college, Students.email,
                                                 Students.mobile FROM Students INNER JOIN
                                                 Participation ON Students.email = Participation.email WHERE
                                                 Participation.event_id='$event_id' ");
