@@ -1,13 +1,16 @@
 <?php
-	if(!isset($_SESSION)){
-		if(!isset($_REQUEST["session"])){
+	if(!isset($_REQUEST["session"])){
+		if(!isset($_SESSION)){
 			session_start();
-			$session_get = session_id();
-		}else{
-			session_start($_REQUEST["session"]);
 		}
-	}	
+	}else{
+		if(!isset($_SESSION)){
+			session_start(array($_REQUEST["session"]));
+		}
+	}
 	$session_get = session_id();
+    
+    
 ?>
 
 <!DOCTYPE html>

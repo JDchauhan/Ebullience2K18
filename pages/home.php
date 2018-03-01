@@ -1,7 +1,15 @@
 <?php 
-  if(!isset($_SESSION)){
-    session_start();
-  }
+  if(!isset($_REQUEST["session"])){
+		if(!isset($_SESSION)){
+			session_start();
+		}
+	}else{
+		if(!isset($_SESSION)){
+			session_start(array($_REQUEST["session"]));
+		}
+	}
+	$session_get = session_id();
+
   if(isset($_SESSION['token']) && isset($_SESSION['login_status']) && $_SESSION['login_status']==true){
 
   }else{
@@ -227,7 +235,7 @@
 
       <div class="menu">
            <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
-           <a href="../resources/api.php?action=logout"><button><div class="btn-text">LOGOUT</div></button></a><br><br><br>
+           <a href="../resources/api.php?action=logout&amp;session=<?php echo $session_get; ?>"><button><div class="btn-text">LOGOUT</div></button></a><br><br><br>
       </div>
     </div>
 </body>
