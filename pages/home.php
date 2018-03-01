@@ -131,7 +131,7 @@
     <div class="event-cont">
       
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="1">
-            BUISNESS PLAN
+            BUSINESS PLAN
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="2">
             BRIDGE KRITI
@@ -165,7 +165,7 @@
   </div>
 
   <div class="item">
-    <h3>BUISNESS PLAN</h3>
+    <h3>BUSINESS PLAN</h3>
     <ul>
       <li>Individual participant can take part</li>
       <li>Have to explore business ideas to run the Business.</li>
@@ -234,18 +234,66 @@
     <ul>
       <li></li>
     </ul>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
   </div>
 
   <div class="item">
     
+
+
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
   </div>
 
   <div class="item">
     
+
+
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
   </div>
 
   <div class="item">
     
+
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+  <div class="item">
+    
+
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+  <div class="item">
+    
+
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+  <div class="item">
+    
+
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
   </div>
 
 </div>
