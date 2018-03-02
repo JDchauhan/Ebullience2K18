@@ -22,8 +22,8 @@
 
     <meta name="theme-color" content="#030710">
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style-extended.css">
 	<!--<script>
 		var countDownDate = new Date("Mar 22, 2018 09:30:00").getTime();
 		var x = setInterval(function() {
@@ -71,7 +71,7 @@
 	</div>
 
 	<div class="last" style="background-color: #030710; height: 100%; width: 100%;position:absolute;z-index: -5">
-		<div class="arc_reactor">
+		<!-- <div class="arc_reactor">
 		
 			<img src="images/1.png" class="one arc">
 			<img src="images/2.png" class="two arc">
@@ -83,7 +83,7 @@
 			<img src="images/9.png" class="eight arc">
 			<img src="images/10.png" class="nine arc">
 		
-		</div>
+		</div> -->
 
     	<canvas id="waves"></canvas>
 
@@ -92,28 +92,15 @@
 
 	<div class="main-cont">
 		 <div class="line"></div>
-     <img src="images/biglogo.png" class="aktu">
-
-		<h1 class="head-expanded">
-    NOIDA INSTITUTE OF ENGINEERING AND TECHNOLOGY  
+		<h1>
+    DEVELOPER'S PAGE 
     </h1>
-
-    
-
-    <img src="images/niet.png" class="aktu2">
-    <h5 class="subhead-expanded">
-      Accredited by NAAC (A Grade) CSE, ECE, ME, & B.Pharm are NBA accredited 99th Rank by NIRF (2016)
-    </h5>
-    <h1 class="head-compressed">NIET, GR. NOIDA</h1>
 		<center><div class="line_2"></div></center>
-
-      <h3 class="head-expanded">Dr. APJ ABDUL KALAM TECHNICAL UNIVERSITY</h3>
-
-      <h3 class="head-compressed">AKTU ZONAL FEST</h3>
+    <h4>WE TURN COFFEE INTO CODE</h4>
     <center><div class="line_2"></div></center> 
       <div class="menu-2">
-        <a href="#">EVENTS</a>
-        <a href="#">DEV PAGE</a>
+        <a href="../index.php">HOME</a>
+        <a href="events.php">EVENTS</a>
     </div> 
 		<br>
    <div id="timer" class="timer">
@@ -122,9 +109,50 @@
     <div class="success hidden" id="message">
       Success MESSAGE
     </div>
+    <div class="col-sm-12 dev-cont">
+     <div class="row">
+       <div class="col-sm-6">
+         <img src="../images/jagga.jpg" class="prof-pic"><br><br>
+         <center><div class="line" style="width: 50%;"></div></center>
+         <h4>JAGDISH CHAUHAN</h4>
+         <center><div class="line" style="width: 50%;"></div></center>
+         <p style="color: #458B00">" THE BACKEND'S MIND "</p>
+        <div class="social-links">
+         <a href="#"><i class="fab fa-github fa-2x"></i></a>
+         <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+         <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+         <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+         <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+         <a href="#"><i class="fab fa-telegram fa-2x"></i></a>
+        </div>
 
+        <button class="btn-sml" style="width: auto;color:black;">
+        HIRE AS AN INTERN
+        </button>
+       </div>
+       <div class="col-sm-6">
+         <img src="../images/ashish.jpg" class="prof-pic">
+         <br><br>
+         <center><div class="line" style="width: 50%;"></div></center>
+         <h4>ASHISH GUPTA</h4>
+         <center><div class="line" style="width: 50%;"></div></center>
+         <p style="color: #458B00">" THE FRONTEND'S SOUL "</p>
+         <div class="social-links">
+         <a href="#"><i class="fab fa-github fa-2x"></i></a>
+         <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+         <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+         <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+         <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+         <a href="#"><i class="fab fa-telegram fa-2x"></i></a>
+        </div>
+
+        <button class="btn-sml" style="width: auto;color:black;">
+        HIRE AS AN INTERN
+        </button>
+       </div>
+     </div>
+    </div>
     <div class="footer">
-      <h4>TECHNICAL, LITERARY AND MANAGEMENT ZONAL FEST</h4>
 		<div class="line_3"></div>
 			Designed And Developed By 
 
@@ -135,8 +163,8 @@
       	</div>
 
     <div class="menu">
-           <a href="pages/events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
-           <a href="pages/devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
+           <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
+           <a href="#"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
       </div>
 
 	</div>
@@ -148,19 +176,19 @@
 
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 
-    <script type="text/javascript" src="js/jquery.particleground.js"></script>
+    <script type="text/javascript" src="../js/jquery.particleground.js"></script>
 
-    <script type="text/javascript" src="js/sine-waves.js"></script>
+    <script type="text/javascript" src="../js/sine-waves.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
 
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
 
 	<script>
 		$(window).on('load',(function() {

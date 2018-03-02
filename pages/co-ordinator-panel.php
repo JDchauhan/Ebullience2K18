@@ -1,17 +1,3 @@
-<?php
-  if(!isset($_REQUEST["session"])){
-		if(!isset($_SESSION)){
-			session_start();
-		}
-	}else{
-		if(!isset($_SESSION)){
-			session_start(array($_REQUEST["session"]));
-		}
-	}
-	$session_get = session_id();
-
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -92,6 +78,9 @@
     <div id="timer" class="timer">
           
     </div>
+    <div class="success hidden" id="message">
+      Success MESSAGE
+    </div>
 
       <form action="../resources/api.php?action=download_event_csv" method="POST" style="margin-top: 50px;">
 
@@ -145,16 +134,5 @@
     }));
   </script>
 
-  <?php 
-		if(isset($_SESSION["msg"])){
-			echo "<script>alert('" . $_SESSION["msg"]["type"] . "\\n" . $_SESSION["msg"]["head"] . "\\n" .
-									$_SESSION["msg"]["body"] .
-				"');</script>" ;
-			unset($_SESSION["msg"]);
-		}
-		
-	?>
-    
-                
  
 </html>

@@ -725,3 +725,43 @@ a.author:hover{
   98% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
   99% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
   100% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);} }
+
+.success
+{
+	font-family: 'Audiowide', cursive;
+	color: green;
+	margin-top: -20px;
+}
+.hidden
+{
+	visibility: hidden;
+}
+.error
+{
+	font-family: 'Audiowide', cursive;
+	color: #B22222;
+	margin-top: -20px;
+}
+.head-compressed
+{
+	display: none !important;
+}
+@media screen and (max-width:1200px)
+{
+	.aktu, .aktu2
+	{
+		display: none;
+	}
+}
+@media screen and (max-width: 768px)
+{
+	.head-expanded, .subhead-expanded
+	{
+		display: none !important;
+	}
+	.head-compressed
+	{
+		display:block !important;	
+		position: relative !importants;
+	}
+}

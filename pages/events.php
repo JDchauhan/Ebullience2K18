@@ -1,18 +1,3 @@
-<?php 
-  if(!isset($_SESSION)){
-    session_start();
-  }
-  if(isset($_SESSION['token']) && isset($_SESSION['login_status']) && $_SESSION['login_status']==true){
-
-  }else{
-      // remove all session variables
-      session_unset(); 
-      // destroy the session 
-      session_destroy();
-      header("Location: ../index.php");
-  }
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -78,19 +63,25 @@
 	<div id="skill" style="min-height: 100%; min-width: 100%; position: absolute;z-index: -3"></div>
 
 	<div class="main-cont">
-		 <div class="line"></div>
-		<h1>ARK 2K18</h1>
-		<center><div class="line_2"></div></center>
-    <div class="menu-2">
-      <a href="#">HOME</a>
-      <a href="#">ABOUT</a>
-      <a href="#">EVENTS</a>
-      <a href="#">REGISTRATION</a>
-      <a href="#">SCHEDULE</a>
-    </div>
-    <div class="navigator">
-    	HOME | NAME OF STUDENT
-    </div>
+     <div class="line"></div>
+     <img src="../images/biglogo.png" class="aktu">
+
+    <h1 class="head-expanded">
+    NOIDA INSTITUTE OF ENGINEERING AND TECHNOLOGY  
+    </h1>
+
+    
+
+    <img src="../images/niet.png" class="aktu2">
+    <h5 class="subhead-expanded">
+      Accredited by NAAC (A Grade) CSE, ECE, ME, & B.Pharm are NBA accredited 99th Rank by NIRF (2016)
+    </h5>
+    <h1 class="head-compressed">NIET, GR. NOIDA</h1>
+    <center><div class="line_2"></div></center>
+
+      <h3 class="head-expanded">Dr. APJ ABDUL KALAM TECHNICAL UNIVERSITY</h3>
+
+      <h3 class="head-compressed">AKTU ZONAL FEST</h3>
     <center><div class="line_2"></div></center>  
 		<br>
     <div id="timer" class="timer">
@@ -108,19 +99,20 @@
     <div class="event-cont">
       
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="1">
-            BUISNESS PLAN
+            BUISNESS PLAN<br><br>
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="2">
-            BRIDGE KRITI
+            BRIDGE KRITI<br><br>
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="3">
             CHECK YOUR KNOWLEDGE
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="4">
             CODING CONTEST
+            <br><br>
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="5">
-            DEBATE
+            DEBATE<br><br><br>
         </button>
         <br>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="6">
@@ -130,10 +122,10 @@
             JUST A MINUTE
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="8">
-            ROBO RACE
+           <br> ROBO RACE
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="8">
-            ROBO WAR
+            <br>ROBO WAR
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="9">
             TECHNICAL POSTER
@@ -152,9 +144,9 @@
       <li>The Judges decision will be final and binding to all.</li>
     </ul>
     <form action="../resources/api.php?action=event_registered&amp;id=1" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-
-      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">Back</button>
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
     </form>
   </div>
 
@@ -170,7 +162,9 @@
       <li>Crown of arch must be above horizontal span and its height should not exceed 25 cm.</li>
     </ul>
     <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
     </form>
   </div>
 
@@ -200,17 +194,44 @@
     <ul>
       <li></li>
     </ul>
+
+    <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
+    </form>
   </div>
 
   <div class="item">
+
+
+    <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
+    </form>
     
   </div>
 
   <div class="item">
+
+
+
+    <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
+    </form>
     
   </div>
 
   <div class="item">
+
+    <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
+    </form>
     
   </div>
 
@@ -228,9 +249,9 @@
       
       </div>
 
-      <div class="menu">
-           <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
-           <a href="../resources/api.php?action=logout"><button><div class="btn-text">LOGOUT</div></button></a><br><br><br>
+     <div class="menu">
+           <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
+           <a href="devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
       </div>
     </div>
 </body>
