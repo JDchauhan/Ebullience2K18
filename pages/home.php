@@ -1,7 +1,15 @@
 <?php 
-  if(!isset($_SESSION)){
-    session_start();
-  }
+  if(!isset($_REQUEST["session"])){
+		if(!isset($_SESSION)){
+			session_start();
+		}
+	}else{
+		if(!isset($_SESSION)){
+			session_start(array($_REQUEST["session"]));
+		}
+	}
+	$session_get = session_id();
+
   if(isset($_SESSION['token']) && isset($_SESSION['login_status']) && $_SESSION['login_status']==true){
 
   }else{
@@ -10,6 +18,24 @@
       // destroy the session 
       session_destroy();
       header("Location: ../index.php");
+  }
+
+//checking event registrations
+  $i = 0;
+  for($j = 0; $j < 10; $j++){
+    if(!(isset($_SESSION["event_participated"]) && $_SESSION["event_participated"][$j] == 1 )){
+      $form_data[$j] = '<form action="../resources/api.php?action=event_registered&amp;id=' . ($j + 1) . '&amp;session=' .  $session_get . ' " method="POST">
+              <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+        
+              <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">Back</button>
+            </form>'  ;  
+    } else{
+      $form_data[$j] = '<form action="../resources/api.php?action=event_unregistered&amp;id=' . ($j + 1) . '&amp;session=' .  $session_get . ' " method="POST">
+              <input type="submit" name="submit" placeholder="Unregister" value="UNREGISTER" class="btn-sml" style="width: auto;">
+        
+              <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">Back</button>
+            </form>'   ; 
+    }
   }
 ?>
 
@@ -89,7 +115,7 @@
       <a href="#">SCHEDULE</a>
     </div>
     <div class="navigator">
-    	HOME | NAME OF STUDENT
+    	HOME | <?php echo ucwords($_SESSION["name"]); ?>
     </div>
     <center><div class="line_2"></div></center>  
 		<br>
@@ -97,9 +123,6 @@
           
     </div>
 
-    <div class="success hidden" id="message">
-      Success MESSAGE
-    </div>
     <!--<button class="event-linker-one" href="#"><p>Event Category 1</p></button>-->
 <div id="myCarousel2" class="carousel" data-ride="carousel" data-interval="false" data-wrap="false">
   <div class="carousel-inner">
@@ -108,7 +131,7 @@
     <div class="event-cont">
       
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="1">
-            BUISNESS PLAN
+            BUSINESS PLAN
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="2">
             BRIDGE KRITI
@@ -142,7 +165,7 @@
   </div>
 
   <div class="item">
-    <h3>BUISNESS PLAN</h3>
+    <h3>BUSINESS PLAN</h3>
     <ul>
       <li>Individual participant can take part</li>
       <li>Have to explore business ideas to run the Business.</li>
@@ -151,11 +174,10 @@
       <li>Duration: 45 Minutes.</li>
       <li>The Judges decision will be final and binding to all.</li>
     </ul>
-    <form action="../resources/api.php?action=event_registered&amp;id=1" method="POST">
-      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-
-      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">Back</button>
-    </form>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
   </div>
 
   <div class="item">
@@ -169,9 +191,10 @@
       <li>Stick overlapping should not exceed 3 cm </li>
       <li>Crown of arch must be above horizontal span and its height should not exceed 25 cm.</li>
     </ul>
-    <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
-      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-    </form>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
   </div>
 
   <div class="item">
@@ -190,28 +213,87 @@
       <li>The Judges decision will be final and binding to all. </li>
     </ul>
 
-    <form action="" method="POST">
-      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-    </form>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
   </div>
 
+  <!-- in place of form to submit register or unregister event
+      use following code inside php opening and closing tags 
+      
+      >>>echo $form_data[$i];
+      >>>$i++;
+
+      this code will check the regitry in events and displays register/unregister button with proper
+      functionality
+    
+  -->
   <div class="item">
     <h3>CODING CONTEST</h3>
     <ul>
       <li></li>
     </ul>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
   </div>
 
   <div class="item">
     
+
+
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
   </div>
 
   <div class="item">
     
+
+
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
   </div>
 
   <div class="item">
     
+
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+  <div class="item">
+    
+
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+  <div class="item">
+    
+
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+  <div class="item">
+    
+
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
   </div>
 
 </div>
@@ -230,7 +312,7 @@
 
       <div class="menu">
            <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
-           <a href="../resources/api.php?action=logout"><button><div class="btn-text">LOGOUT</div></button></a><br><br><br>
+           <a href="../resources/api.php?action=logout&amp;session=<?php echo $session_get; ?>"><button><div class="btn-text">LOGOUT</div></button></a><br><br><br>
       </div>
     </div>
 </body>
@@ -253,5 +335,15 @@
   <script type="text/javascript" src="../js/sine-waves.js"></script>
 
   <script type="text/javascript" src="../js/main.js"></script>
+
+  <?php 
+		if(isset($_SESSION["msg"])){
+			echo "<script>alert('" . $_SESSION["msg"]["type"] . "\\n" . $_SESSION["msg"]["head"] . "\\n" .
+									$_SESSION["msg"]["body"] .
+				"');</script>" ;
+			unset($_SESSION["msg"]);
+		}
+		
+	?>
 
 </html>

@@ -1,7 +1,16 @@
 <?php
-	if(!isset($_SESSION)){
-        session_start();
-    }
+	if(!isset($_REQUEST["session"])){
+		if(!isset($_SESSION)){
+			session_start();
+		}
+	}else{
+		if(!isset($_SESSION)){
+			session_start(array($_REQUEST["session"]));
+		}
+	}
+	$session_get = session_id();
+    
+    
 ?>
 
 <!DOCTYPE html>
@@ -87,12 +96,7 @@
     <div id="timer" class="timer">
           
     </div>
-
-    <div class="success hidden" id="message">
-      Success MESSAGE
-    </div>
-
-    <form action="../resources/api.php?action=register" method="POST">
+    <form action="../resources/api.php?action=register&amp;session=<?php echo $session_get;?>" method="POST">
 
     	<input type="text" name="name" placeholder="Name" class="txt-sml" style="margin-top: 10px;"><br>
     	<input type="text" name="clg_name" placeholder="College" class="txt-sml"><br>
@@ -139,5 +143,15 @@
     <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
 
     <script type="text/javascript" src="../js/main.js"></script>
+
+	<?php 
+		if(isset($_SESSION["msg"])){
+			echo "<script>alert('" . $_SESSION["msg"]["type"] . "\\n" . $_SESSION["msg"]["head"] . "\\n" .
+									$_SESSION["msg"]["body"] .
+				"');</script>" ;
+			unset($_SESSION["msg"]);
+		}
+		
+	?>
     
 </html>

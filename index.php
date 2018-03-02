@@ -1,7 +1,16 @@
 <?php
-	if(!isset($_SESSION)){
-        session_start();
-    }
+	if(!isset($_REQUEST["session"])){
+		if(!isset($_SESSION)){
+			session_start();
+		}
+	}else{
+		if(!isset($_SESSION)){
+			session_start(array($_REQUEST["session"]));
+		}
+	}
+	$session_get = session_id();
+
+	
 ?>
 <!DOCTYPE html>
 <html>
@@ -42,19 +51,6 @@
   		}
 		}, 1000);
 	</script>-->
-  <style type="text/css">
-    #timer
-    {
-      display: none !important;
-    }
-    @media screen and (max-width: 768px)
-    {
-      #timer
-      {
-        display: block !important;
-      }
-    }
-  </style>
 <body>
 	<div id="overlayer">
 		<div class='triangles'>
@@ -92,36 +88,22 @@
 
 	<div class="main-cont">
 		 <div class="line"></div>
-     <img src="images/biglogo.png" class="aktu">
+     <img src="images/aktu_logo.png" class="aktu">
 
-		<h1 class="head-expanded">
+		<h1><!--Dr. APJ ABDUL KALAM TECHNICAL UNIVERSITY-->
     NOIDA INSTITUTE OF ENGINEERING AND TECHNOLOGY  
     </h1>
+    <img src="images/niet_logo.png" class="aktu2">
+    <h5>Accredited by NAAC (A Grade) CSE, ECE, ME, & B.Pharm are NBA accredited 99th Rank by NIRF (2016)</h5>
+		<center><div class="line_2"></div></center>
+      <h3>Dr. APJ ABDUL KALAM TECHNICAL UNIVERSITY</h3>
+    <center><div class="line_2"></div></center>  
+		<br>
+   <!-- <div id="timer" class="timer">
+          
+    </div>-->
 
     
-
-    <img src="images/niet.png" class="aktu2">
-    <h5 class="subhead-expanded">
-      Accredited by NAAC (A Grade) CSE, ECE, ME, & B.Pharm are NBA accredited 99th Rank by NIRF (2016)
-    </h5>
-    <h1 class="head-compressed">NIET, GR. NOIDA</h1>
-		<center><div class="line_2"></div></center>
-
-      <h3 class="head-expanded">Dr. APJ ABDUL KALAM TECHNICAL UNIVERSITY</h3>
-
-      <h3 class="head-compressed">AKTU ZONAL FEST</h3>
-    <center><div class="line_2"></div></center> 
-      <div class="menu-2">
-        <a href="#">EVENTS</a>
-        <a href="#">DEV PAGE</a>
-    </div> 
-		<br>
-   <div id="timer" class="timer">
-          
-    </div>
-    <div class="success hidden" id="message">
-      Success MESSAGE
-    </div>
 
     <div class="footer">
       <h4>TECHNICAL, LITERARY AND MANAGEMENT ZONAL FEST</h4>
@@ -133,11 +115,6 @@
 			<a class="author" target="_blank" href="https://github.com/JDchauhan"> Jagdish Singh </a>
 		
       	</div>
-
-    <div class="menu">
-           <a href="pages/events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
-           <a href="pages/devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
-      </div>
 
 	</div>
 

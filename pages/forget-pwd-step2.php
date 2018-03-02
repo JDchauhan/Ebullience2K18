@@ -1,8 +1,16 @@
 <?php 
-  if(!isset($_SESSION)){
-    session_start();
+  if(!isset($_REQUEST["session"])){
+    if(!isset($_SESSION)){
+      session_start();
+    }
+  }else{
+    if(!isset($_SESSION)){
+      session_start(array($_REQUEST["session"]));
+    }
   }
-  if(isset($_SESSION['token']) && isset($_SESSION['login_status']) && $_SESSION['login_status']==true){
+  $session_get = session_id();
+  
+  if(isset($_SESSION["access_pass"]) && $_SESSION['access_pass']==true){
 
   }else{
       // remove all session variables
@@ -96,10 +104,7 @@
           
     </div>
 
-    <div class="success hidden" id="message">
-      Success MESSAGE
-    </div>
-      <form action="../resources/api.php?action=reset_password" method="POST" style="margin-top: 50px;">
+      <form action="../resources/api.php?action=reset_password&amp;session=<?php $session_get; ?>" method="POST" style="margin-top: 50px;">
 
       <input type="password" name="password" placeholder="New Password" class="txt-sml" style="margin-top: 10px;"><br>
       <input type="password" name="password-2" placeholder="New Password" class="txt-sml" style="margin-top: 10px;"><br>
@@ -153,6 +158,16 @@
       $("#overlayer").delay(2000).fadeOut("slow");
     }));
   </script>
+
+  <?php 
+		if(isset($_SESSION["msg"])){
+			echo "<script>alert('" . $_SESSION["msg"]["type"] . "\\n" . $_SESSION["msg"]["head"] . "\\n" .
+									$_SESSION["msg"]["body"] .
+				"');</script>" ;
+			unset($_SESSION["msg"]);
+		}
+		
+	?>
 
  
 </html>
