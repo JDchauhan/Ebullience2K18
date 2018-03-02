@@ -1,7 +1,16 @@
 <?php
-	if(!isset($_SESSION)){
-        session_start();
-    }
+	if(!isset($_REQUEST["session"])){
+		if(!isset($_SESSION)){
+			session_start();
+		}
+	}else{
+		if(!isset($_SESSION)){
+			session_start(array($_REQUEST["session"]));
+		}
+	}
+	$session_get = session_id();
+
+	
 ?>
 <!DOCTYPE html>
 <html>
@@ -42,7 +51,8 @@
   		}
 		}, 1000);
 	</script>-->
-  <style type="text/css">
+
+	<style type="text/css">
     #timer
     {
       display: none !important;
@@ -122,6 +132,7 @@
     <div class="success hidden" id="message">
       Success MESSAGE
     </div>
+    
 
     <div class="footer">
       <h4>TECHNICAL, LITERARY AND MANAGEMENT ZONAL FEST</h4>
@@ -137,7 +148,7 @@
     <div class="menu">
            <a href="pages/events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
            <a href="pages/devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
-      </div>
+    </div>
 
 	</div>
 
