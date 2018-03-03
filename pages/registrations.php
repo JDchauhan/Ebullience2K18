@@ -82,19 +82,21 @@
 		<h1>ARK 2K18</h1>
 		<center><div class="line_2"></div></center>
     <div class="menu-2">
-      <a href="../index.php">HOME</a>
-      <a href="events.php">EVENTS</a>
-      <a href="devpage.php">DEV'S PAGE</a>
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">EVENTS</a>
+      <a href="#">REGISTRATION</a>
+      <a href="#">SCHEDULE</a>
     </div>
-
+    <div class="navigator">
+    	REGISTRATIONS
+    </div>
     <center><div class="line_2"></div></center>  
 		<br>
     <div id="timer" class="timer">
           
     </div>
-    <div class="success hidden" id="message">
-    </div>
-    <form action="../resources/api.php?action=register&amp;session=<?php echo $session_get;?>" method="POST" onsubmit="return validateForm()" name="reg-form">
+    <form action="../resources/api.php?action=register&amp;session=<?php echo $session_get;?>" method="POST">
 
     	<input type="text" name="name" placeholder="Name" class="txt-sml" style="margin-top: 10px;"><br>
     	<input type="text" name="clg_name" placeholder="College" class="txt-sml"><br>
