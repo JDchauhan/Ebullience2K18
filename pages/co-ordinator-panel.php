@@ -80,12 +80,13 @@
      <div class="line"></div>
     <h1>ARK 2K18</h1>
     <center><div class="line_2"></div></center>
-       <div class="menu-2">
-      <a href="#">HOME</a>
-      <a href="#">ABOUT</a>
-      <a href="#">EVENTS</a>
-      <a href="#">REGISTRATION</a>
-      <a href="#">SCHEDULE</a>
+    <div class="menu-2">
+        <a href="../index.php">INDEX | </a>
+        <a href="events.php">EVENTS | </a>
+        <a href="devpage.php">DEV PAGE | </a>
+        <a href="registrations.php">REGISTRATIONS | </a>
+        <a href="login.php">Login | </a>
+        <a href="forget-pwd.php">Forgot-Password </a>  
     </div>
     <center><div class="line_2"></div></center>  
     <br>
@@ -113,8 +114,12 @@
         </div>
 
         <div class="menu">
-           <a href="registrations.php"><button><div class="btn-text">REGISTRATION</div></button></a><br><br><br>
+           <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
+           <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
+           <a href="devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
+           <a href="registrations.php"><button><div class="btn-text">REGISTRATIONS</div></button></a><br><br><br>
            <a href="login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>
+           <a href="forget-pwd.php"><button><div class="btn-text" style="font-size: 13px">FORGOT-PASSWORD</div></button></a><br><br><br> 
       </div>
   </div>
 

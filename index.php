@@ -122,8 +122,13 @@
       <h3 class="head-compressed">AKTU ZONAL FEST</h3>
     <center><div class="line_2"></div></center> 
       <div class="menu-2">
-        <a href="#">EVENTS</a>
-        <a href="#">DEV PAGE</a>
+        <a href="pages/events.php">EVENTS | </a>
+        <a href="pages/devpage.php">DEV PAGE | </a>
+        <a href="pages/registrations.php">REGISTRATIONS | </a>
+        <a href="pages/login.php">Login | </a>
+        <a href="pages/forget-pwd.php">Forgot-Password | </a>
+        <a href="pages/co-ordinator-panel.php">Co-ordinator Console </a>
+
     </div> 
 		<br>
    <div id="timer" class="timer">
@@ -148,6 +153,10 @@
     <div class="menu">
            <a href="pages/events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
            <a href="pages/devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
+           <a href="pages/registrations.php"><button><div class="btn-text">REGISTRATIONS</div></button></a><br><br><br>
+           <a href="pages/login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>
+           <a href="pages/forget-pwd.php"><button><div class="btn-text" style="font-size: 13px">FORGOT-PASSWORD</div></button></a><br><br><br>
+           <a href="pages/co-ordinator-panel.php"><button><div class="btn-text">CONSOLE</div></button></a><br><br><br>
     </div>
 
 	</div>
