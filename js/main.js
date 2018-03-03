@@ -108,7 +108,7 @@ function validateForm()
         document.getElementById("message").innerHTML="PLEASE ENTER YOUR EMAIL";
         return false;
     }
-    else if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))
+    else if(!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)))
     {
         document.getElementById("message").className="";
         document.getElementById("message").className="error";

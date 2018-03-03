@@ -122,15 +122,19 @@
       <h3 class="head-compressed">AKTU ZONAL FEST</h3>
     <center><div class="line_2"></div></center> 
     <div class="menu-2">
-		<a href="pages/login.php">Login | </a>
+		<a href="pages/events.php">EVENTS | </a>
+        <a href="pages/login.php">Login | </a>
         <a href="pages/registrations.php">REGISTRATIONS | </a>
-        <a href="pages/events.php">EVENTS | </a>
         <a href="pages/forget-pwd.php">Forgot-Password | </a>
-        <a href="pages/co-ordinator-panel.php">Co-ordinator Console </a>
-	    <a href="pages/devpage.php">DEV PAGE | </a>
+        <a href="pages/co-ordinator-panel.php"> Console </a>
+	    <a href="pages/devpage.php">DEV PAGE </a>
     
     </div> 
 		<br>
+	<div class="error" id="message">
+    
+    </div>
+  
    <div id="timer" class="timer">
           
     </div>

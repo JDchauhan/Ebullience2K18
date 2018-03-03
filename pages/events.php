@@ -1,3 +1,16 @@
+<?php
+	if(!isset($_REQUEST["session"])){
+		if(!isset($_SESSION)){
+			session_start();
+		}
+	}else{
+		if(!isset($_SESSION)){
+			session_start(array($_REQUEST["session"]));
+		}
+	}
+	$session_get = session_id();	
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -84,14 +97,19 @@
       <h3 class="head-compressed">AKTU ZONAL FEST</h3>
     <center><div class="line_2"></div></center> 
     <div class="menu-2">
-        <a href="../index.php">INDEX | </a>
-        <a href="devpage.php">DEV PAGE | </a>
+        <a href="../index.php">HOME | </a>
         <a href="registrations.php">REGISTRATIONS | </a>
         <a href="login.php">Login | </a>
         <a href="forget-pwd.php">Forgot-Password | </a>
-        <a href="co-ordinator-panel.php">Co-ordinator Console </a>
+        <a href="co-ordinator-panel.php"> Console |</a>
+        <a href="devpage.php">DEV PAGE  </a>
+        
     </div>  
 		<br>
+    <div class="error" id="message">
+    
+    </div>
+  
     <div id="timer" class="timer">
           
     </div>

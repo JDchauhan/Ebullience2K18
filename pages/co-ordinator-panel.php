@@ -81,12 +81,13 @@
     <h1>ARK 2K18</h1>
     <center><div class="line_2"></div></center>
     <div class="menu-2">
-        <a href="../index.php">INDEX | </a>
+        <a href="../index.php">HOME | </a>
         <a href="events.php">EVENTS | </a>
-        <a href="devpage.php">DEV PAGE | </a>
         <a href="registrations.php">REGISTRATIONS | </a>
         <a href="login.php">Login | </a>
-        <a href="forget-pwd.php">Forgot-Password </a>  
+        <a href="forget-pwd.php">Forgot-Password |</a>  
+        <a href="devpage.php">DEV PAGE  </a>
+        
     </div>
     <div class="navigator">
     	CONSOLE
@@ -94,6 +95,10 @@
     
     <center><div class="line_2"></div></center>  
     <br>
+    <div class="error" id="message">
+    
+    </div>
+  
     <div id="timer" class="timer">
           
     </div>
@@ -156,9 +161,21 @@
 
   <?php 
 		if(isset($_SESSION["msg"])){
-			echo "<script>alert('" . $_SESSION["msg"]["type"] . "\\n" . $_SESSION["msg"]["head"] . "\\n" .
-									$_SESSION["msg"]["body"] .
-				"');</script>" ;
+			if($_SESSION["msg"]["type"] == "error"){
+				echo '<script>document.getElementById("message").className="";
+						document.getElementById("message").className="error";
+						document.getElementById("message").innerHTML="<b>' 
+							. $_SESSION["msg"]["head"] . '</b><br/>'
+							. $_SESSION["msg"]["body"] . '";
+					</script>';
+			}else if($_SESSION["msg"]["type"] == "success"){
+				echo '<script>document.getElementById("message").className="";
+						document.getElementById("message").className="success";
+						document.getElementById("message").innerHTML="<b>' 
+							. $_SESSION["msg"]["head"] . '</b><br/>'
+							. $_SESSION["msg"]["body"] . '";
+					</script>';
+			}
 			unset($_SESSION["msg"]);
 		}
 		

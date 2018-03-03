@@ -458,7 +458,7 @@
                 $statement = executedStatement("SELECT * FROM Participation WHERE email='$email' AND event_id='$id' ");
                 $result = $statement->Fetch(PDO::FETCH_ASSOC);
                 if($result){
-                    $_SESSION["msg"]["type"] = "err";
+                    $_SESSION["msg"]["type"] = "error";
                     $_SESSION["msg"]["head"] = "Already registered";
                     $_SESSION["msg"]["body"] = "You have been already registerd in the event";
                 }else{

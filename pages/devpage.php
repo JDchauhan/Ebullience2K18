@@ -1,8 +1,16 @@
 <?php
-	if(!isset($_SESSION)){
-        session_start();
-    }
+	if(!isset($_REQUEST["session"])){
+		if(!isset($_SESSION)){
+			session_start();
+		}
+	}else{
+		if(!isset($_SESSION)){
+			session_start(array($_REQUEST["session"]));
+		}
+	}
+	$session_get = session_id();	
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -99,7 +107,7 @@
     <h4>WE TURN COFFEE INTO CODE</h4>
     <center><div class="line_2"></div></center> 
       <div class="menu-2">
-        <a href="../index.php">INDEX | </a>
+        <a href="../index.php">HOME | </a>
         <a href="events.php">EVENTS | </a>
         <a href="registrations.php">REGISTRATIONS | </a>
         <a href="login.php">Login | </a>
@@ -107,6 +115,10 @@
         <a href="co-ordinator-panel.php">CONSOLE</a>
     </div>
 		<br>
+    <div class="error" id="message">
+    
+    </div>
+  
    <div id="timer" class="timer">
           
     </div>
