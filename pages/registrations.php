@@ -93,6 +93,9 @@
     </div>
     <center><div class="line_2"></div></center>  
 		<br>
+    <div class="error" id="message">
+    
+    </div>
     <div id="timer" class="timer">
           
     </div>
