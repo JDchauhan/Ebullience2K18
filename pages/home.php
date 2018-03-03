@@ -310,7 +310,7 @@
 
        <div class="menu">
            <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
-           <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
+           <a href="../resources/api.php?action=logout&amp;session=<?php echo $session_get; ?>"><button><div class="btn-text">LOGOUT</div></button></a><br><br><br>
            <a href="devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
       </div>
     </div>

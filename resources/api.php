@@ -604,7 +604,7 @@
                 $_SESSION["msg"]["head"] = "Access Denied";
                 $_SESSION["msg"]["body"] = "Please enter the correct key";
                 
-                $head = "Location: ../pages/registrations.php?session=" . $session_get;
+                $head = "Location: ../pages/co-ordinator-panel.php?session=" . $session_get;
                 header($head);
             }
 

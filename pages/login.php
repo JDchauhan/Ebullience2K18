@@ -89,6 +89,10 @@
         <a href="forget-pwd.php">FORGOT PASSWORD | </a> 
         <a href="co-ordinator-panel.php">CONSOLE</a>
     </div>
+    <div class="navigator">
+    	LOGIN
+    </div>
+    
     <center><div class="line_2"></div></center>  
     <br>
     <div id="timer" class="timer">
@@ -104,24 +108,24 @@
       </form>
 
 
-        <div class="footer">
-    <div class="line_3"></div>
+    <div class="footer">
+      <div class="line_3"></div>
       Designed And Developed By 
 
       <a class="author" target="_blank" href="https://github.com/ashigupta007"> Ashish Gupta </a>
       and
       <a class="author" target="_blank" href="https://github.com/JDchauhan"> Jagdish Singh </a>
     
-        </div>
+    </div>
 
-         <div class="menu">
-           <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
-           <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
-           <a href="devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
-           <a href="registrations.php"><button><div class="btn-text">REGISTRATIONS</div></button></a><br><br><br>
-           <a href="forget-pwd.php"><button><div class="btn-text" style="font-size: 13px;">FORGET PASSWORD</div></button></a><br><br><br>
-           <a href="co-ordinatior-panel.php"><button><div class="btn-text">CONSOLE</div></button></a><br><br><br>
-      </div>
+    <div class="menu">
+      <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
+      <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
+      <a href="registrations.php"><button><div class="btn-text">REGISTRATIONS</div></button></a><br><br><br>
+      <a href="forget-pwd.php"><button><div class="btn-text" style="font-size: 13px;">FORGET PASSWORD</div></button></a><br><br><br>
+        <a href="co-ordinator-panel.php"><button><div class="btn-text">CONSOLE</div></button></a><br><br><br>
+      <a href="devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br> 
+    </div>
   </div>
 
 </body>

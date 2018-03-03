@@ -89,6 +89,10 @@ if(!isset($_REQUEST["session"])){
     </div>
     <center><div class="line_2"></div></center>  
     <br>
+    <div class="navigator">
+    	FORGET PASSWORD
+    </div>
+    
     <div id="timer" class="timer">
           
     </div>
@@ -115,10 +119,10 @@ if(!isset($_REQUEST["session"])){
         <div class="menu">
            <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
            <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
-           <a href="devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
            <a href="registrations.php"><button><div class="btn-text">REGISTRATIONS</div></button></a><br><br><br>
            <a href="login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>
-           <a href="co-ordinatior-panel.php"><button><div class="btn-text">CONSOLE</div></button></a><br><br><br>
+           <a href="co-ordinator-panel.php"><button><div class="btn-text">CONSOLE</div></button></a><br><br><br>
+           <a href="devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
       </div>
   </div>
 

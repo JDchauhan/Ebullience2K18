@@ -108,7 +108,7 @@
     <div id="timer" class="timer">
           
     </div>
-    <form action="../resources/api.php?action=register&amp;session=<?php echo $session_get;?>" method="POST">
+    <form name="reg-form" action="../resources/api.php?action=register&amp;session=<?php echo $session_get;?>" onsubmit="return validateForm()" method="POST">
 
     	<input type="text" name="name" placeholder="Name" class="txt-sml" style="margin-top: 10px;"><br>
     	<input type="text" name="clg_name" placeholder="College" class="txt-sml"><br>
@@ -133,11 +133,11 @@
       	<div class="menu">
            <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
            <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
-           <a href="devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
            <a href="login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>
            <a href="forget-pwd.php"><button><div class="btn-text" style="font-size: 13px">FORGOT-PASSWORD</div></button></a><br><br><br>
-           <a href="co-ordinatior-panel.php"><button><div class="btn-text">CONSOLE</div></button></a><br><br><br>
-      </div>
+           <a href="co-ordinator-panel.php"><button><div class="btn-text">CONSOLE</div></button></a><br><br><br>
+		   <a href="devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
+	  	</div>
     </div>
 </body>
 	  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>

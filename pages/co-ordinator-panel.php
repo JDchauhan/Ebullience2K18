@@ -88,6 +88,10 @@
         <a href="login.php">Login | </a>
         <a href="forget-pwd.php">Forgot-Password </a>  
     </div>
+    <div class="navigator">
+    	CONSOLE
+    </div>
+    
     <center><div class="line_2"></div></center>  
     <br>
     <div id="timer" class="timer">
