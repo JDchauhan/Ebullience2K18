@@ -126,7 +126,7 @@
         <a href="pages/login.php">Login | </a>
         <a href="pages/registrations.php">REGISTRATIONS | </a>
         <a href="pages/forget-pwd.php">Forgot-Password | </a>
-        <a href="pages/co-ordinator-panel.php"> Console </a>
+        <a href="pages/co-ordinator-panel.php"> Console |</a>
 	    <a href="pages/devpage.php">DEV PAGE </a>
     
     </div> 
