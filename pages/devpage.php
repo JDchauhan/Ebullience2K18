@@ -130,21 +130,22 @@
        <div class="col-sm-6">
          <img src="../images/jagga.jpg" class="prof-pic"><br><br>
          <center><div class="line" style="width: 50%;"></div></center>
-         <h4>JAGDISH CHAUHAN</h4>
+         <h4>JAGDISH SINGH</h4>
          <center><div class="line" style="width: 50%;"></div></center>
          <p style="color: #458B00">" THE BACKEND'S MIND "</p>
         <div class="social-links">
-         <a href="#"><i class="fab fa-github fa-2x"></i></a>
-         <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
-         <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-         <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
-         <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
-         <a href="#"><i class="fab fa-telegram fa-2x"></i></a>
+         <a target="_blank" href="https://github.com/JDchauhan"><i class="fab fa-github fa-2x"></i></a>
+         <a target="_blank" href="https://www.facebook.com/JDchauhan97"><i class="fab fa-facebook-square fa-2x"></i></a>
+         <a target="_blank" href="https://www.instagram.com/jdchauhan97"><i class="fab fa-instagram fa-2x"></i></a>
+         <a target="_blank" href="https://www.linkedin.com/in/jdchauhan"><i class="fab fa-linkedin fa-2x"></i></a>
+         <a target="_blank" href="https://www.twitter.com/jdchauhan97/"><i class="fab fa-twitter-square fa-2x"></i></a>
+         <a target="_blank" href="https://t.me/JDchauhan"><i class="fab fa-telegram fa-2x"></i></a>
         </div>
-
-        <button class="btn-sml" style="width: auto;color:black;">
-        HIRE AS AN INTERN
-        </button>
+        <a target="_blank" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=jagdish.chauhan01.com" >
+          <button class="btn-sml" style="width: auto;color:black;" >
+          HIRE AS AN INTERN
+          </button>
+        </a>
        </div>
        <div class="col-sm-6">
          <img src="../images/ashish.jpg" class="prof-pic">
