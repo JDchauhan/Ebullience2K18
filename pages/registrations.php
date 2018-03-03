@@ -92,10 +92,19 @@
     	REGISTRATIONS
     </div>
     <center><div class="line_2"></div></center>  
+    <div class="menu-2">
+        <a href="../index.php">INDEX | </a>
+        <a href="events.php">EVENTS | </a>
+        <a href="devpage.php">DEV PAGE | </a>
+        <a href="login.php">Login | </a>
+        <a href="forget-pwd.php">Forgot-Password | </a> 
+        <a href="co-ordinator-panel.php">CONSOLE</a>
+    </div>
 		<br>
     <div class="error" id="message">
     
     </div>
+
     <div id="timer" class="timer">
           
     </div>
@@ -122,9 +131,13 @@
 		</div>
 
       	<div class="menu">
-           <a href="registrations.php"><button><div class="btn-text">REGISTRATION</div></button></a><br><br><br>
+           <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
+           <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
+           <a href="devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
            <a href="login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>
-     	</div>
+           <a href="forget-pwd.php"><button><div class="btn-text" style="font-size: 13px">FORGOT-PASSWORD</div></button></a><br><br><br>
+           <a href="co-ordinatior-panel.php"><button><div class="btn-text">CONSOLE</div></button></a><br><br><br>
+      </div>
     </div>
 </body>
 	  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
