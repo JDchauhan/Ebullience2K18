@@ -86,3 +86,61 @@ waves: [
     }
 });
 
+function validateForm() 
+{
+    var name = document.forms["reg-form"]["name"].value;
+    var clg_name=document.forms["reg-form"]["clg_name"].value;
+    var email=document.forms["reg-form"]["email"].value;
+    var roll_no=document.forms["reg-form"]["roll_no"].value;
+    var mob_no=document.forms["reg-form"]["mob_no"].value;
+    var pass=document.forms["reg-form"]["pass"].value;
+    if (name == "") 
+    {
+        document.getElementById("message").className="";
+        document.getElementById("message").className="error";
+        document.getElementById("message").innerHTML="PLEASE ENTER YOUR NAME";
+        return false;
+    }
+    else if(email== "")
+    {
+        document.getElementById("message").className="";
+        document.getElementById("message").className="error";
+        document.getElementById("message").innerHTML="PLEASE ENTER YOUR EMAIL";
+        return false;
+    }
+    else if(!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)))
+    {
+        document.getElementById("message").className="";
+        document.getElementById("message").className="error";
+        document.getElementById("message").innerHTML="PLEASE ENTER CORRECT EMAIL";
+        return false;
+    }
+    else if(clg_name== "")
+    {
+        document.getElementById("message").className="";
+        document.getElementById("message").className="error";
+        document.getElementById("message").innerHTML="PLEASE ENTER COLLEGE NAME";
+        return false;
+    }
+    else if(isNaN(roll_no) || roll_no.length < 1)
+    {
+        document.getElementById("message").className="";
+        document.getElementById("message").className="error";
+        document.getElementById("message").innerHTML="PLEASE ENTER CORRECT ROLL NUMBER";
+        return false;
+    }
+    else if(mob_no.length != 10 || isNaN(mob_no))
+    {
+        document.getElementById("message").className="";
+        document.getElementById("message").className="error";
+        document.getElementById("message").innerHTML="PLEASE CORRECT MOBILE NUMBER";
+        return false;
+    }
+    else if(pass=="")
+    {
+        document.getElementById("message").className="";
+        document.getElementById("message").className="error";
+        document.getElementById("message").innerHTML="PLEASE ENTER A PASSWORD";
+        return false;
+    }
+}

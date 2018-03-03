@@ -1,3 +1,16 @@
+<?php
+	if(!isset($_REQUEST["session"])){
+		if(!isset($_SESSION)){
+			session_start();
+		}
+	}else{
+		if(!isset($_SESSION)){
+			session_start(array($_REQUEST["session"]));
+		}
+	}
+	$session_get = session_id();	
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -82,8 +95,21 @@
       <h3 class="head-expanded">Dr. APJ ABDUL KALAM TECHNICAL UNIVERSITY</h3>
 
       <h3 class="head-compressed">AKTU ZONAL FEST</h3>
-    <center><div class="line_2"></div></center>  
+    <center><div class="line_2"></div></center> 
+    <div class="menu-2">
+        <a href="../index.php">HOME | </a>
+        <a href="registrations.php">REGISTRATIONS | </a>
+        <a href="login.php">Login | </a>
+        <a href="forget-pwd.php">Forgot-Password | </a>
+        <a href="co-ordinator-panel.php"> Console |</a>
+        <a href="devpage.php">DEV PAGE  </a>
+        
+    </div>  
 		<br>
+    <div class="error" id="message">
+    
+    </div>
+  
     <div id="timer" class="timer">
           
     </div>
@@ -251,6 +277,10 @@
 
      <div class="menu">
            <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
+           <a href="registrations.php"><button><div class="btn-text">REGISTRATIONS</div></button></a><br><br><br>
+           <a href="login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>
+           <a href="forget-pwd.php"><button><div class="btn-text" style="font-size: 13px">FORGOT-PASSWORD</div></button></a><br><br><br>
+           <a href="co-ordinator-panel.php"><button><div class="btn-text">CONSOLE</div></button></a><br><br><br>
            <a href="devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
       </div>
     </div>

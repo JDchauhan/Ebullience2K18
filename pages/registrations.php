@@ -92,11 +92,24 @@
     	REGISTRATIONS
     </div>
     <center><div class="line_2"></div></center>  
+    <div class="menu-2">
+        <a href="../index.php">HOME | </a>
+        <a href="events.php">EVENTS | </a>
+        <a href="login.php">Login | </a>
+        <a href="forget-pwd.php">Forgot-Password | </a> 
+        <a href="co-ordinator-panel.php">CONSOLE |</a>
+		<a href="devpage.php">DEV PAGE </a>
+        
+    </div>
 		<br>
+    <div class="error" id="message">
+    
+    </div>
+
     <div id="timer" class="timer">
           
     </div>
-    <form action="../resources/api.php?action=register&amp;session=<?php echo $session_get;?>" method="POST">
+    <form name="reg-form" action="../resources/api.php?action=register&amp;session=<?php echo $session_get;?>" onsubmit="return validateForm()" method="POST">
 
     	<input type="text" name="name" placeholder="Name" class="txt-sml" style="margin-top: 10px;"><br>
     	<input type="text" name="clg_name" placeholder="College" class="txt-sml"><br>
@@ -119,9 +132,13 @@
 		</div>
 
       	<div class="menu">
-           <a href="registrations.php"><button><div class="btn-text">REGISTRATION</div></button></a><br><br><br>
+           <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
+           <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
            <a href="login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>
-     	</div>
+           <a href="forget-pwd.php"><button><div class="btn-text" style="font-size: 13px">FORGOT-PASSWORD</div></button></a><br><br><br>
+           <a href="co-ordinator-panel.php"><button><div class="btn-text">CONSOLE</div></button></a><br><br><br>
+		   <a href="devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
+	  	</div>
     </div>
 </body>
 	  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -146,9 +163,21 @@
 
 	<?php 
 		if(isset($_SESSION["msg"])){
-			echo "<script>alert('" . $_SESSION["msg"]["type"] . "\\n" . $_SESSION["msg"]["head"] . "\\n" .
-									$_SESSION["msg"]["body"] .
-				"');</script>" ;
+			if($_SESSION["msg"]["type"] == "error"){
+				echo '<script>document.getElementById("message").className="";
+						document.getElementById("message").className="error";
+						document.getElementById("message").innerHTML="<b>' 
+							. $_SESSION["msg"]["head"] . '</b><br/>'
+							. $_SESSION["msg"]["body"] . '";
+					</script>';
+			}else if($_SESSION["msg"]["type"] == "success"){
+				echo '<script>document.getElementById("message").className="";
+						document.getElementById("message").className="success";
+						document.getElementById("message").innerHTML="<b>' 
+							. $_SESSION["msg"]["head"] . '</b><br/>'
+							. $_SESSION["msg"]["body"] . '";
+					</script>';
+			}
 			unset($_SESSION["msg"]);
 		}
 		

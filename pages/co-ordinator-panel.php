@@ -80,15 +80,25 @@
      <div class="line"></div>
     <h1>ARK 2K18</h1>
     <center><div class="line_2"></div></center>
-       <div class="menu-2">
-      <a href="#">HOME</a>
-      <a href="#">ABOUT</a>
-      <a href="#">EVENTS</a>
-      <a href="#">REGISTRATION</a>
-      <a href="#">SCHEDULE</a>
+    <div class="menu-2">
+        <a href="../index.php">HOME | </a>
+        <a href="events.php">EVENTS | </a>
+        <a href="registrations.php">REGISTRATIONS | </a>
+        <a href="login.php">Login | </a>
+        <a href="forget-pwd.php">Forgot-Password |</a>  
+        <a href="devpage.php">DEV PAGE  </a>
+        
     </div>
+    <div class="navigator">
+    	CONSOLE
+    </div>
+    
     <center><div class="line_2"></div></center>  
     <br>
+    <div class="error" id="message">
+    
+    </div>
+  
     <div id="timer" class="timer">
           
     </div>
@@ -113,8 +123,12 @@
         </div>
 
         <div class="menu">
-           <a href="registrations.php"><button><div class="btn-text">REGISTRATION</div></button></a><br><br><br>
+           <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
+           <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
+           <a href="devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
+           <a href="registrations.php"><button><div class="btn-text">REGISTRATIONS</div></button></a><br><br><br>
            <a href="login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>
+           <a href="forget-pwd.php"><button><div class="btn-text" style="font-size: 13px">FORGOT-PASSWORD</div></button></a><br><br><br> 
       </div>
   </div>
 
@@ -147,9 +161,21 @@
 
   <?php 
 		if(isset($_SESSION["msg"])){
-			echo "<script>alert('" . $_SESSION["msg"]["type"] . "\\n" . $_SESSION["msg"]["head"] . "\\n" .
-									$_SESSION["msg"]["body"] .
-				"');</script>" ;
+			if($_SESSION["msg"]["type"] == "error"){
+				echo '<script>document.getElementById("message").className="";
+						document.getElementById("message").className="error";
+						document.getElementById("message").innerHTML="<b>' 
+							. $_SESSION["msg"]["head"] . '</b><br/>'
+							. $_SESSION["msg"]["body"] . '";
+					</script>';
+			}else if($_SESSION["msg"]["type"] == "success"){
+				echo '<script>document.getElementById("message").className="";
+						document.getElementById("message").className="success";
+						document.getElementById("message").innerHTML="<b>' 
+							. $_SESSION["msg"]["head"] . '</b><br/>'
+							. $_SESSION["msg"]["body"] . '";
+					</script>';
+			}
 			unset($_SESSION["msg"]);
 		}
 		

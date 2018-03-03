@@ -25,20 +25,21 @@
   for($j = 0; $j < 10; $j++){
     if(!(isset($_SESSION["event_participated"]) && $_SESSION["event_participated"][$j] == 1 )){
       $form_data[$j] = '<form action="../resources/api.php?action=event_registered&amp;id=' . ($j + 1) . '&amp;session=' .  $session_get . ' " method="POST">
-              <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-        
-              <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">Back</button>
-            </form>'  ;  
+                          <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
+                          <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+                          <button class="back" type="button" data-target="#myCarousel2" data-slide-to="' . ($j + 2) . '">></button>
+                        </form>'  ;  
     } else{
       $form_data[$j] = '<form action="../resources/api.php?action=event_unregistered&amp;id=' . ($j + 1) . '&amp;session=' .  $session_get . ' " method="POST">
-              <input type="submit" name="submit" placeholder="Unregister" value="UNREGISTER" class="btn-sml" style="width: auto;">
-        
-              <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">Back</button>
-            </form>'   ; 
+                          <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
+                          <input type="submit" name="submit" placeholder="Unregister" value="UNREGISTER" class="btn-sml" style="width: auto;">
+                          <button class="back" type="button" data-target="#myCarousel2" data-slide-to="' . ($j + 2) . '">></button>
+                        </form>'   ; 
     }
   }
 ?>
 
+  
 <!DOCTYPE html>
 <html>
 <head>
@@ -107,18 +108,20 @@
 		 <div class="line"></div>
 		<h1>ARK 2K18</h1>
 		<center><div class="line_2"></div></center>
-    <div class="menu-2">
-      <a href="#">HOME</a>
-      <a href="#">ABOUT</a>
-      <a href="#">EVENTS</a>
-      <a href="#">REGISTRATION</a>
-      <a href="#">SCHEDULE</a>
+     <div class="menu-2">
+        <a href="../index.php">HOME | </a>
+        <a href="events.php">EVENTS | </a>
+        <a href="devpage.php">DEV PAGE </a>
     </div>
     <div class="navigator">
     	HOME | <?php echo ucwords($_SESSION["name"]); ?>
     </div>
     <center><div class="line_2"></div></center>  
 		<br>
+    <div class="error" id="message">
+    
+    </div>
+  
     <div id="timer" class="timer">
           
     </div>
@@ -310,9 +313,10 @@
       
       </div>
 
-      <div class="menu">
-           <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
+       <div class="menu">
+           <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
            <a href="../resources/api.php?action=logout&amp;session=<?php echo $session_get; ?>"><button><div class="btn-text">LOGOUT</div></button></a><br><br><br>
+           <a href="devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
       </div>
     </div>
 </body>
@@ -338,9 +342,21 @@
 
   <?php 
 		if(isset($_SESSION["msg"])){
-			echo "<script>alert('" . $_SESSION["msg"]["type"] . "\\n" . $_SESSION["msg"]["head"] . "\\n" .
-									$_SESSION["msg"]["body"] .
-				"');</script>" ;
+			if($_SESSION["msg"]["type"] == "error"){
+				echo '<script>document.getElementById("message").className="";
+						document.getElementById("message").className="error";
+						document.getElementById("message").innerHTML="<b>' 
+							. $_SESSION["msg"]["head"] . '</b><br/>'
+							. $_SESSION["msg"]["body"] . '";
+					</script>';
+			}else if($_SESSION["msg"]["type"] == "success"){
+				echo '<script>document.getElementById("message").className="";
+						document.getElementById("message").className="success";
+						document.getElementById("message").innerHTML="<b>' 
+							. $_SESSION["msg"]["head"] . '</b><br/>'
+							. $_SESSION["msg"]["body"] . '";
+					</script>';
+			}
 			unset($_SESSION["msg"]);
 		}
 		

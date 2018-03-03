@@ -458,7 +458,7 @@
                 $statement = executedStatement("SELECT * FROM Participation WHERE email='$email' AND event_id='$id' ");
                 $result = $statement->Fetch(PDO::FETCH_ASSOC);
                 if($result){
-                    $_SESSION["msg"]["type"] = "err";
+                    $_SESSION["msg"]["type"] = "error";
                     $_SESSION["msg"]["head"] = "Already registered";
                     $_SESSION["msg"]["body"] = "You have been already registerd in the event";
                 }else{
@@ -604,7 +604,7 @@
                 $_SESSION["msg"]["head"] = "Access Denied";
                 $_SESSION["msg"]["body"] = "Please enter the correct key";
                 
-                $head = "Location: ../pages/registrations.php?session=" . $session_get;
+                $head = "Location: ../pages/co-ordinator-panel.php?session=" . $session_get;
                 header($head);
             }
 
