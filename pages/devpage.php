@@ -128,6 +128,7 @@
     <div class="col-sm-12 dev-cont">
      <div class="row">
        <div class="col-sm-6">
+        <div  class="content">
          <img src="../images/jagga.jpg" class="prof-pic"><br><br>
          <center><div class="line" style="width: 50%;"></div></center>
          <h4>JAGDISH SINGH</h4>
@@ -146,8 +147,10 @@
           HIRE AS AN INTERN
           </button>
         </a>
+      </div>
        </div>
        <div class="col-sm-6">
+        <div class="content-2">
          <img src="../images/ashish.jpg" class="prof-pic">
          <br><br>
          <center><div class="line" style="width: 50%;"></div></center>
@@ -166,18 +169,10 @@
         <button class="btn-sml" style="width: auto;color:black;">
         HIRE AS AN INTERN
         </button>
+      </div>
        </div>
      </div>
     </div>
-    <div class="footer">
-		<div class="line_3"></div>
-			Designed And Developed By 
-
-			<a class="author" target="_blank" href="https://github.com/ashigupta007"> Ashish Gupta </a>
-			and
-			<a class="author" target="_blank" href="https://github.com/JDchauhan"> Jagdish Singh </a>
-		
-      	</div>
 
     <div class="menu">
            <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
