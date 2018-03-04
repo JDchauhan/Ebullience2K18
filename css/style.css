@@ -774,6 +774,14 @@ a.author:hover{
 		display:block !important;	
 		position: relative !importants;
 	}
+	.dev-cont .content
+	{
+		margin-right: 0px;
+	}
+	.dev-cont .content-2
+	{
+		margin-left: 0px;
+	}
 }
 .dev-cont
 {
@@ -783,13 +791,13 @@ a.author:hover{
 {
 	float: right;
 	margin-top: 20px;
-	margin-right: 30px;
+	margin-right: 50px;
 }
 .dev-cont .content-2
 {
 	float: left;
 	margin-top: 20px;
-	margin-left: 30px;
+	margin-left: 50px;
 }
 .item
 {
