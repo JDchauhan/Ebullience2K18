@@ -87,7 +87,7 @@
 
     <img src="../images/niet.png" class="aktu2">
     <h5 class="subhead-expanded">
-      Accredited by NAAC (A Grade) CSE, ECE, ME, & B.Pharm are NBA accredited 99th Rank by NIRF (2016)
+      Accredited by NAAC (A Grade) CSE, ECE, ME, &amp; B.Pharm are NBA accredited 99th Rank by NIRF (2016)
     </h5>
     <h1 class="head-compressed">NIET, GR. NOIDA</h1>
     <center><div class="line_2"></div></center>
@@ -171,9 +171,9 @@
     </ul>
     <center>
     <form action="../resources/api.php?action=event_registered&amp;id=1" method="POST">
-      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">&gt;</button>
     </form>
     </center>
   </div>
@@ -191,9 +191,9 @@
     </ul>
     <center>
     <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
-      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">&gt;</button>
     </form>
   </center>
   </div>
@@ -216,9 +216,9 @@
 
     <center>
     <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
-      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">&gt;</button>
     </form>
   </center>
   </div>
@@ -231,9 +231,9 @@
 
     <center>
     <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
-      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">&gt;</button>
     </form>
   </center>
   </div>
@@ -243,23 +243,9 @@
 
     <center>
     <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
-      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
-    </form>
-  </center>
-    
-  </div>
-
-  <div class="item">
-
-
-
-    <center>
-    <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
-      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
-      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">&gt;</button>
     </form>
   </center>
     
@@ -267,11 +253,25 @@
 
   <div class="item">
 
+
+
     <center>
     <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
-      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
+
+  <div class="item">
+
+    <center>
+    <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">&gt;</button>
     </form>
   </center>
     

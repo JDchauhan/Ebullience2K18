@@ -25,15 +25,15 @@
   for($j = 0; $j < 10; $j++){
     if(!(isset($_SESSION["event_participated"]) && $_SESSION["event_participated"][$j] == 1 )){
       $form_data[$j] = '<form action="../resources/api.php?action=event_registered&amp;id=' . ($j + 1) . '&amp;session=' .  $session_get . ' " method="POST">
-                          <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
+                          <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
                           <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-                          <button class="back" type="button" data-target="#myCarousel2" data-slide-to="' . ($j + 2) . '">></button>
+                          <button class="back" type="button" data-target="#myCarousel2" data-slide-to="' . ($j + 2) . '">&gt;</button>
                         </form>'  ;  
     } else{
       $form_data[$j] = '<form action="../resources/api.php?action=event_unregistered&amp;id=' . ($j + 1) . '&amp;session=' .  $session_get . ' " method="POST">
-                          <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
+                          <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
                           <input type="submit" name="submit" placeholder="Unregister" value="UNREGISTER" class="btn-sml" style="width: auto;">
-                          <button class="back" type="button" data-target="#myCarousel2" data-slide-to="' . ($j + 2) . '">></button>
+                          <button class="back" type="button" data-target="#myCarousel2" data-slide-to="' . ($j + 2) . '">&gt;</button>
                         </form>'   ; 
     }
   }
@@ -222,16 +222,6 @@
     ?>
   </div>
 
-  <!-- in place of form to submit register or unregister event
-      use following code inside php opening and closing tags 
-      
-      >>>echo $form_data[$i];
-      >>>$i++;
-
-      this code will check the regitry in events and displays register/unregister button with proper
-      functionality
-    
-  -->
   <div class="item">
     <h3>CODING CONTEST</h3>
     <ul>
