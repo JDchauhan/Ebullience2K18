@@ -121,7 +121,7 @@
 <div id="myCarousel2" class="carousel" data-ride="carousel" data-interval="false" data-wrap="false">
   <div class="carousel-inner">
   
-  <div class="item active">
+  <div class="item active" style="text-align: center;">
     <div class="event-cont">
       
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="1">
@@ -169,11 +169,13 @@
       <li>Duration: 45 Minutes.</li>
       <li>The Judges decision will be final and binding to all.</li>
     </ul>
+    <center>
     <form action="../resources/api.php?action=event_registered&amp;id=1" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
     </form>
+    </center>
   </div>
 
   <div class="item">
@@ -187,11 +189,13 @@
       <li>Stick overlapping should not exceed 3 cm </li>
       <li>Crown of arch must be above horizontal span and its height should not exceed 25 cm.</li>
     </ul>
+    <center>
     <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
     </form>
+  </center>
   </div>
 
   <div class="item">
@@ -210,9 +214,13 @@
       <li>The Judges decision will be final and binding to all. </li>
     </ul>
 
-    <form action="" method="POST">
+    <center>
+    <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
     </form>
+  </center>
   </div>
 
   <div class="item">
@@ -221,21 +229,25 @@
       <li></li>
     </ul>
 
+    <center>
     <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
     </form>
+  </center>
   </div>
 
   <div class="item">
 
 
+    <center>
     <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
     </form>
+  </center>
     
   </div>
 
@@ -243,21 +255,25 @@
 
 
 
+    <center>
     <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
     </form>
+  </center>
     
   </div>
 
   <div class="item">
 
+    <center>
     <form action="../resources/api.php?action=event_registered&amp;id=2" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0"><</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">></button>
     </form>
+  </center>
     
   </div>
 
