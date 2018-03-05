@@ -23,17 +23,21 @@
 //checking event registrations
   $i = 0;
   for($j = 0; $j < 10; $j++){
+    $next = $j + 2;
     if(!(isset($_SESSION["event_participated"]) && $_SESSION["event_participated"][$j] == 1 )){
+      if($j == 9){
+        $next = 1;
+      }
       $form_data[$j] = '<form action="../resources/api.php?action=event_registered&amp;id=' . ($j + 1) . '&amp;session=' .  $session_get . ' " method="POST">
                           <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
                           <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-                          <button class="back" type="button" data-target="#myCarousel2" data-slide-to="' . ($j + 2) . '">&gt;</button>
+                          <button class="back" type="button" data-target="#myCarousel2" data-slide-to="' . $next . '">&gt;</button>
                         </form>'  ;  
     } else{
       $form_data[$j] = '<form action="../resources/api.php?action=event_unregistered&amp;id=' . ($j + 1) . '&amp;session=' .  $session_get . ' " method="POST">
                           <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
                           <input type="submit" name="submit" placeholder="Unregister" value="UNREGISTER" class="btn-sml" style="width: auto;">
-                          <button class="back" type="button" data-target="#myCarousel2" data-slide-to="' . ($j + 2) . '">&gt;</button>
+                          <button class="back" type="button" data-target="#myCarousel2" data-slide-to="' . $next . '">&gt;</button>
                         </form>'   ; 
     }
   }
@@ -158,10 +162,10 @@
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="8">
             ROBO RACE
         </button>
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="8">
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="9">
             ROBO WAR
         </button>
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="9">
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="10">
             TECHNICAL POSTER
         </button>
     </div>
