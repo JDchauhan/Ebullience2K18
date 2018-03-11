@@ -1,3 +1,4 @@
+
 html, body
 {
 	height: 100%;
@@ -12,6 +13,7 @@ html, body:hover
 }
 #overlayer
 {
+	
 	position: fixed;
 	height: 100%;
 	width: 100%;
@@ -22,7 +24,7 @@ html, body:hover
 .arc
 {
 	position: absolute;
-	top: 15%;
+	top: 13%;
 	left: 30%;
 }
 .menu
@@ -112,7 +114,7 @@ html, body:hover
 	background-color: transparent;
 	cursor: url(../images/cursor_2.cur), auto;
 	overflow-x: hidden;
-	overflow-y:scroll;
+	overflow-y:hidden;
 }
 .arc_reactor
 {
@@ -146,15 +148,15 @@ html, body:hover
 {
 	float: left;
 	display: inline-block;
-	height: 70px;
-	margin-left: -80px;
+	height: 110px;
+	margin-left: -140px;
 	position: absolute;
 }
 .aktu2
 {
 	display: inline-block;
-	height: 70px;
-	margin-right: -80px;
+	height: 110px;
+	margin-right: -60px;
 	position: absolute;
 }
 .one
@@ -360,6 +362,7 @@ a.author:hover{
 	font-family: 'Poiret One', cursive;
 	color: white;
 	letter-spacing: 2px;
+	z-index:-3;
 }
 #waves 
 {   
@@ -744,7 +747,7 @@ a.author:hover{
 }
 .hidden
 {
-	visibility: hidden;
+	display: none;
 }
 .error
 {
@@ -781,6 +784,15 @@ a.author:hover{
 	.dev-cont .content-2
 	{
 		margin-left: 0px;
+	}
+	.hidden-mobile
+	{
+		display: none !important;
+	}
+	.item
+	{
+		max-height: 350px;
+		overflow-y: auto;
 	}
 }
 .dev-cont
