@@ -14,7 +14,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ebullience 2K18</title>
+	<title>AKTU Zonal Fest 2K18</title>
 
 	<meta charset="utf-8">
 
@@ -110,8 +110,6 @@
         <a href="../index.php">HOME | </a>
         <a href="events.php">EVENTS | </a>
         <a href="registrations.php">REGISTRATIONS | </a>
-        <a href="login.php">Login | </a>
-        <a href="forget-pwd.php">Forgot-Password | </a> 
         <a href="co-ordinator-panel.php">CONSOLE</a>
     </div>
 		<br>
@@ -132,6 +130,7 @@
          <img src="../images/jagga.jpg" class="prof-pic"><br><br>
          <center><div class="line" style="width: 50%;"></div></center>
          <h4>JAGDISH SINGH</h4>
+         Student of NIET 3rd Year (IT)
          <center><div class="line" style="width: 50%;"></div></center>
          <p style="color: #458B00">" THE BACKEND'S MIND "</p>
         <div class="social-links">
@@ -155,20 +154,22 @@
          <br><br>
          <center><div class="line" style="width: 50%;"></div></center>
          <h4>ASHISH GUPTA</h4>
+         Student of NIET 3rd Year (CSE)
          <center><div class="line" style="width: 50%;"></div></center>
          <p style="color: #458B00">" THE FRONTEND'S SOUL "</p>
          <div class="social-links">
-         <a href="#"><i class="fab fa-github fa-2x"></i></a>
-         <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
-         <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-         <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
-         <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
-         <a href="#"><i class="fab fa-telegram fa-2x"></i></a>
+         <a target="_blank" href="https://github.com/ashigupta007"><i class="fab fa-github fa-2x"></i></a>
+         <a target="_blank" href="https://www.facebook.com/Ashugupta007"><i class="fab fa-facebook-square fa-2x"></i></a>
+         <a target="_blank" href="https://www.instagram.com/mr_ashish__"><i class="fab fa-instagram fa-2x"></i></a>
+         <a target="_blank" href="https://www.linkedin.com/in/https://www.linkedin.com/in/ashish-gupta-aa32bb129"><i class="fab fa-linkedin fa-2x"></i></a>
+         <a target="_blank" href="https://www.twitter.com/AshishG31444945/"><i class="fab fa-twitter-square fa-2x"></i></a>
+         <a target="_blank" href="https://t.me/Akgupta007"><i class="fab fa-telegram fa-2x"></i></a>
         </div>
-
-        <button class="btn-sml" style="width: auto;color:black;">
-        HIRE AS AN INTERN
-        </button>
+        <a target="_blank" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=love4css@gmail.com" >
+          <button class="btn-sml" style="width: auto;color:black;" >
+          HIRE AS AN INTERN
+          </button>
+        </a>
       </div>
        </div>
      </div>
@@ -178,8 +179,6 @@
            <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
            <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
            <a href="registrations.php"><button><div class="btn-text">REGISTRATIONS</div></button></a><br><br><br>
-           <a href="login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>
-           <a href="forget-pwd.php"><button><div class="btn-text" style="font-size: 13px">FORGOT-PASSWORD</div></button></a><br><br><br>
            <a href="co-ordinator-panel.php"><button><div class="btn-text">CONSOLE</div></button></a><br><br><br>
       </div>
 
