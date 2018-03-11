@@ -173,7 +173,9 @@
 
   <div class="item">
     <h3>BUSINESS PLAN</h3>
-    <ul>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>      
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
       <li>Individual participant can take part</li>
       <li>Have to explore business ideas to run the Business.</li>
       <li>Topics will be given</li>
@@ -181,6 +183,7 @@
       <li>Duration: 45 Minutes.</li>
       <li>The Judges decision will be final and binding to all.</li>
     </ul>
+    </div>
     <?php
       echo $form_data[$i];
       $i++;
@@ -189,7 +192,9 @@
 
   <div class="item">
     <h3>BRIDGE KRITI</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
       <li>Be a real builder, identify how the geometry affects the bridge design, functions and apply that knowledge to construct a model of a bridge using ice cream sticks. Bridge kriti provide a platform to young engineers to showcase their construction skills amidst several constraints. </li>
 
       <li>Each Team can have 2 members. Maximum two teams Design a Bridge of given specifications satisfying the stated constraints using popsicles (ice). </li>
@@ -198,6 +203,7 @@
       <li>Stick overlapping should not exceed 3 cm </li>
       <li>Crown of arch must be above horizontal span and its height should not exceed 25 cm.</li>
     </ul>
+    </div>
     <?php
       echo $form_data[$i];
       $i++;
