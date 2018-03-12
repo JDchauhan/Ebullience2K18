@@ -173,7 +173,7 @@
     </ul>
     </div>
     <center>
-    <form action="registrations.php" method="POST">
+    <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">&gt;</button>
@@ -196,7 +196,7 @@
     </ul>
     </div>
     <center>
-    <form action="registrations.php" method="POST">
+    <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="3">&gt;</button>
@@ -222,7 +222,7 @@
     </ul>
   </div>
     <center>
-    <form action="registrations.php" method="POST">
+    <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="4">&gt;</button>
@@ -253,7 +253,7 @@
     </ul>
   </div>
     <center>
-    <form action="registrations.php" method="POST">
+    <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
@@ -280,7 +280,7 @@ answer the audience / judges questions /interjections.</li>
     </ul>
   </div>
     <center>
-    <form action="registrations.php" method="POST">
+    <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="6">&gt;</button>
@@ -308,7 +308,7 @@ answer the audience / judges questions /interjections.</li>
 </ul>
   </div>
     <center>
-    <form action="registrations.php" method="POST">
+    <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="7">&gt;</button>
@@ -336,7 +336,7 @@ speaker to come up.
   </ul>
   </div>
 <center>
-<form action="registrations.php" method="POST">
+<form action="login.php" method="POST">
   <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
   <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
    <button class="back" type="button" data-target="#myCarousel2" data-slide-to="8">&gt;</button>
@@ -369,7 +369,7 @@ remain slack during the complete run.
   </ul>
   </div>
 <center>
-<form action="registrations.php" method="POST">
+<form action="login.php" method="POST">
   <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
   <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
    <button class="back" type="button" data-target="#myCarousel2" data-slide-to="9">&gt;</button>
@@ -405,7 +405,7 @@ The Judges decision will be final and binding to all.
       </ul>
   </div>
     <center>
-    <form action="registrations.php" method="POST">
+    <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
@@ -435,7 +435,7 @@ Is Each poster should include a topic/title across the top.
 
   </div>
     <center>
-    <form action="registrations.php" method="POST">
+    <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
