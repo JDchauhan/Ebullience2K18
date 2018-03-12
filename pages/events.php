@@ -92,9 +92,9 @@
     <h1 class="head-compressed">NIET, GR. NOIDA</h1>
     <center><div class="line_2"></div></center>
 
-      <h3 class="head-expanded">Dr. APJ ABDUL KALAM TECHNICAL UNIVERSITY</h3>
+      <h3 class="head-expanded">Ebullience 2K18</h3>
 
-      <h3 class="head-compressed">AKTU ZONAL FEST</h3>
+      <h3 class="head-compressed">Ebullience 2K18</h3>
     <center><div class="line_2"></div></center> 
     <div class="menu-2">
         <a href="../index.php">HOME | </a>
@@ -125,51 +125,50 @@
     <div class="event-cont">
       
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="1">
-            BUSINESS PLAN<br><br>
+            SCI-CHERADES<br><br>
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="2">
-            BRIDGE KRITI<br><br>
+            INNOVATIVE PEN DOWN<br><br>
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="3">
-            CHECK YOUR KNOWLEDGE
+            BEST OUT OF WASTE
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="4">
-            CODING CONTEST
+            GREETING CARD MAKING
             <br><br>
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="5">
-            DEBATE<br><br><br>
+            FIND IF YOU CAN<br><br><br>
         </button>
         <br>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="6">
-            FRUGAL ENGINEERING
+            Counter strike 1.6
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="7">
-            JUST A MINUTE
+            CAPTURE THE FLAG
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="8">
-           <br> ROBO RACE
+           <br>BLIND CODING
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="8">
-            <br>ROBO WAR
+            <br>CHEM-WAR
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="9">
-            TECHNICAL POSTER
+            TIME GAME
         </button>
     </div>
   </div>
 
   <div class="item">
-    <h3>BUSINESS PLAN</h3>
-    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <h3>SCI-CHERADES</h3>
+    <div class="event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>      
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      <li>Individual participant can take part</li>
-      <li>Have to explore business ideas to run the Business.</li>
-      <li>Topics will be given</li>
-      <li>Means of communication will be English.</li>
-      <li>Duration: 45 Minutes.</li>
-      <li>The Judges decision will be final and binding to all.</li>
+      <li>The game will have 2 rounds.
+      <li>Participants must come in pairs (2 participants)
+      <li>Round 1: You have to pick up a chit from a box that will contain some basic science terminologies. You have the choice to decide whether who will enact and who will guess. The pair who guesses right will be proceeded to the second round.
+      <li>Round 2 : This will contain a time duration of 2 mins and its again the same as round 1. Do not exceed the time limit.
+      <li>Student Co-ordinator: Prashant Kumar Singh- (9415679329) | Ayushi Tiwari –(9307812257)
     </ul>
     </div>
     <center>
@@ -182,17 +181,14 @@
   </div>
 
   <div class="item">
-    <h3>BRIDGE KRITI</h3>
-    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <h3>INNOVATIVE PEN DOWN</h3>
+    <div class="event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      <li>Be a real builder, identify how the geometry affects the bridge design, functions and apply that knowledge to construct a model of a bridge using ice cream sticks. Bridge kriti provide a platform to young engineers to showcase their construction skills amidst several constraints. </li>
-
-      <li>Each Team can have 2 members. Maximum two teams Design a Bridge of given specifications satisfying the stated constraints using popsicles (ice). </li>
-      <li>Span length: 60-65 cm and 10 cm at both ends </li>
-      <li>Height of the horizontal span: 11 cm (max.) from the ground </li>
-      <li>Stick overlapping should not exceed 3 cm </li>
-      <li>Crown of arch must be above horizontal span and its height should not exceed 25 cm.</li>
+      <li>Topics: 1. What is heaven for you? 2. I want to hate___ but I can't. 3. Youth: Love or Career 4. No Expectation, no worries!! 5. Reality in the fake world
+      <li>Fill the blank by place, person or anything. It's up to participant.  
+      <li>World limit is 250-300 words and if it's a poem then it should not exceed 4 para. A4 size sheet required as per the registration. 
+      <li>Participants must come with their respective pen.
     </ul>
     </div>
     <center>
@@ -205,20 +201,25 @@
   </div>
 
   <div class="item">
-    <h3>CHECK YOUR KNOWLEDGE</h3>
-    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <h3>BEST OUT OF WASTE</h3>
+    <div class="event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      <li>Questions will be of general awareness type</li>
-      <li>Each college can send one team only</li>
-      <li>Each team to have 2 members</li>
-      <li>To answer question team will be given 10 second. </li>
-      <li> Each question will carry 3 points for correct answer. </li>
-      <li>For wrong answer no point will be given. No negative points will be awarded. </li>
-      <li>Only ONE attempt for one question is permissible</li>
-      <li> For no answer attempted, question will be passed to next team. It will be given chance to answer the question in 5 seconds and  4 point for right answer will be awarded. </li>
-      <li>There will be 5 to 10 rounds depending upon number of team participating and availability of team. </li>
-      <li>The Judges decision will be final and binding to all. </li>
+      
+      <li>Time limit: 2hrs
+      <li>Participants: 2-4
+<li>The required waste material and stationary should be brought by participants.
+
+<li>Wate material could be anything that would otherwise be thrown away.
+
+<li>The material would be rejected if not found to be a waste material.
+
+<li>No ready or semi finished material would be accepted from participant in competition.
+<li>
+Details:
+Participants will be judged on creativity, utilization of resources, artistic composition and design, utility of product and overall presentation.
+
+<li>NO MOBILE PHONES OR INTERNET MEANS WOULD BE ALLOWED AT THE TIME OF COMPETITION.
     </ul>
   </div>
     <center>
@@ -231,25 +232,20 @@
   </div>
 
   <div class="item">
-    <h3>CODING CONTEST</h3>
+    <h3>CARD MAKING</h3>
     <div class"event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      <li>There will be two rounds in the contest</li>
+      <li>Time limit: 1hr
 
-      <li>Round A:</li>
+      <li>Participants: 2
+      <li>Theme could be anything.
 
-      <li>Each team would be given 5 problems.</li>
+      <li>All stationary to be brought by participants.
 
-      <li>The participants need to code the given problems in C/C++ statements.</li>
+      <li>Participants will be judged on creativity, utilization of resources, artistic composition and design, utility of product and overall presentation.
 
-      <li>Duration: 45 Minutes.</li>
-
-      <li>Round B:</li>
-
-      <li>Each team would be given 5 problems.</li>
-
-      <li>The participants need to code the given problems in JAVA/.NET statements.</li>
+      <li>NO MOBILE PHONES OR INTERNET MEANS WOULD BE ALLOWED AT THE TIME OF COMPETITION.
     </ul>
   </div>
     <center>
@@ -262,21 +258,37 @@
   </div>
 
   <div class="item">
-    <h3>DEBATE (ENGLISH AND HINDI)</h3>
+    <h3>FIND IF YOU CAN</h3>
     <div class"event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-<li>No. of Participant — Individual Participation (Either Male or Female).</li>
+      <li>Find the error if present or give the output of the code provided in C language.
 
-<li>Topic for the debate will be given on day of the event .</li>
+<li>Code will be given.
 
-<li>Participation: (either "for" or "against" the given topic to be decided by lot on the given date)</li>
+<li> Participants will have to Dry Run as there will be no IDE.
 
-<li>Each participant shall be given 3 minutes to speak on the given topic and 5 minute shall be given to
-answer the audience / judges questions /interjections.</li>
+<li> Debug the code.
 
-<li>Judging Criteria; (i) Content coverage - 5 marks; (ii) Debating skills shown - 10 marks; (iii)Convenience argument skills - 5 marks.</li>
-<li>The Judges decision will be final and binding to all.</li>
+<li> If there is error, give the reason and remove it.
+
+<li> Give the output of the code.
+
+<li> No internet access.
+
+<li> It is not MCQ , so luck can’t be tested.
+
+<li> Manual will be provided at the time of event.
+
+<li>Team size - 1 member
+
+<li>Duration – 1 hour
+
+<li>Skills required – C language.
+
+<li>Students coordinators
+
+ Shamsher Alam (IT) (8860994540) | Suraj (IT) (9113730080)
     </ul>
   </div>
     <center>
@@ -290,20 +302,23 @@ answer the audience / judges questions /interjections.</li>
   </div>
 
   <div class="item">
-      <h3>FRUGAL ENGINEERING</h3>
+      <h3>Counter strike 1.6</h3>
       <div class"event_overview" style="height: 250px;overflow-y: scroll;">
 <ul>
   <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-<li>Participation can be as individual or group containing not more than 2 members.
-<li>Item to be made can be of any nature, may be civil, mechanical,electrical etc. or of general use.
-<li>Scrap material has to be brought by group itself.
-<li>Materials to decorate and customize should be made out of the scrap provided.
-<li>Use of colours or any other decorative items are prohibited.
-<li>Participants need to bring adhesives, tapes, scissors and cutting tools themselves.
-<li>Participants would be given 1 hour to make something useful.
-<li>After 45 minutes there will be a bell indicating that only 15 minutes are left.
-<li>Participants need to explain the concepts of what they have made.
-<li>The Judges decision will be final and binding to all.
+<li>A team cab be of max 4 players .
+<li>Round time :2 mins  and number of rounds that each team has to play would b decided spontaneously
+<li>Maps included would be
+de_nuke | 
+de_dust2 | 
+de_inferno | 
+de_aztec | 
+de_train | 
+
+<li>Banned weapons will be bullpup and creg 552 and sheild as well .
+<li>Systems would be provided by the collg  and  participants are allowed to bring their headphones and mouse only .
+<li>Each Team Registration Price is 200 Rupees.
+<li>1st Event Winner Will Get 800 Rupees as Prize.
 
 </ul>
   </div>
@@ -319,20 +334,14 @@ answer the audience / judges questions /interjections.</li>
 
 <div class="item">
 
-  <h3>JUST A MINUTE</h3>
+  <h3>CAPTURE THE FLAG</h3>
   <div class"event_overview" style="height: 250px;overflow-y: scroll;">
   <ul>
     <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-<li>Participation can be only as an individual.
-<li>Each participant will be given 3 minutes to speak extempore on a theme picked up by him/her by draw
-of lots.
-<li>Total duration would include 1 minute thinking time and 2 minute presentation time.
-<li>The language of speech should be English only.
-<li>A bell would be sounded after 1 minute indicting the speaker to conclude his/her speech and next
-speaker to come up.
-<li>Use of Hindi or any offensive words is strictly prohibited.
-<li>Each speaker will be judged on his/her Content, appropriateness of Language, delivery and diction.
-<li>The Judges decision will be final and binding to all.
+    <li> Participants will be using a platform for the event.
+    <li> Questions based on Web and Programming Will be there and Participants Need to find the flag by solving the questions.
+    <li>Participant solving maximum Questions Over a fixed time will win.
+    <li>Student Co-ordinator: Ashish Gupta (8527769723).
   </ul>
   </div>
 <center>
@@ -347,25 +356,15 @@ speaker to come up.
 
 
 <div class="item">
-  <h3>ROBO RACE</h3>
+  <h3>BLIND CODING</h3>
   <div class"event_overview" style="height: 250px;overflow-y: scroll;">
   <ul>
     <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-<li>Design a manually controlled ROBOT that has capacity to cover maximum distance in shortest
-possible time, challenging the hurdles and be one of the best opponents. <li>The maximum dimension of
-the robot can be 35 x 35 cm (I x b).
-<li>The robot may be wired or wireless.
-<li>The length of the wire (for wired hots) should be long enough to cover the whole track and wire should
-remain slack during the complete run.
-<li>Max weight must not exceed 6 kg.
-<li>The power supply will be provided maximum up to 12Volt.
-<li>Ready made toys car are not allowed.
-<li>This is a racing event, so fastest and most balanced robot will win.
-<li>Each team can have maximum four (4) members.
-<li>Each member of the team must contain the identity card of the Institute.
-<li>The robot should not damage the arena.
-<li>The robot must not leave behind any of its parts during the run; else it will result in disqualification.
-<li>Unethical behavior could lead to disqualification
+    <li>Individual Event
+    <li>The compiler provided will be TURBO C
+    <li>Consists of two rounds
+    <li>The Judges decision is final
+    <li>Participants have to correct the errors on paper and type the code with MONITOR SWITCHED OFF
   </ul>
   </div>
 <center>
@@ -380,28 +379,32 @@ remain slack during the complete run.
 
 
   <div class="item">
-      <h3>ROBO WAR</h3>
+      <h3>Chem-War</h3>
       <div class"event_overview" style="height: 250px;overflow-y: scroll;">
       <ul>
-<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-<li> Design and construct a remote controlled robot capable of fighting a one on one tournament.
-<li>A robot is declared victorious if its opponent is immobilized.
-<li>A robot will be declared immobile if it cannot display linear motion of at least one inch in a timed
-period of 30 seconds. A bot with one side of its drive train disabled will not be counted out if it can
-demonstrate some degree of controlled movement. In case both the robots remain mobile after the end
-of the round then the winner will be decided subjectively.
- <li>A robot that is deemed unsafe by the judges after the match has begun will be disqualified and therefore
-declared the loser. The match will be immediately halted and the opponent will be awarded a win.
-<li>If a robot is thrown out of the arena the match will stop immediately and the robot still inside the arena
-will automatically be declared as the winner.
- <li>Robots cannot win by pinning or lifting their opponents. Organizers will allow pinning or lifting for a
-maximum of 20 seconds per pin/lift then the attacker robot will be instructed to release the opponent. If,
-after being instructed to do so, the attacker is able to release but does not, their robot may be
-disqualified. 
-<li>If two or more robots become entangled or a crushing or gripping weapon is employed and
-becomes trapped within another robot, then the competitors should make the time keeper aware, the
-fight should be stopped and the robots separated by the safest means.
-The Judges decision will be final and binding to all.
+        <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+        <li>Chemwars is a event that combines strategy with knowledge. It requires you to merge practical thinking and decision making with theoretical knowledge of chemistry.
+
+<li>1st round -
+Elementary round consisting of 20 questions that will be judged. Maximum scoring team will go to next round. 
+
+<li>2nd round -
+
+<li>It will be a fun interactive round.
+
+"Beat the time be the winner"
+
+<li>Use of cell phones and other electronic gadgets is not permitted unless if a powerup involving them are chosen.
+
+<li>Teams will lose points if the answer is not given in the allotted time frame(time-keeper will be present)
+
+   <li>The Team should have only 2 participants.
+   <li>Venue :- 001 B 
+
+    <li>Coordinators: 
+Shubhangi Verma 8299290730 | 
+
+Anu Sharma
       </ul>
   </div>
     <center>
@@ -415,23 +418,32 @@ The Judges decision will be final and binding to all.
   </div>
 
   <div class="item">
-        <h3> TECHNICAL POSTER</h3>
-        <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+        <h3> Time Game </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
         <ul>
 <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-<li>Participation can be as an individual or in a group of 2.
-Is Each poster should include a topic/title across the top.
-<li>The font Size should be at last 18 point, in bold printing to be seen easily.
-<li>The poster must NOT be a commercial/product sales poster.
-<li>Any poster that is deemed to be a commercial advertisement will be disqualified.
-<li>Participants will have to explain their concept to the judge in the end.
-<li>Is Use of tapes, adhesives and scissors are allowed.
-<li> No participant would be allowed to bring any other item other than to be used for drawing.
-<li> There will be a bell after 45 minutes indicating the participant or group to wind up the work.
-<li> The poster base would be provided to you of standard chart paper size.
-<li> Name of participants should be mentioned . No copying material would be allowed.
-<li> Using cell phone other than call receiving, will disqualify the participant.
-<li>The Judges decision will be final and binding to all.</ul>
+<li>Time game is a event all about how fast you can beat the clock. 
+
+<li>
+We will give one Task to each team. The task should be completed within a given time. 
+
+<li>Task :- You have to find 10 Chemical Component's formula within given time from the bowl.
+The team have to be fast and accurate to be the Winner 
+
+<li>Use of cell phones and other electronic gadgets is not permitted unless if a powerup involving them are chosen.
+
+<li>Correct answer and time, both factors will be counted to declare the winner. 
+
+<li>The Team should have only 2 participants.
+Venue :- 001 B
+
+<li>Coordinators : 
+
+Aman Varshney  9811823830 |
+
+Aditya Gupta 7011615837
+
+</ul>
 
   </div>
     <center>

@@ -117,9 +117,9 @@
     <h1 class="head-compressed">NIET, GR. NOIDA</h1>
 		<center><div class="line_2"></div></center>
 
-      <h3 class="head-expanded">Dr. APJ ABDUL KALAM TECHNICAL UNIVERSITY</h3>
+      <h3 class="head-expanded">Ebullience 2K18</h3>
 
-      <h3 class="head-compressed">AKTU ZONAL FEST</h3>
+      <h3 class="head-compressed">Ebullience 2K18</h3>
     <center><div class="line_2"></div></center> 
     <div class="menu-2">
 		<a href="pages/events.php">EVENTS | </a>
