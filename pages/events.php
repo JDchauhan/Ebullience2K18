@@ -151,10 +151,10 @@
            <br>BLIND CODING
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="8">
-            <br>ROBO WAR
+            <br>CHEM-WAR
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="9">
-            TECHNICAL POSTER
+            TIME GAME
         </button>
     </div>
   </div>
@@ -379,28 +379,32 @@ de_train |
 
 
   <div class="item">
-      <h3>ROBO WAR</h3>
+      <h3>Chem-War</h3>
       <div class"event_overview" style="height: 250px;overflow-y: scroll;">
       <ul>
-<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-<li> Design and construct a remote controlled robot capable of fighting a one on one tournament.
-<li>A robot is declared victorious if its opponent is immobilized.
-<li>A robot will be declared immobile if it cannot display linear motion of at least one inch in a timed
-period of 30 seconds. A bot with one side of its drive train disabled will not be counted out if it can
-demonstrate some degree of controlled movement. In case both the robots remain mobile after the end
-of the round then the winner will be decided subjectively.
- <li>A robot that is deemed unsafe by the judges after the match has begun will be disqualified and therefore
-declared the loser. The match will be immediately halted and the opponent will be awarded a win.
-<li>If a robot is thrown out of the arena the match will stop immediately and the robot still inside the arena
-will automatically be declared as the winner.
- <li>Robots cannot win by pinning or lifting their opponents. Organizers will allow pinning or lifting for a
-maximum of 20 seconds per pin/lift then the attacker robot will be instructed to release the opponent. If,
-after being instructed to do so, the attacker is able to release but does not, their robot may be
-disqualified. 
-<li>If two or more robots become entangled or a crushing or gripping weapon is employed and
-becomes trapped within another robot, then the competitors should make the time keeper aware, the
-fight should be stopped and the robots separated by the safest means.
-The Judges decision will be final and binding to all.
+        <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+        <li>Chemwars is a event that combines strategy with knowledge. It requires you to merge practical thinking and decision making with theoretical knowledge of chemistry.
+
+<li>1st round -
+Elementary round consisting of 20 questions that will be judged. Maximum scoring team will go to next round. 
+
+<li>2nd round -
+
+<li>It will be a fun interactive round.
+
+"Beat the time be the winner"
+
+<li>Use of cell phones and other electronic gadgets is not permitted unless if a powerup involving them are chosen.
+
+<li>Teams will lose points if the answer is not given in the allotted time frame(time-keeper will be present)
+
+   <li>The Team should have only 2 participants.
+   <li>Venue :- 001 B 
+
+    <li>Coordinators: 
+Shubhangi Verma 8299290730 | 
+
+Anu Sharma
       </ul>
   </div>
     <center>
@@ -414,23 +418,32 @@ The Judges decision will be final and binding to all.
   </div>
 
   <div class="item">
-        <h3> TECHNICAL POSTER</h3>
-        <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+        <h3> Time Game </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
         <ul>
 <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-<li>Participation can be as an individual or in a group of 2.
-Is Each poster should include a topic/title across the top.
-<li>The font Size should be at last 18 point, in bold printing to be seen easily.
-<li>The poster must NOT be a commercial/product sales poster.
-<li>Any poster that is deemed to be a commercial advertisement will be disqualified.
-<li>Participants will have to explain their concept to the judge in the end.
-<li>Is Use of tapes, adhesives and scissors are allowed.
-<li> No participant would be allowed to bring any other item other than to be used for drawing.
-<li> There will be a bell after 45 minutes indicating the participant or group to wind up the work.
-<li> The poster base would be provided to you of standard chart paper size.
-<li> Name of participants should be mentioned . No copying material would be allowed.
-<li> Using cell phone other than call receiving, will disqualify the participant.
-<li>The Judges decision will be final and binding to all.</ul>
+<li>Time game is a event all about how fast you can beat the clock. 
+
+<li>
+We will give one Task to each team. The task should be completed within a given time. 
+
+<li>Task :- You have to find 10 Chemical Component's formula within given time from the bowl.
+The team have to be fast and accurate to be the Winner 
+
+<li>Use of cell phones and other electronic gadgets is not permitted unless if a powerup involving them are chosen.
+
+<li>Correct answer and time, both factors will be counted to declare the winner. 
+
+<li>The Team should have only 2 participants.
+Venue :- 001 B
+
+<li>Coordinators : 
+
+Aman Varshney  9811823830 |
+
+Aditya Gupta 7011615837
+
+</ul>
 
   </div>
     <center>
