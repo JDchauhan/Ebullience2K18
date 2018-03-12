@@ -5,6 +5,14 @@ body
 	overflow-y: hidden;
 	overflow-x: hidden;
 }
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
 .navigator
 {
 	color: white;
@@ -31,6 +39,26 @@ body
 	font-size: 15px;
 	letter-spacing: 2px;
 }
+.select
+{
+	margin-top: 30px;
+	height: 35px;
+	width: 300px;
+	border: 0.01em solid rgba(24, 116, 205,0.8);
+	font-family: 'Audiowide', cursive;
+	color: white;
+	font-size: 15px;
+	letter-spacing: 2px;
+	background-color: transparent;
+}
+.select option
+{
+	color: black;
+}
+.select:hover
+{
+	outline: none;
+}
 .btn-sml
 {
 	height: 35px;
@@ -55,6 +83,8 @@ body
 	display: relative;
 	margin-top: 30px;
 	max-width: 650px;
+	max-height: 350px;
+	overflow-y: auto;
 }
 .event-linker
 {
@@ -78,13 +108,21 @@ body
 {
 	list-style: none;
 	margin-top: 20px;
+	text-align: left;
+	display: inline-block;
+}
+.event_overview
+{
+	height: 250px;
+    overflow-y: scroll;
 }
 .item ul li
 {
 	color: white;
-	font-family: 'Audiowide', cursive;
+	font-family: 'Montserrat', sans-serif;
 	margin-top: 10px;
 	font-size: 15px;
+	text-align: left;
 }
 .register
 {
@@ -133,4 +171,26 @@ body
 {
 	color: white;
 	margin-left: 10px;
+}
+.match_table
+{
+	margin: auto;
+	width: 800px;
+	height:250px;
+	overflow-y: scroll;
+	color: white;
+}
+.match_table table
+{
+	border: 1px solid white;
+	padding: 10px;
+	width: 100%;
+}
+.match_table table tr
+{
+	padding: 10px;
+}
+.match_table table tr td
+{
+	padding: 10px;
 }
