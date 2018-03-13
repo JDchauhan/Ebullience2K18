@@ -129,7 +129,7 @@
         <a href="pages/co-ordinator-panel.php"> Console</a> | 
 	    <a href="pages/devpage.php">DEV PAGE</a> | 
         <a href="pages/contactus.php">CONTACT US</a> | 
-        <a href="pages/management.php">MANAGERS</a>
+        <a href="pages/management.php">MANAGEMENT</a>
     
     </div> 
 		<br>
