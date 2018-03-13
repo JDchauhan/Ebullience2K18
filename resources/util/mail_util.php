@@ -1,6 +1,8 @@
 <?php
 
 function OTM($email, $roll, $name, $verification_token, $services){
+    $actual_link = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://".  $_SERVER[HTTP_HOST] . "/resources" ;
+
     $to = $email;
     $subject = "Ebullience 2K18 Verification Link";
 
@@ -31,7 +33,7 @@ function OTM($email, $roll, $name, $verification_token, $services){
                 Roll No.: <b>" . $roll . "</b><br />
                 Email-ID: <b>" . $email . "</b><br />
                 Name: <b>" . $name . "</b><br />" . $dyn_message1 .
-                "<a href='http://jagdishchauhan01.000webhostapp.com/resources/api.php?action=authenticate&token=" . $verification_token .
+                "<a href='" . $actual_link . "/api.php?action=authenticate&token=" . $verification_token .
                 "&email=" . $email . "&service=" . $services . "'>" . $dyn_message2 . 
                 "If this request is not made by you do not worry. We'll not activate the account untill requested by you <br />
                 Thanks<br /><br />
