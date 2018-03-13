@@ -150,11 +150,18 @@
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="8">
            <br>BLIND CODING
         </button>
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="8">
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="9">
             <br>CHEM-WAR
         </button>
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="9">
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="10">
             TIME GAME
+        </button>
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="10">
+            THE MIND FIZZ
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="11">
+            SCIENCE BREAKER
         </button>
     </div>
   </div>
@@ -455,6 +462,104 @@ Aditya Gupta 7011615837
   </center>
     
   </div>
+
+
+  <div class="item">
+        <h3> THE MIND FIZZ </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+<li>Team Size: 2 or 3
+
+<li>There are 3 rounds
+
+<li>ROUND 1: (Brain Teaser)
+
+In this round Questions will be asked related to common sense, puzzles and riddles.
+
+<li>All 3 members can contribute and solve questions.
+
+<li>ROUND 2: (Let Me Know )
+
+In this round Questions will be asked related to music, songs, dialogues and movie names.
+
+Only 2 members can contribute in this round
+
+<li>ROUND 3: (Can You See Me)
+
+In this round some Fun Game will be conducted between the participants.
+
+All 3 members can contribute in this round
+
+<li>STUDENT COORDINATORS : 
+ MOHAMMAD FAHAD (9639647747) | HIMANSHU SAHRAWAT (7906666056)
+
+</ul>
+
+  </div>
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
+
+    <div class="item">
+        <h3> SCIENCE BREAKER </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+<li>Team Size: 2 or 3
+
+<li>ROUND 1: (General Tech Quiz)
+
+In the First Round of this Event, A test will be conducted which consists of General Technical Question based on First Year knowledge. Questions are of Objective type and some Fill in the Blanks type.
+
+<li>ROUND 2: (Think and Create a Model)
+
+For the Second Round Participants brings their own material and Design any Working as well as Non-Working Model during the event timing, based on the given Themes and Give proper Explanation to the Judges.
+
+<li>THEMES FOR SECOND ROUND<br>
+
+A-Renewable Energy<br>
+
+B-Electricity<br>
+
+C-Scientific Law<br>
+
+D-Latest Technology<br>
+
+E-Others (make your own idea)<br>
+
+
+<li>Present your model which shows your theme.
+
+<li>The decision of Judges will be Final.
+
+<li>Any Argument or Misbehavior with Coordinators and Judges will lead to Disqualify the Team.
+
+<li>STUDENTS COORDINATOR : SHABAN (8826105538) | PRAGYA SHIVHARE
+
+</ul>
+
+  </div>
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
+
+
+
 </div>
 
 </div>
