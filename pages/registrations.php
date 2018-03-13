@@ -95,13 +95,6 @@
 
       <h3 class="head-compressed">Ebullience 2K18</h3>
 		<center><div class="line_2"></div></center>
-    <div class="menu-2">
-      <a href="#">HOME</a>
-      <a href="#">ABOUT</a>
-      <a href="#">EVENTS</a>
-      <a href="#">REGISTRATION</a>
-      <a href="#">SCHEDULE</a>
-    </div>
     <div class="navigator">
     	REGISTRATIONS
     </div>
@@ -123,10 +116,12 @@
     <div id="timer" class="timer">
           
     </div>
+    <div style="height: 300px; overflow-y: auto;">
     <form name="reg-form" action="../resources/api.php?action=register&amp;session=<?php echo $session_get;?>" onsubmit="return validateForm()" method="POST" style="padding-bottom: 80px;">
 
     	<input type="text" name="name" placeholder="Name" class="txt-sml" style="margin-top: 10px;"><br>
-    	<input type="text" name="clg_name" placeholder="College" class="txt-sml"><br>
+    	<input type="text" name="branch" placeholder="Branch" class="txt-sml"><br>
+      <input type="text" name="Year" placeholder="Year" class="txt-sml"><br>
     	<input type="text" name="email" placeholder="Email" class="txt-sml"><br>
     	<input type="text" name="roll_no" placeholder="Roll Number" class="txt-sml"><br>
     	<input type="text" name="mob_no" placeholder="Mobile Number" class="txt-sml"><br>
@@ -135,6 +130,7 @@
     	<input type="submit" name="submit" placeholder="Register" value="Register" class="btn-sml">
 
     </form>
+  </div>
     <div class="footer">
 		<div class="line_3"></div>
 			Designed And Developed By 
