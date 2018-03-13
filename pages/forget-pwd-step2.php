@@ -17,7 +17,7 @@
       session_unset(); 
       // destroy the session 
       session_destroy();
-      header("Location: ../index.php");
+      header("Location: ../");
   }
 
 ?>
@@ -109,7 +109,7 @@
       <h3 class="head-compressed">Ebullience 2K18</h3>
     <center><div class="line_2"></div></center>
        <div class="menu-2">
-        <a href="../index.php">HOME | </a>
+        <a href="../">HOME | </a>
         <a href="events.php">EVENTS | </a>
         <a href="registrations.php">REGISTRATIONS | </a>
         <a href="login.php">Login | </a> 
@@ -152,7 +152,7 @@
         </div>
 
         <div class="menu">
-           <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
+           <a href="../"><button><div class="btn-text">HOME</div></button></a><br><br><br>
            <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
            <a href="registrations.php"><button><div class="btn-text">REGISTRATIONS</div></button></a><br><br><br>
            <a href="login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>

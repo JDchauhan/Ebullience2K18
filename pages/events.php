@@ -97,7 +97,7 @@
       <h3 class="head-compressed">Ebullience 2K18</h3>
     <center><div class="line_2"></div></center> 
     <div class="menu-2">
-        <a href="../index.php">HOME | </a>
+        <a href="../">HOME | </a>
         <a href="registrations.php">REGISTRATIONS | </a>
         <a href="login.php">Login | </a>
         <a href="forget-pwd.php">Forgot-Password | </a>
@@ -575,7 +575,7 @@ E-Others (make your own idea)<br>
       </div>
 
      <div class="menu">
-           <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
+           <a href="../"><button><div class="btn-text">HOME</div></button></a><br><br><br>
            <a href="registrations.php"><button><div class="btn-text">REGISTRATIONS</div></button></a><br><br><br>
            <a href="login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>
            <a href="forget-pwd.php"><button><div class="btn-text" style="font-size: 13px">FORGOT-PASSWORD</div></button></a><br><br><br>

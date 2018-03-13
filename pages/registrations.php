@@ -100,7 +100,7 @@
     </div>
     <center><div class="line_2"></div></center>  
     <div class="menu-2">
-        <a href="../index.php">HOME | </a>
+        <a href="../">HOME | </a>
         <a href="events.php">EVENTS | </a>
         <a href="login.php">Login | </a>
         <a href="forget-pwd.php">Forgot-Password | </a> 
@@ -142,7 +142,7 @@
 		</div>
 
       	<div class="menu">
-           <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
+           <a href="../"><button><div class="btn-text">HOME</div></button></a><br><br><br>
            <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
            <a href="login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>
            <a href="forget-pwd.php"><button><div class="btn-text" style="font-size: 13px">FORGOT-PASSWORD</div></button></a><br><br><br>

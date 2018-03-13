@@ -95,7 +95,7 @@
     <h1 class="head-compressed">NIET, GR. NOIDA</h1>
     <center><div class="line_2"></div></center>
     <div class="menu-2">
-        <a href="../index.php">HOME | </a>
+        <a href="../">HOME | </a>
         <a href="events.php">EVENTS | </a>
         <a href="registrations.php">REGISTRATIONS | </a>
         <a href="devpage.php">DEV PAGE  </a>
@@ -149,7 +149,7 @@ Tele Fax No. : 0120-2328062
         </div>
 
         <div class="menu">
-           <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
+           <a href="../"><button><div class="btn-text">HOME</div></button></a><br><br><br>
            <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
            <a href="registrations.php"><button><div class="btn-text">REGISTRATIONS</div></button></a><br><br><br>
            <a href="devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>

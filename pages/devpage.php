@@ -107,7 +107,7 @@
     <h4>WE TURN COFFEE INTO CODE</h4>
     <center><div class="line_2"></div></center> 
       <div class="menu-2">
-        <a href="../index.php">HOME | </a>
+        <a href="../">HOME | </a>
         <a href="events.php">EVENTS | </a>
         <a href="registrations.php">REGISTRATIONS | </a>
         <a href="co-ordinator-panel.php">CONSOLE</a>
@@ -176,7 +176,7 @@
     </div>
 
     <div class="menu">
-           <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
+           <a href="../"><button><div class="btn-text">HOME</div></button></a><br><br><br>
            <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
            <a href="registrations.php"><button><div class="btn-text">REGISTRATIONS</div></button></a><br><br><br>
            <a href="co-ordinator-panel.php"><button><div class="btn-text">CONSOLE</div></button></a><br><br><br>
