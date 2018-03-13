@@ -128,12 +128,8 @@
         <a href="pages/forget-pwd.php">Forgot-Password</a> | 
         <a href="pages/co-ordinator-panel.php"> Console</a> | 
 	    <a href="pages/devpage.php">DEV PAGE</a> | 
-<<<<<<< HEAD
         <a href="pages/contactus.php">CONTACT US</a> | 
         <a href="pages/management.php">MANAGERS</a>
-=======
-        <a href="pages/contactus.php">CONTACT US</a>
->>>>>>> da8955d81dc8cb31fdc67c47c377cf1e5cc3b5a4
     
     </div> 
 		<br>

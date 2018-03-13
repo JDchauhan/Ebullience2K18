@@ -110,7 +110,8 @@
         <a href="../index.php">HOME | </a>
         <a href="events.php">EVENTS | </a>
         <a href="registrations.php">REGISTRATIONS | </a>
-        <a href="co-ordinator-panel.php">CONSOLE</a>
+        <a href="co-ordinator-panel.php">CONSOLE |</a>
+        <a href="pages/devpage.php">DEV PAGE</a>
     </div>
 		<br>
     <div class="error" id="message">
@@ -229,6 +230,7 @@
            <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
            <a href="registrations.php"><button><div class="btn-text">REGISTRATIONS</div></button></a><br><br><br>
            <a href="co-ordinator-panel.php"><button><div class="btn-text">CONSOLE</div></button></a><br><br><br>
+           <a href="pages/devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
       </div>
 
 	</div>
