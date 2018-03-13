@@ -128,8 +128,12 @@
         <a href="pages/forget-pwd.php">Forgot-Password</a> | 
         <a href="pages/co-ordinator-panel.php"> Console</a> | 
 	    <a href="pages/devpage.php">DEV PAGE</a> | 
+<<<<<<< HEAD
         <a href="pages/contactus.php">CONTACT US</a> | 
         <a href="pages/management.php">MANAGERS</a>
+=======
+        <a href="pages/contactus.php">CONTACT US</a>
+>>>>>>> da8955d81dc8cb31fdc67c47c377cf1e5cc3b5a4
     
     </div> 
 		<br>
@@ -161,9 +165,9 @@
 		<a href="pages/registrations.php"><button><div class="btn-text">REGISTRATIONS</div></button></a><br><br><br>
         <a href="pages/forget-pwd.php"><button><div class="btn-text" style="font-size: 13px">FORGOT-PASSWORD</div></button></a><br><br><br>
         <a href="pages/co-ordinator-panel.php"><button><div class="btn-text">CONSOLE</div></button></a><br><br><br>
-		<a href="pages/devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
+    <a href="pages/devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
     <a href="pages/contactus.php"><button><div class="btn-text">CONTACT US</div></button></a><br><br><br>
-    <a href="pages/management.php"><button><div class="btn-text">MANAGEMENTS</div></button></a><br><br><br>   
+    <a href="pages/management.php"><button><div class="btn-text">MANAGEMENTS</div></button></a><br><br><br> 
 	</div>
 
 	</div>
