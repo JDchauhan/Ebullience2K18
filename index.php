@@ -122,12 +122,13 @@
       <h3 class="head-compressed">Ebullience 2K18</h3>
     <center><div class="line_2"></div></center> 
     <div class="menu-2">
-		<a href="pages/events.php">EVENTS | </a>
-        <a href="pages/login.php">Login | </a>
-        <a href="pages/registrations.php">REGISTRATIONS | </a>
-        <a href="pages/forget-pwd.php">Forgot-Password | </a>
-        <a href="pages/co-ordinator-panel.php"> Console |</a>
-	    <a href="pages/devpage.php">DEV PAGE </a>
+		<a href="pages/events.php">EVENTS</a> |
+        <a href="pages/login.php">Login</a> | 
+        <a href="pages/registrations.php">REGISTRATIONS</a> |
+        <a href="pages/forget-pwd.php">Forgot-Password</a> | 
+        <a href="pages/co-ordinator-panel.php"> Console</a> | 
+	    <a href="pages/devpage.php">DEV PAGE</a> | 
+        <a href="pages/contactus.php">CONTACT US</a>
     
     </div> 
 		<br>
@@ -144,7 +145,6 @@
     
 
     <div class="footer">
-      <h4>TECHNICAL, LITERARY AND MANAGEMENT ZONAL FEST</h4>
 		<div class="line_3"></div>
 			Designed And Developed By 
 
@@ -160,7 +160,8 @@
 		<a href="pages/registrations.php"><button><div class="btn-text">REGISTRATIONS</div></button></a><br><br><br>
         <a href="pages/forget-pwd.php"><button><div class="btn-text" style="font-size: 13px">FORGOT-PASSWORD</div></button></a><br><br><br>
         <a href="pages/co-ordinator-panel.php"><button><div class="btn-text">CONSOLE</div></button></a><br><br><br>
-		<a href="pages/devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>   
+		<a href="pages/devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
+    <a href="pages/contactus.php"><button><div class="btn-text">CONTACT US</div></button></a><br><br><br>   
 	</div>
 
 	</div>

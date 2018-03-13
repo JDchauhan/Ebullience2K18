@@ -107,9 +107,6 @@ if(!isset($_REQUEST["session"])){
     </div>
     <center><div class="line_2"></div></center>  
     <br>
-    <div class="navigator">
-    	FORGET PASSWORD
-    </div>
     <div class="error" id="message">
     
     </div>
