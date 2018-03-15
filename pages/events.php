@@ -156,12 +156,36 @@
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="10">
             TIME GAME
         </button>
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="10">
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="11">
             THE MIND FIZZ
         </button>
 
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="11">
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="12">
             SCIENCE BREAKER
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="13">
+            RoboTag
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="14">
+            CAD Modelling
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="15">
+            Amphibian Race
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="16">
+            Robo Soccer 
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="17">
+            Water Rocketry 
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="18">
+            VISION
         </button>
     </div>
   </div>
@@ -559,6 +583,202 @@ E-Others (make your own idea)<br>
   </div>
 
 
+
+<div class="item">
+        <h3> RoboTag </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+	<li>In this competition the participants have to bring their bot which is capable to lift a cube of 3.5*3.5*3.5 cm from random places to destined location. The team which scores the most will be the winner.
+	<li>Participants should carry their I-cards.
+	<li>Weight limit of bot -6kg.
+	<li>Dimensions -35cm*35cm*35cm.
+	<li>Voltage supply –up to 12 volts.
+	<li>Bot can be wired or wireless.
+	<li>No weapon should be there on bot.
+	<li>Electricity supply of 220volts,50hz will be provided, participants should carry their own adaptors.
+	 Misbehaviour of participants will lead to disqualification from competition.
+
+</ul>
+
+  </div>
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
+
+
+
+
+  <div class="item">
+        <h3> CAD MODELLING </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+	<li>This event is to test the drafting and designing skills of the engineering students. In this event there are two rounds. In first round participants has to sketch the given sketch while in second round they are required to do solid modeling. For this competition participants are requires to bring their laptops for better working. They can use CATIA, SolidWorks or AutoCAD. 
+
+	<li>1st round – 2d sketching
+	<li>Time allotted – 30 min 
+<li>2nd round - Assembly (3D modeling)
+	<li>Time allotted – 1 hr. 
+	<li>Bring your own laptops with required software installed
+	<li>Bring your college ID card
+	<li>Report 15 min before given time
+	<li>Gaurav Malik (9015819151) | Abhay Verma	(9554708201)
+
+
+</ul>
+
+  </div>
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
+
+
+
+
+  <div class="item">
+        <h3> AMPHIBIAN RACE </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+	<li>In this competition the participants have to build a bot which can run on water as well as on the land. 
+
+	<li>Participants should carry their I-cards.
+	<li>Weight limit of bot -6kg.
+	<li>Dimensions -35cm*35cm*35cm.
+	<li>Bot should be able to run on land and water.
+	<li>Voltage supply –up to 12 volts.
+	<li>Bot can be wired or wireless.
+	<li>No weapon or accessories should be there on bot.
+	<li>Electricity supply of 220volts,50hz will be provided, participants should carry their own adaptors.
+	<li>Misbehaviour of participants will lead to disqualification from competition.
+
+
+</ul>
+
+  </div>
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
+
+
+
+
+  <div class="item">
+        <h3> Robo Soccer </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+	<li>Similar to real soccer the participants’ bot will be playing the soccer. There will be 10-20 balls on the field, the one bot is allowed to do goal while other saves the goal. Team which scores the highest will be the winner. 
+
+	<li>Participants should carry their I-cards.
+	<li>Weight limit of bot -6kg.
+	<li>Dimensions -35cm*35cm*35cm.
+	<li>Voltage supply –up to 12 volts.
+	<li>Bot can be wired or wireless.
+	<li>No weapon should be there on bot.
+	<li>Electricity supply of 220volts,50hz will be provided, participants should carry their own adaptors.
+	<li>Misbehaviour of participants will lead to disqualification from competition.
+
+
+
+</ul>
+
+  </div>
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
+
+
+
+
+  <div class="item">
+        <h3> Water Rocketry  </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+	<li>In this competition participants have to bring their rocket formed by the water bottle filled with water. The pump will be provided by us. The rocket covering the longest distance will be the winner.
+
+	<li>Participants should carry their I-cards.
+	<li>Max 2.5liter bottle can be used for making rocket.
+	<li>Launcher will be provided.
+	<li>Build quality and distance achieved will be the judging criteria.
+	<li>Misbehaviour of participants will lead to disqualification from competition.
+
+
+
+</ul>
+
+  </div>
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
+
+
+    <div class="item">
+        <h3> VISION</h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+<li>Theme - Open Theme
+<li>No explicit contents.
+<li>Only 2 Photos with captions.
+<li>No plagiarism allowed, disqualified if found.
+<li>Submission with max likes and based on judgement wins.
+<li>Last submission date - 20 March 2018
+<li>Minimal Editing Allowed.
+<li>No watermarks.
+<li>Winner will be awarded with certificates.
+
+
+</ul>
+
+  </div>
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
 
 </div>
 
