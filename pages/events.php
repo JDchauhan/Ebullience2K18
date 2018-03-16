@@ -187,6 +187,14 @@
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="18">
             VISION
         </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="19">
+            PPDT
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="19">
+            GPE
+        </button>
     </div>
   </div>
 
@@ -210,7 +218,7 @@
     </form>
     </center>
   </div>
-
+<!--#####################################################################################################-->
   <div class="item">
     <h3>INNOVATIVE PEN DOWN</h3>
     <div class="event_overview" style="height: 250px;overflow-y: scroll;">
@@ -230,7 +238,7 @@
     </form>
   </center>
   </div>
-
+<!--#####################################################################################################-->
   <div class="item">
     <h3>BEST OUT OF WASTE</h3>
     <div class="event_overview" style="height: 250px;overflow-y: scroll;">
@@ -261,7 +269,7 @@ Participants will be judged on creativity, utilization of resources, artistic co
     </form>
   </center>
   </div>
-
+<!--#####################################################################################################-->
   <div class="item">
     <h3>CARD MAKING</h3>
     <div class"event_overview" style="height: 250px;overflow-y: scroll;">
@@ -287,7 +295,7 @@ Participants will be judged on creativity, utilization of resources, artistic co
     </form>
   </center>
   </div>
-
+<!--#####################################################################################################-->
   <div class="item">
     <h3>FIND IF YOU CAN</h3>
     <div class"event_overview" style="height: 250px;overflow-y: scroll;">
@@ -331,7 +339,7 @@ Participants will be judged on creativity, utilization of resources, artistic co
   </center>
     
   </div>
-
+<!--#####################################################################################################-->
   <div class="item">
       <h3>Counter strike 1.6</h3>
       <div class"event_overview" style="height: 250px;overflow-y: scroll;">
@@ -362,7 +370,7 @@ de_train |
   </center>
     
   </div>
-
+<!--#####################################################################################################-->
 <div class="item">
 
   <h3>CAPTURE THE FLAG</h3>
@@ -385,7 +393,7 @@ de_train |
 
 </div>
 
-
+<!--#####################################################################################################-->
 <div class="item">
   <h3>BLIND CODING</h3>
   <div class"event_overview" style="height: 250px;overflow-y: scroll;">
@@ -408,7 +416,7 @@ de_train |
 
 </div>
 
-
+<!--#####################################################################################################-->
   <div class="item">
       <h3>Chem-War</h3>
       <div class"event_overview" style="height: 250px;overflow-y: scroll;">
@@ -447,7 +455,7 @@ Anu Sharma
   </center>
     
   </div>
-
+<!--#####################################################################################################-->
   <div class="item">
         <h3> Time Game </h3>
         <div class="event_overview" style="height: 250px;overflow-y: scroll;">
@@ -487,7 +495,7 @@ Aditya Gupta 7011615837
     
   </div>
 
-
+<!--#####################################################################################################-->
   <div class="item">
         <h3> THE MIND FIZZ </h3>
         <div class="event_overview" style="height: 250px;overflow-y: scroll;">
@@ -531,7 +539,7 @@ All 3 members can contribute in this round
   </center>
     
   </div>
-
+<!--#####################################################################################################-->
     <div class="item">
         <h3> SCIENCE BREAKER </h3>
         <div class="event_overview" style="height: 250px;overflow-y: scroll;">
@@ -583,7 +591,7 @@ E-Others (make your own idea)<br>
   </div>
 
 
-
+<!--#####################################################################################################-->
 <div class="item">
         <h3> RoboTag </h3>
         <div class="event_overview" style="height: 250px;overflow-y: scroll;">
@@ -614,7 +622,7 @@ E-Others (make your own idea)<br>
   </div>
 
 
-
+<!--#####################################################################################################-->
 
   <div class="item">
         <h3> CAD MODELLING </h3>
@@ -648,7 +656,7 @@ E-Others (make your own idea)<br>
   </div>
 
 
-
+<!--#####################################################################################################-->
 
   <div class="item">
         <h3> AMPHIBIAN RACE </h3>
@@ -683,7 +691,7 @@ E-Others (make your own idea)<br>
   </div>
 
 
-
+<!--#####################################################################################################-->
 
   <div class="item">
         <h3> Robo Soccer </h3>
@@ -717,7 +725,7 @@ E-Others (make your own idea)<br>
     
   </div>
 
-
+<!--#####################################################################################################-->
 
 
   <div class="item">
@@ -749,7 +757,7 @@ E-Others (make your own idea)<br>
     
   </div>
 
-
+<!--#####################################################################################################-->
     <div class="item">
         <h3> VISION</h3>
         <div class="event_overview" style="height: 250px;overflow-y: scroll;">
@@ -779,7 +787,79 @@ E-Others (make your own idea)<br>
   </center>
     
   </div>
+<!--#####################################################################################################-->
 
+
+
+<div class="item">
+        <h3> Picture Perception and Discussion Test </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+<li>PPDT consists of story writing and discussion. Participants will be shown a picture, later they have to write a story based on the picture & will discuss about what they have seen. 
+<li>As described PPDT is short of “Picture Perception and Description Test”, Participants will be shown a random picture on which they have to write a story in a brief amount of time then each participant have to take part in a group discussion where they will discuss their stories with each other and make a conclusion.
+
+<li>During PPDT a bit hazy or blurred picture is shown to the participants for about a minute.
+<li>In about next ten minutes participants have to write down the details that have noticed in the picture & make a story
+<li>After that all the participants will discuss their story whatever they percept about the picture (for 15minutes).
+ Each participant has to show the properties of an efficient speaker in a group.
+
+<li>Coordinator : Shubhank Varshney (9149272490) | Ajeet Yadav (9654655862)
+
+</ul>
+
+  </div>
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
+<!--#####################################################################################################-->
+
+<div class="item">
+        <h3> Picture Perception and Discussion Test </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+<li>This test basically designed to check participants decision making capabilities i.e. how quick and effective they are in making decision in time bounded environment.
+
+<li>As described GPE is short of “Group Planning Exercise”, participants will be gone through a set of problems all of the problems need to be solved in different time constraints. This test involves:
+  <li>All the group members will get the information about the task by the instructor.
+  <li>Each group should have 4-6 members.
+  <li>Each group has 15minutes to solve the given problem.
+  <li>Group can solve these problems by any strategy.
+  <li>Coordinator : Gajendra Pal Singh (9868677218) | Aman Kumar  (8448677724)
+
+
+</ul>
+
+  </div>
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
+
+
+
+
+<!--#####################################################################################################-->
+
+
+
+
+
+<!--#####################################################################################################-->
 </div>
 
 </div>
