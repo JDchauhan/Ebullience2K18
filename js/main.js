@@ -96,7 +96,7 @@ function validateForm()
     var mob_no=document.forms["reg-form"]["mob_no"].value;
     var pass=document.forms["reg-form"]["pass"].value;
 
-    var re = new RegExp("331");
+    var re = new RegExp("133");
     if (re.test(roll_no)) 
     {
         var flag=0;
@@ -151,7 +151,7 @@ function validateForm()
     {
         document.getElementById("message").className="";
         document.getElementById("message").className="error";
-        document.getElementById("message").innerHTML="PLEASE CORRECT MOBILE NUMBER";
+        document.getElementById("message").innerHTML="PLEASE CORRECT 10 digit MOBILE NUMBER";
         return false;
     }
     else if(pass=="")

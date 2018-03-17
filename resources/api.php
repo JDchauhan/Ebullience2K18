@@ -25,7 +25,7 @@
 
     try {
 
-        require_once 'util/config1.php';
+        require_once 'util/config.php';
         require_once 'util/mail_util.php';
         
         function guid(){
@@ -84,26 +84,22 @@
             $err_status = 0;
 
             if(!validater($mobile,"int")){
-                $err_form .= "invalid mobile <br/>";
                 $err_status = 1;
             }
             if(!validater($roll,"int")){
-                $err_form .= "invalid roll number <br/>";
                 $err_status = 1;
             }
             if(!validater($email,"email")){
-                $err_form .= "invalid email <br/>";
                 $err_status = 1;
             }
             if($name == "" || $branch == "" || $year == "" || $email == "" || $roll == "" || $mobile == "" || $pass == ""){
-                $err_form .= "Please fill all the details <br/>";
                 $err_status = 1;
             }
 
             if($err_status){
                 $_SESSION["msg"]["type"] = "error";
                 $_SESSION["msg"]["head"] = "Registration Failed";
-                $_SESSION["msg"]["body"] = $err_form;
+                $_SESSION["msg"]["body"] = "Please Provide all the details in correct format" ;
                 $head = "Location: ../pages/registrations.php?session=" . $session_get;                     
                 header($head);
             }else{
