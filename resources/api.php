@@ -579,7 +579,7 @@
 
                 for($i=0; $i<sizeof($result); $i++ ){
                     $line = "" . $result[$i]["roll"] . ","  . $result[$i]["name"] .  ","  . $result[$i]["branch"] . 
-                            ","  . $result[$i]["branch"] . ","  . $result[$i]["email"] .  ","  . $result[$i]["mobile"];
+                            ","  . $result[$i]["year"] . ","  . $result[$i]["email"] .  ","  . $result[$i]["mobile"];
                     $arr[$i + 4] = $line;   
                 }
                 foreach ($arr as $line){
