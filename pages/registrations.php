@@ -121,7 +121,13 @@
 
     	<input type="text" name="name" placeholder="Name" class="txt-sml" style="margin-top: 10px;"><br>
     	<input type="text" name="branch" placeholder="Branch" class="txt-sml"><br>
-      	<input type="text" name="year" placeholder="Year" class="txt-sml"><br>
+      <select name="year" class="select">
+        <option value="null">-- YEAR --</option>
+        <option value="1">1st</option>
+        <option value="2">2nd</option>
+        <option value="3">3rd</option>
+        <option value="4">4th</option>
+      </select><br>
     	<input type="text" name="email" placeholder="Email" class="txt-sml"><br>
     	<input type="text" name="roll_no" placeholder="Roll Number" class="txt-sml"><br>
     	<input type="text" name="mob_no" placeholder="Mobile Number" class="txt-sml"><br>

@@ -128,7 +128,7 @@
             SCI-CHERADES<br><br>
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="2">
-            Agar Art<br><br>
+            AGAR ART<br><br>
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="3">
             BEST OUT OF WASTE
@@ -173,11 +173,11 @@
         </button>
 
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="15">
-            Amphibian Race
+            AMPHIBIAN RACE
         </button>
 
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="16">
-            Robo Soccer 
+            ROBO SOCCER
         </button>
 
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="17">
@@ -193,11 +193,43 @@
         </button>
 
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="20">
-            Tech Apti
+          TECH APTI
         </button>
 
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="21">
-          Prashna Baan
+          PRASHNA BAAN
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="22">
+           MODEL MANIA
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="23">
+           KARYANEETI
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="24">
+           MUSICAL .LY
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="25">
+           BALLOON BUILDING
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="26">
+           LEGEND OF THE LOST
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="27">
+           3-D MACHINE MODEL
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="28">
+           ELECTRIC COLLAGE
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="29">
+           APTITUDE TEST
         </button>
     </div>
   </div>
@@ -884,27 +916,22 @@ E-Others (make your own idea)<br>
   </center>
   </div>
 
-    
-  </div>
-
 
 <!--#####################################################################################################-->
+
 <div class="item">
-    <h3>3-D MACHINE MODEL</h3>
+    <h3>MODEL MANIA</h3>
     <div class"event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      <li>This event consists of presentation of working/non-working model showcasing.
-
-      <li>The event is a team event and in every team 2 members are allowed.
-      <li>For this the participants have to prepare a model and one page write-up
-          which has to be presented during the final presentation.
-      <li>The team will get scores on the basis of presentation skills for their model.
-      <li>If any team member is found in any undisciplinary action, the team
-          will get debarred from the event.
-      <li> The judges score will be final and unchanged.
-
-      <li>Cordinator:  Priyanka Karan and Divyanshi
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li>A team shall consist minimum 2 and maximum 5 members.
+      <li>The model should be engineering based only.
+      <li>The model may be working or non-working.
+      <li>Each group must make the model before the event date and only must
+present on the date of event.
+      <li>Every member of the group must explain the model to the judge.
+      <li>Mode of explanation should be English only.
     </ul>
   </div>
   
@@ -917,13 +944,214 @@ E-Others (make your own idea)<br>
   </center>
   </div>
 
-    
+
+<!--#####################################################################################################-->
+
+<div class="item">
+    <h3>KARYANEETI</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li>4 member in each group.
+
+<li> 1 member is blind fold
+
+<li>There is a track (zig zag)
+
+<li>3 member guiding the track and 1 member have to cross it.
+
+<li>At the end of the track colored balls are placed .
+
+<li>Blind fold member collect the maximum balls and place it at starting point.
+    </ul>
+  </div>
+  
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+    </form>
+  </center>
   </div>
 
+<!--#####################################################################################################-->
+<div class="item">
+    <h3>MUSICAL.LY</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      
+      <li>8 selected teams enter in this round.
+
+      <li>2 team compete (at one time)
+
+      <li>We play instrumental song
+
+      <li>Teams have to guess song lyrics.
+    </ul>
+  </div>
+  
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+    </form>
+  </center>
+  </div>
+
+<!--#####################################################################################################-->
+
+
+<!--#####################################################################################################-->
+<div class="item">
+    <h3>BALLOON BUILDING</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      
+      <li>4 selected team play this game.
+
+      <li> 3 member grab the balloon and blow it up.
+
+      <li> Then paste the maximum number of balloons on 4 th member in given time period.
+    </ul>
+  </div>
+  
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+    </form>
+  </center>
+  </div>
+
+<!--#####################################################################################################-->
+
+<!--#####################################################################################################-->
+<div class="item">
+    <h3>LEGEND OF THE LOST</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      
+      <li>3 selected team enter in this round .
+
+      <li>All the clues of the team are same
+
+      <li>The team which find the treasure win first.
+    </ul>
+  </div>
+  
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+    </form>
+  </center>
+  </div>
+<!--#####################################################################################################-->
+
+<!--#####################################################################################################-->
+<div class="item">
+    <h3>3-D MACHINE MODEL</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      
+      <li>This event consists of presentation of working/non-working model showcasing.
+
+      <li>The event is a team event and in every team 2 members are allowed.
+
+<li>For this the participants have to prepare a model and one page write-up which has to be presented during the final presentation.
+
+<li>The team will get scores on the basis of presentation skills for their model.
+
+<li>If any team member is found in any undisciplinary action, the team will get debarred from the event.
+
+<li>The judges score will be final and unchanged
+    </ul>
+  </div>
+  
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+    </form>
+  </center>
+  </div>
+
+<!--#####################################################################################################-->
+
+
+<!--#####################################################################################################-->
+<div class="item">
+    <h3>ELECTRIC COLLAGE</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      
+      <li>This event consist of two rounds-Treasure Hunt and Creative Designing.
+
+<li>The event is a team event and in every team 2 members are allowed.
+
+<li>In the first round, the participants have to hunt down the hidden components and this round will be elimination round.
+
+<li>The second round is mains round in which the participants have to design something creative, either working or non-working but mewningful with the given components.
+
+<li>The team will get scores on the basis of their design presentation and explanation.
+
+<li>If any team member is found in any undisciplinary action, the team will get debarred from the event.
+    </ul>
+  </div>
+  
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+    </form>
+  </center>
+  </div>
+
+<!--#####################################################################################################-->
 
 
 
+<!--#####################################################################################################-->
+<div class="item">
+    <h3>APTITUDE TEST</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li>Duration of the test is 30 minutes.
 
+      <li>Questions paper consists of 20 objective questions.
+
+      <li>Each question is allotted 4 marks for correct response.
+
+      <li>0.25 marks will be deducted for indicating incorrect response of each question.
+
+    <li>No deduction for not attempted questions.
+
+      <li>Coordinator : Kuldeep Singh (9990439858) | Vinayak Sharma (9208003024)
+    
+    </ul>
+  </div>
+  
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+    </form>
+  </center>
+  </div>
+<!--#####################################################################################################-->
 <!--#####################################################################################################-->
 </div>
 
