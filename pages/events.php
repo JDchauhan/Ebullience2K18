@@ -92,12 +92,12 @@
     <h1 class="head-compressed">NIET, GR. NOIDA</h1>
     <center><div class="line_2"></div></center>
 
-      <h3 class="head-expanded">Dr. APJ ABDUL KALAM TECHNICAL UNIVERSITY</h3>
+      <h3 class="head-expanded">Ebullience 2K18</h3>
 
-      <h3 class="head-compressed">AKTU ZONAL FEST</h3>
+      <h3 class="head-compressed">Ebullience 2K18</h3>
     <center><div class="line_2"></div></center> 
     <div class="menu-2">
-        <a href="../index.php">HOME | </a>
+        <a href="../">HOME | </a>
         <a href="registrations.php">REGISTRATIONS | </a>
         <a href="login.php">Login | </a>
         <a href="forget-pwd.php">Forgot-Password | </a>
@@ -125,162 +125,216 @@
     <div class="event-cont">
       
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="1">
-            BUSINESS PLAN<br><br>
+            SCI-CHERADES<br><br>
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="2">
-            BRIDGE KRITI<br><br>
+            Agar Art<br><br>
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="3">
-            CHECK YOUR KNOWLEDGE
+            BEST OUT OF WASTE
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="4">
-            CODING CONTEST
+            GREETING CARD MAKING
             <br><br>
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="5">
-            DEBATE<br><br><br>
+            FIND IF YOU CAN<br><br><br>
         </button>
         <br>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="6">
-            FRUGAL ENGINEERING
+            Counter strike 1.6
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="7">
-            JUST A MINUTE
+            CAPTURE THE FLAG
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="8">
-           <br> ROBO RACE
-        </button>
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="8">
-            <br>ROBO WAR
+           <br>BLIND CODING
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="9">
-            TECHNICAL POSTER
+            <br>CHEM-WAR
+        </button>
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="10">
+            TIME GAME
+        </button>
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="11">
+            THE MIND FIZZ
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="12">
+            SCIENCE BREAKER
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="13">
+            RoboTag
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="14">
+            CAD Modelling
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="15">
+            Amphibian Race
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="16">
+            Robo Soccer 
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="17">
+            Water Rocketry 
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="18">
+            VISION
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="19">
+            PPDT
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="20">
+            Tech Apti
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="21">
+          Prashna Baan
         </button>
     </div>
   </div>
 
   <div class="item">
-    <h3>BUSINESS PLAN</h3>
-    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <h3>SCI-CHERADES</h3>
+    <div class="event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>      
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      <li>Individual participant can take part</li>
-      <li>Have to explore business ideas to run the Business.</li>
-      <li>Topics will be given</li>
-      <li>Means of communication will be English.</li>
-      <li>Duration: 45 Minutes.</li>
-      <li>The Judges decision will be final and binding to all.</li>
+      <li>The game will have 2 rounds.
+      <li>Participants must come in pairs (2 participants)
+      <li>Round 1: You have to pick up a chit from a box that will contain some basic science terminologies. You have the choice to decide whether who will enact and who will guess. The pair who guesses right will be proceeded to the second round.
+      <li>Round 2 : This will contain a time duration of 2 mins and its again the same as round 1. Do not exceed the time limit.
+      <li>Student Co-ordinator: Prashant Kumar Singh- (9415679329) | Ayushi Tiwari –(9307812257)
     </ul>
     </div>
     <center>
-    <form action="registrations.php" method="POST">
+    <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="2">&gt;</button>
     </form>
     </center>
   </div>
-
+<!--#####################################################################################################-->
   <div class="item">
-    <h3>BRIDGE KRITI</h3>
-    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <h3>Agar Art</h3>
+    <div class="event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      <li>Be a real builder, identify how the geometry affects the bridge design, functions and apply that knowledge to construct a model of a bridge using ice cream sticks. Bridge kriti provide a platform to young engineers to showcase their construction skills amidst several constraints. </li>
-
-      <li>Each Team can have 2 members. Maximum two teams Design a Bridge of given specifications satisfying the stated constraints using popsicles (ice). </li>
-      <li>Span length: 60-65 cm and 10 cm at both ends </li>
-      <li>Height of the horizontal span: 11 cm (max.) from the ground </li>
-      <li>Stick overlapping should not exceed 3 cm </li>
-      <li>Crown of arch must be above horizontal span and its height should not exceed 25 cm.</li>
+      <li> Team of two members.  
+      <li> They will have to make any theme based art on the petri plate using different colours. 
+      <li> Cordinator: Aditi Saxena and Pulkita
     </ul>
     </div>
     <center>
-    <form action="registrations.php" method="POST">
+    <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="3">&gt;</button>
     </form>
   </center>
   </div>
-
+<!--#####################################################################################################-->
   <div class="item">
-    <h3>CHECK YOUR KNOWLEDGE</h3>
-    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <h3>BEST OUT OF WASTE</h3>
+    <div class="event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      <li>Questions will be of general awareness type</li>
-      <li>Each college can send one team only</li>
-      <li>Each team to have 2 members</li>
-      <li>To answer question team will be given 10 second. </li>
-      <li> Each question will carry 3 points for correct answer. </li>
-      <li>For wrong answer no point will be given. No negative points will be awarded. </li>
-      <li>Only ONE attempt for one question is permissible</li>
-      <li> For no answer attempted, question will be passed to next team. It will be given chance to answer the question in 5 seconds and  4 point for right answer will be awarded. </li>
-      <li>There will be 5 to 10 rounds depending upon number of team participating and availability of team. </li>
-      <li>The Judges decision will be final and binding to all. </li>
+      
+      <li>Time limit: 2hrs
+      <li>Participants: 2-4
+<li>The required waste material and stationary should be brought by participants.
+
+<li>Wate material could be anything that would otherwise be thrown away.
+
+<li>The material would be rejected if not found to be a waste material.
+
+<li>No ready or semi finished material would be accepted from participant in competition.
+<li>
+Details:
+Participants will be judged on creativity, utilization of resources, artistic composition and design, utility of product and overall presentation.
+
+<li>NO MOBILE PHONES OR INTERNET MEANS WOULD BE ALLOWED AT THE TIME OF COMPETITION.
     </ul>
   </div>
     <center>
-    <form action="registrations.php" method="POST">
+    <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="4">&gt;</button>
     </form>
   </center>
   </div>
-
+<!--#####################################################################################################-->
   <div class="item">
-    <h3>CODING CONTEST</h3>
+    <h3>CARD MAKING</h3>
     <div class"event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      <li>There will be two rounds in the contest</li>
+      <li>Time limit: 1hr
 
-      <li>Round A:</li>
+      <li>Participants: 2
+      <li>Theme could be anything.
 
-      <li>Each team would be given 5 problems.</li>
+      <li>All stationary to be brought by participants.
 
-      <li>The participants need to code the given problems in C/C++ statements.</li>
+      <li>Participants will be judged on creativity, utilization of resources, artistic composition and design, utility of product and overall presentation.
 
-      <li>Duration: 45 Minutes.</li>
-
-      <li>Round B:</li>
-
-      <li>Each team would be given 5 problems.</li>
-
-      <li>The participants need to code the given problems in JAVA/.NET statements.</li>
+      <li>NO MOBILE PHONES OR INTERNET MEANS WOULD BE ALLOWED AT THE TIME OF COMPETITION.
     </ul>
   </div>
     <center>
-    <form action="registrations.php" method="POST">
+    <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
     </form>
   </center>
   </div>
-
+<!--#####################################################################################################-->
   <div class="item">
-    <h3>DEBATE (ENGLISH AND HINDI)</h3>
+    <h3>FIND IF YOU CAN</h3>
     <div class"event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-<li>No. of Participant — Individual Participation (Either Male or Female).</li>
+      <li>Find the error if present or give the output of the code provided in C language.
 
-<li>Topic for the debate will be given on day of the event .</li>
+<li>Code will be given.
 
-<li>Participation: (either "for" or "against" the given topic to be decided by lot on the given date)</li>
+<li> Participants will have to Dry Run as there will be no IDE.
 
-<li>Each participant shall be given 3 minutes to speak on the given topic and 5 minute shall be given to
-answer the audience / judges questions /interjections.</li>
+<li> Debug the code.
 
-<li>Judging Criteria; (i) Content coverage - 5 marks; (ii) Debating skills shown - 10 marks; (iii)Convenience argument skills - 5 marks.</li>
-<li>The Judges decision will be final and binding to all.</li>
+<li> If there is error, give the reason and remove it.
+
+<li> Give the output of the code.
+
+<li> No internet access.
+
+<li> It is not MCQ , so luck can’t be tested.
+
+<li> Manual will be provided at the time of event.
+
+<li>Team size - 1 member
+
+<li>Duration – 1 hour
+
+<li>Skills required – C language.
+
+<li>Students coordinators
+
+ Shamsher Alam (IT) (8860994540) | Suraj (IT) (9113730080)
     </ul>
   </div>
     <center>
-    <form action="registrations.php" method="POST">
+    <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="6">&gt;</button>
@@ -288,27 +342,30 @@ answer the audience / judges questions /interjections.</li>
   </center>
     
   </div>
-
+<!--#####################################################################################################-->
   <div class="item">
-      <h3>FRUGAL ENGINEERING</h3>
+      <h3>Counter strike 1.6</h3>
       <div class"event_overview" style="height: 250px;overflow-y: scroll;">
 <ul>
   <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-<li>Participation can be as individual or group containing not more than 2 members.
-<li>Item to be made can be of any nature, may be civil, mechanical,electrical etc. or of general use.
-<li>Scrap material has to be brought by group itself.
-<li>Materials to decorate and customize should be made out of the scrap provided.
-<li>Use of colours or any other decorative items are prohibited.
-<li>Participants need to bring adhesives, tapes, scissors and cutting tools themselves.
-<li>Participants would be given 1 hour to make something useful.
-<li>After 45 minutes there will be a bell indicating that only 15 minutes are left.
-<li>Participants need to explain the concepts of what they have made.
-<li>The Judges decision will be final and binding to all.
+<li>A team cab be of max 4 players .
+<li>Round time :2 mins  and number of rounds that each team has to play would b decided spontaneously
+<li>Maps included would be
+de_nuke | 
+de_dust2 | 
+de_inferno | 
+de_aztec | 
+de_train | 
+
+<li>Banned weapons will be bullpup and creg 552 and sheild as well .
+<li>Systems would be provided by the collg  and  participants are allowed to bring their headphones and mouse only .
+<li>Each Team Registration Price is 200 Rupees.
+<li>1st Event Winner Will Get 800 Rupees as Prize.
 
 </ul>
   </div>
     <center>
-    <form action="registrations.php" method="POST">
+    <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="7">&gt;</button>
@@ -316,27 +373,21 @@ answer the audience / judges questions /interjections.</li>
   </center>
     
   </div>
-
+<!--#####################################################################################################-->
 <div class="item">
 
-  <h3>JUST A MINUTE</h3>
+  <h3>CAPTURE THE FLAG</h3>
   <div class"event_overview" style="height: 250px;overflow-y: scroll;">
   <ul>
     <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-<li>Participation can be only as an individual.
-<li>Each participant will be given 3 minutes to speak extempore on a theme picked up by him/her by draw
-of lots.
-<li>Total duration would include 1 minute thinking time and 2 minute presentation time.
-<li>The language of speech should be English only.
-<li>A bell would be sounded after 1 minute indicting the speaker to conclude his/her speech and next
-speaker to come up.
-<li>Use of Hindi or any offensive words is strictly prohibited.
-<li>Each speaker will be judged on his/her Content, appropriateness of Language, delivery and diction.
-<li>The Judges decision will be final and binding to all.
+    <li> Participants will be using a platform for the event.
+    <li> Questions based on Web and Programming Will be there and Participants Need to find the flag by solving the questions.
+    <li>Participant solving maximum Questions Over a fixed time will win.
+    <li>Student Co-ordinator: Ashish Gupta (8527769723).
   </ul>
   </div>
 <center>
-<form action="registrations.php" method="POST">
+<form action="login.php" method="POST">
   <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
   <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
    <button class="back" type="button" data-target="#myCarousel2" data-slide-to="8">&gt;</button>
@@ -345,31 +396,21 @@ speaker to come up.
 
 </div>
 
-
+<!--#####################################################################################################-->
 <div class="item">
-  <h3>ROBO RACE</h3>
+  <h3>BLIND CODING</h3>
   <div class"event_overview" style="height: 250px;overflow-y: scroll;">
   <ul>
     <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-<li>Design a manually controlled ROBOT that has capacity to cover maximum distance in shortest
-possible time, challenging the hurdles and be one of the best opponents. <li>The maximum dimension of
-the robot can be 35 x 35 cm (I x b).
-<li>The robot may be wired or wireless.
-<li>The length of the wire (for wired hots) should be long enough to cover the whole track and wire should
-remain slack during the complete run.
-<li>Max weight must not exceed 6 kg.
-<li>The power supply will be provided maximum up to 12Volt.
-<li>Ready made toys car are not allowed.
-<li>This is a racing event, so fastest and most balanced robot will win.
-<li>Each team can have maximum four (4) members.
-<li>Each member of the team must contain the identity card of the Institute.
-<li>The robot should not damage the arena.
-<li>The robot must not leave behind any of its parts during the run; else it will result in disqualification.
-<li>Unethical behavior could lead to disqualification
+    <li>Individual Event
+    <li>The compiler provided will be TURBO C
+    <li>Consists of two rounds
+    <li>The Judges decision is final
+    <li>Participants have to correct the errors on paper and type the code with MONITOR SWITCHED OFF
   </ul>
   </div>
 <center>
-<form action="registrations.php" method="POST">
+<form action="login.php" method="POST">
   <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
   <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
    <button class="back" type="button" data-target="#myCarousel2" data-slide-to="9">&gt;</button>
@@ -378,34 +419,38 @@ remain slack during the complete run.
 
 </div>
 
-
+<!--#####################################################################################################-->
   <div class="item">
-      <h3>ROBO WAR</h3>
+      <h3>Chem-War</h3>
       <div class"event_overview" style="height: 250px;overflow-y: scroll;">
       <ul>
-<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-<li> Design and construct a remote controlled robot capable of fighting a one on one tournament.
-<li>A robot is declared victorious if its opponent is immobilized.
-<li>A robot will be declared immobile if it cannot display linear motion of at least one inch in a timed
-period of 30 seconds. A bot with one side of its drive train disabled will not be counted out if it can
-demonstrate some degree of controlled movement. In case both the robots remain mobile after the end
-of the round then the winner will be decided subjectively.
- <li>A robot that is deemed unsafe by the judges after the match has begun will be disqualified and therefore
-declared the loser. The match will be immediately halted and the opponent will be awarded a win.
-<li>If a robot is thrown out of the arena the match will stop immediately and the robot still inside the arena
-will automatically be declared as the winner.
- <li>Robots cannot win by pinning or lifting their opponents. Organizers will allow pinning or lifting for a
-maximum of 20 seconds per pin/lift then the attacker robot will be instructed to release the opponent. If,
-after being instructed to do so, the attacker is able to release but does not, their robot may be
-disqualified. 
-<li>If two or more robots become entangled or a crushing or gripping weapon is employed and
-becomes trapped within another robot, then the competitors should make the time keeper aware, the
-fight should be stopped and the robots separated by the safest means.
-The Judges decision will be final and binding to all.
+        <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+        <li>Chemwars is a event that combines strategy with knowledge. It requires you to merge practical thinking and decision making with theoretical knowledge of chemistry.
+
+<li>1st round -
+Elementary round consisting of 20 questions that will be judged. Maximum scoring team will go to next round. 
+
+<li>2nd round -
+
+<li>It will be a fun interactive round.
+
+"Beat the time be the winner"
+
+<li>Use of cell phones and other electronic gadgets is not permitted unless if a powerup involving them are chosen.
+
+<li>Teams will lose points if the answer is not given in the allotted time frame(time-keeper will be present)
+
+   <li>The Team should have only 2 participants.
+   <li>Venue :- 001 B 
+
+    <li>Coordinators: 
+Shubhangi Verma 8299290730 | 
+
+Anu Sharma
       </ul>
   </div>
     <center>
-    <form action="registrations.php" method="POST">
+    <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
@@ -413,29 +458,38 @@ The Judges decision will be final and binding to all.
   </center>
     
   </div>
-
+<!--#####################################################################################################-->
   <div class="item">
-        <h3> TECHNICAL POSTER</h3>
-        <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+        <h3> Time Game </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
         <ul>
 <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-<li>Participation can be as an individual or in a group of 2.
-Is Each poster should include a topic/title across the top.
-<li>The font Size should be at last 18 point, in bold printing to be seen easily.
-<li>The poster must NOT be a commercial/product sales poster.
-<li>Any poster that is deemed to be a commercial advertisement will be disqualified.
-<li>Participants will have to explain their concept to the judge in the end.
-<li>Is Use of tapes, adhesives and scissors are allowed.
-<li> No participant would be allowed to bring any other item other than to be used for drawing.
-<li> There will be a bell after 45 minutes indicating the participant or group to wind up the work.
-<li> The poster base would be provided to you of standard chart paper size.
-<li> Name of participants should be mentioned . No copying material would be allowed.
-<li> Using cell phone other than call receiving, will disqualify the participant.
-<li>The Judges decision will be final and binding to all.</ul>
+<li>Time game is a event all about how fast you can beat the clock. 
+
+<li>
+We will give one Task to each team. The task should be completed within a given time. 
+
+<li>Task :- You have to find 10 Chemical Component's formula within given time from the bowl.
+The team have to be fast and accurate to be the Winner 
+
+<li>Use of cell phones and other electronic gadgets is not permitted unless if a powerup involving them are chosen.
+
+<li>Correct answer and time, both factors will be counted to declare the winner. 
+
+<li>The Team should have only 2 participants.
+Venue :- 001 B
+
+<li>Coordinators : 
+
+Aman Varshney  9811823830 |
+
+Aditya Gupta 7011615837
+
+</ul>
 
   </div>
     <center>
-    <form action="registrations.php" method="POST">
+    <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
@@ -443,6 +497,434 @@ Is Each poster should include a topic/title across the top.
   </center>
     
   </div>
+
+<!--#####################################################################################################-->
+  <div class="item">
+        <h3> THE MIND FIZZ </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+<li>Team Size: 2 or 3
+
+<li>There are 3 rounds
+
+<li>ROUND 1: (Brain Teaser)
+
+In this round Questions will be asked related to common sense, puzzles and riddles.
+
+<li>All 3 members can contribute and solve questions.
+
+<li>ROUND 2: (Let Me Know )
+
+In this round Questions will be asked related to music, songs, dialogues and movie names.
+
+Only 2 members can contribute in this round
+
+<li>ROUND 3: (Can You See Me)
+
+In this round some Fun Game will be conducted between the participants.
+
+All 3 members can contribute in this round
+
+<li>STUDENT COORDINATORS : 
+ MOHAMMAD FAHAD (9639647747) | HIMANSHU SAHRAWAT (7906666056)
+
+</ul>
+
+  </div>
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
+<!--#####################################################################################################-->
+    <div class="item">
+        <h3> SCIENCE BREAKER </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+<li>Team Size: 2 or 3
+
+<li>ROUND 1: (General Tech Quiz)
+
+In the First Round of this Event, A test will be conducted which consists of General Technical Question based on First Year knowledge. Questions are of Objective type and some Fill in the Blanks type.
+
+<li>ROUND 2: (Think and Create a Model)
+
+For the Second Round Participants brings their own material and Design any Working as well as Non-Working Model during the event timing, based on the given Themes and Give proper Explanation to the Judges.
+
+<li>THEMES FOR SECOND ROUND<br>
+
+A-Renewable Energy<br>
+
+B-Electricity<br>
+
+C-Scientific Law<br>
+
+D-Latest Technology<br>
+
+E-Others (make your own idea)<br>
+
+
+<li>Present your model which shows your theme.
+
+<li>The decision of Judges will be Final.
+
+<li>Any Argument or Misbehavior with Coordinators and Judges will lead to Disqualify the Team.
+
+<li>STUDENTS COORDINATOR : SHABAN (8826105538) | PRAGYA SHIVHARE
+
+</ul>
+
+  </div>
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
+
+
+<!--#####################################################################################################-->
+<div class="item">
+        <h3> RoboTag </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+	<li>In this competition the participants have to bring their bot which is capable to lift a cube of 3.5*3.5*3.5 cm from random places to destined location. The team which scores the most will be the winner.
+	<li>Participants should carry their I-cards.
+	<li>Weight limit of bot -6kg.
+	<li>Dimensions -35cm*35cm*35cm.
+	<li>Voltage supply –up to 12 volts.
+	<li>Bot can be wired or wireless.
+	<li>No weapon should be there on bot.
+	<li>Electricity supply of 220volts,50hz will be provided, participants should carry their own adaptors.
+	 Misbehaviour of participants will lead to disqualification from competition.
+
+</ul>
+
+  </div>
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
+
+
+<!--#####################################################################################################-->
+
+  <div class="item">
+        <h3> CAD MODELLING </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+	<li>This event is to test the drafting and designing skills of the engineering students. In this event there are two rounds. In first round participants has to sketch the given sketch while in second round they are required to do solid modeling. For this competition participants are requires to bring their laptops for better working. They can use CATIA, SolidWorks or AutoCAD. 
+
+	<li>1st round – 2d sketching
+	<li>Time allotted – 30 min 
+<li>2nd round - Assembly (3D modeling)
+	<li>Time allotted – 1 hr. 
+	<li>Bring your own laptops with required software installed
+	<li>Bring your college ID card
+	<li>Report 15 min before given time
+	<li>Gaurav Malik (9015819151) | Abhay Verma	(9554708201)
+
+
+</ul>
+
+  </div>
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
+
+
+<!--#####################################################################################################-->
+
+  <div class="item">
+        <h3> AMPHIBIAN RACE </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+	<li>In this competition the participants have to build a bot which can run on water as well as on the land. 
+
+	<li>Participants should carry their I-cards.
+	<li>Weight limit of bot -6kg.
+	<li>Dimensions -35cm*35cm*35cm.
+	<li>Bot should be able to run on land and water.
+	<li>Voltage supply –up to 12 volts.
+	<li>Bot can be wired or wireless.
+	<li>No weapon or accessories should be there on bot.
+	<li>Electricity supply of 220volts,50hz will be provided, participants should carry their own adaptors.
+	<li>Misbehaviour of participants will lead to disqualification from competition.
+
+
+</ul>
+
+  </div>
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
+
+
+<!--#####################################################################################################-->
+
+  <div class="item">
+        <h3> Robo Soccer </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+	<li>Similar to real soccer the participants’ bot will be playing the soccer. There will be 10-20 balls on the field, the one bot is allowed to do goal while other saves the goal. Team which scores the highest will be the winner. 
+
+	<li>Participants should carry their I-cards.
+	<li>Weight limit of bot -6kg.
+	<li>Dimensions -35cm*35cm*35cm.
+	<li>Voltage supply –up to 12 volts.
+	<li>Bot can be wired or wireless.
+	<li>No weapon should be there on bot.
+	<li>Electricity supply of 220volts,50hz will be provided, participants should carry their own adaptors.
+	<li>Misbehaviour of participants will lead to disqualification from competition.
+
+
+
+</ul>
+
+  </div>
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
+
+<!--#####################################################################################################-->
+
+
+  <div class="item">
+        <h3> Water Rocketry  </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+	<li>In this competition participants have to bring their rocket formed by the water bottle filled with water. The pump will be provided by us. The rocket covering the longest distance will be the winner.
+
+	<li>Participants should carry their I-cards.
+	<li>Max 2.5liter bottle can be used for making rocket.
+	<li>Launcher will be provided.
+	<li>Build quality and distance achieved will be the judging criteria.
+	<li>Misbehaviour of participants will lead to disqualification from competition.
+
+
+
+</ul>
+
+  </div>
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
+
+<!--#####################################################################################################-->
+    <div class="item">
+        <h3> VISION</h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+<li>Theme - Open Theme
+<li>No explicit contents.
+<li>Only 2 Photos with captions.
+<li>No plagiarism allowed, disqualified if found.
+<li>Submission with max likes, shares and based on judgement wins.
+<li>Last submission date - 20 March 2018
+<li>Minimal Editing Allowed.
+<li>No watermarks.
+<li>Winner will be awarded with certificates.
+
+
+</ul>
+
+  </div>
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
+<!--#####################################################################################################-->
+
+
+
+<div class="item">
+        <h3> Picture Perception and Discussion Test </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+<li>PPDT consists of story writing and discussion. Participants will be shown a picture, later they have to write a story based on the picture & will discuss about what they have seen. 
+<li>As described PPDT is short of “Picture Perception and Description Test”, Participants will be shown a random picture on which they have to write a story in a brief amount of time then each participant have to take part in a group discussion where they will discuss their stories with each other and make a conclusion.
+
+<li>During PPDT a bit hazy or blurred picture is shown to the participants for about a minute.
+<li>In about next ten minutes participants have to write down the details that have noticed in the picture & make a story
+<li>After that all the participants will discuss their story whatever they percept about the picture (for 15minutes).
+ Each participant has to show the properties of an efficient speaker in a group.
+
+<li>Cordinator: Vinayak Sharma(9208003024) | Ajeet Yadav (9654655862)
+
+
+</ul>
+
+  </div>
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+    
+  </div>
+<!--#####################################################################################################-->
+
+<div class="item">
+        <h3> Tech Apti </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+<li>An aptitude test is any type of assessment that evaluates the talent, ability and potential to perform a certain task, with no prior knowledge and/or training.
+    
+
+<li>Aptitude test is to measure a person’s ability to acquire their work-related cognitive capacity; the tests assume that people differ in their special abilities and that these differences can be useful in predicting future achievements. This test consists:
+  <li> Duration of the test is 30 minutes.
+  <li> Questions paper consists of 20 objective questions.
+  <li> Each question is allotted 4 marks for correct response.
+  <li> ¼ marks will be deducted for indicating incorrect response of each question.
+  <li> No deduction for not attempted questions.
+  <li> Conclusions: Aptitude test is specially designed to find out how easily and how well we can do something or to assess our logical reasoning or thinking performance
+  <li> Coordinator : Kuldeep Singh (9990439858)  | Vinayak Sharma (9208003024)
+
+
+</ul>
+
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+    </form>
+  </center>
+  </div>
+
+
+  </div>
+
+<!--#####################################################################################################-->
+<div class="item">
+    <h3>Prashna Baan</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li>Time limit: 1hr
+
+      <li>Participants: 2
+      <li> GK Questions will be asked.
+      <li>Level by level questions will become difficult.
+      <li> A game of 3 rounds
+
+      <li>Cordinator:  Priyanka Karan and Divyanshi
+    </ul>
+  </div>
+  
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+    </form>
+  </center>
+  </div>
+
+    
+  </div>
+
+
+<!--#####################################################################################################-->
+<div class="item">
+    <h3>3-D MACHINE MODEL</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li>This event consists of presentation of working/non-working model showcasing.
+
+      <li>The event is a team event and in every team 2 members are allowed.
+      <li>For this the participants have to prepare a model and one page write-up
+          which has to be presented during the final presentation.
+      <li>The team will get scores on the basis of presentation skills for their model.
+      <li>If any team member is found in any undisciplinary action, the team
+          will get debarred from the event.
+      <li> The judges score will be final and unchanged.
+
+      <li>Cordinator:  Priyanka Karan and Divyanshi
+    </ul>
+  </div>
+  
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+    </form>
+  </center>
+  </div>
+
+    
+  </div>
+
+
+
+
+
+<!--#####################################################################################################-->
 </div>
 
 </div>
@@ -458,7 +940,7 @@ Is Each poster should include a topic/title across the top.
       </div>
 
      <div class="menu">
-           <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
+           <a href="../"><button><div class="btn-text">HOME</div></button></a><br><br><br>
            <a href="registrations.php"><button><div class="btn-text">REGISTRATIONS</div></button></a><br><br><br>
            <a href="login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>
            <a href="forget-pwd.php"><button><div class="btn-text" style="font-size: 13px">FORGOT-PASSWORD</div></button></a><br><br><br>

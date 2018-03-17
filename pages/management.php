@@ -110,7 +110,8 @@
         <a href="../">HOME | </a>
         <a href="events.php">EVENTS | </a>
         <a href="registrations.php">REGISTRATIONS | </a>
-        <a href="co-ordinator-panel.php">CONSOLE</a>
+        <a href="co-ordinator-panel.php">CONSOLE |</a>
+        <a href="devpage.php">DEV PAGE</a>
     </div>
 		<br>
     <div class="error" id="message">
@@ -127,13 +128,13 @@
      <div class="row">
        <div class="col-sm-6">
         <div  class="content">
-         <img src="../images/jagga.jpg" class="prof-pic"><br><br>
+         <img src="../images/surya.jpg" class="prof-pic"><br><br>
          <center><div class="line" style="width: 50%;"></div></center>
-         <h4>JAGDISH SINGH</h4>
-         Student of NIET 3rd Year (IT)
+         <h4>SURYA PRATAP SINGH</h4>
+         Student of NIET 3rd Year (CSE)
          <center><div class="line" style="width: 50%;"></div></center>
-         <p style="color: #458B00">" THE BACKEND'S MIND "</p>
-        <div class="social-links">
+         <p style="color: #458B00">" THE TALKER"</p>
+        <!--<div class="social-links">
          <a target="_blank" href="https://github.com/JDchauhan"><i class="fab fa-github fa-2x"></i></a>
          <a target="_blank" href="https://www.facebook.com/JDchauhan97"><i class="fab fa-facebook-square fa-2x"></i></a>
          <a target="_blank" href="https://www.instagram.com/jdchauhan97"><i class="fab fa-instagram fa-2x"></i></a>
@@ -145,19 +146,19 @@
           <button class="btn-sml" style="width: auto;color:black;" >
           HIRE AS AN INTERN
           </button>
-        </a>
+        </a>-->
       </div>
        </div>
        <div class="col-sm-6">
         <div class="content-2">
-         <img src="../images/ashish.jpg" class="prof-pic">
+         <img src="../images/vaibhav.jpg" class="prof-pic">
          <br><br>
          <center><div class="line" style="width: 50%;"></div></center>
-         <h4>ASHISH GUPTA</h4>
+         <h4>VAIBHAV MALIK</h4>
          Student of NIET 3rd Year (CSE)
          <center><div class="line" style="width: 50%;"></div></center>
-         <p style="color: #458B00">" THE FRONTEND'S SOUL "</p>
-         <div class="social-links">
+         <p style="color: #458B00">" HEAD CO-ORDINATOR "</p>
+         <!--<div class="social-links">
          <a target="_blank" href="https://github.com/ashigupta007"><i class="fab fa-github fa-2x"></i></a>
          <a target="_blank" href="https://www.facebook.com/Ashugupta007"><i class="fab fa-facebook-square fa-2x"></i></a>
          <a target="_blank" href="https://www.instagram.com/mr_ashish__"><i class="fab fa-instagram fa-2x"></i></a>
@@ -169,7 +170,56 @@
           <button class="btn-sml" style="width: auto;color:black;" >
           HIRE AS AN INTERN
           </button>
-        </a>
+        </a>-->
+      </div>
+       </div>
+
+
+       <div class="col-sm-6">
+        <div  class="content">
+         <img src="../images/rajat.jpg" class="prof-pic"><br><br>
+         <center><div class="line" style="width: 50%;"></div></center>
+         <h4>RAJAT PUNDIR</h4>
+         Student of NIET 3rd Year (CSE)
+         <center><div class="line" style="width: 50%;"></div></center>
+         <p style="color: #458B00">" THE CREATIVE SOUL "</p>
+        <!--<div class="social-links">
+         <a target="_blank" href="https://github.com/JDchauhan"><i class="fab fa-github fa-2x"></i></a>
+         <a target="_blank" href="https://www.facebook.com/JDchauhan97"><i class="fab fa-facebook-square fa-2x"></i></a>
+         <a target="_blank" href="https://www.instagram.com/jdchauhan97"><i class="fab fa-instagram fa-2x"></i></a>
+         <a target="_blank" href="https://www.linkedin.com/in/jdchauhan"><i class="fab fa-linkedin fa-2x"></i></a>
+         <a target="_blank" href="https://www.twitter.com/jdchauhan97/"><i class="fab fa-twitter-square fa-2x"></i></a>
+         <a target="_blank" href="https://t.me/JDchauhan"><i class="fab fa-telegram fa-2x"></i></a>
+        </div>
+        <a target="_blank" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=jagdish.chauhan01.com" >
+          <button class="btn-sml" style="width: auto;color:black;" >
+          HIRE AS AN INTERN
+          </button>
+        </a>-->
+      </div>
+       </div>
+       <div class="col-sm-6">
+        <div class="content-2">
+         <img src="../images/avinash.jpg" class="prof-pic">
+         <br><br>
+         <center><div class="line" style="width: 50%;"></div></center>
+         <h4>AVINASH KUMAR</h4>
+         Student of NIET 3rd Year (CSE)
+         <center><div class="line" style="width: 50%;"></div></center>
+         <p style="color: #458B00">"THE TACTFUL MIND "</p>
+         <!--<div class="social-links">
+         <a target="_blank" href="https://github.com/ashigupta007"><i class="fab fa-github fa-2x"></i></a>
+         <a target="_blank" href="https://www.facebook.com/Ashugupta007"><i class="fab fa-facebook-square fa-2x"></i></a>
+         <a target="_blank" href="https://www.instagram.com/mr_ashish__"><i class="fab fa-instagram fa-2x"></i></a>
+         <a target="_blank" href="https://www.linkedin.com/in/https://www.linkedin.com/in/ashish-gupta-aa32bb129"><i class="fab fa-linkedin fa-2x"></i></a>
+         <a target="_blank" href="https://www.twitter.com/AshishG31444945/"><i class="fab fa-twitter-square fa-2x"></i></a>
+         <a target="_blank" href="https://t.me/Akgupta007"><i class="fab fa-telegram fa-2x"></i></a>
+        </div>
+        <a target="_blank" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=love4css@gmail.com" >
+          <button class="btn-sml" style="width: auto;color:black;" >
+          HIRE AS AN INTERN
+          </button>
+        </a>-->
       </div>
        </div>
      </div>
@@ -180,6 +230,7 @@
            <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
            <a href="registrations.php"><button><div class="btn-text">REGISTRATIONS</div></button></a><br><br><br>
            <a href="co-ordinator-panel.php"><button><div class="btn-text">CONSOLE</div></button></a><br><br><br>
+           <a href="devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
       </div>
 
 	</div>

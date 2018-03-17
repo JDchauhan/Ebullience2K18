@@ -78,22 +78,29 @@
 	<div id="skill" style="min-height: 100%; min-width: 100%; position: absolute;z-index: -3"></div>
 
 	<div class="main-cont">
-		 <div class="line"></div>
-		<h1>ARK 2K18</h1>
+		     <div class="line"></div>
+     <img src="../images/biglogo.png" class="aktu">
+
+    <h1 class="head-expanded">
+    NOIDA INSTITUTE OF ENGINEERING AND TECHNOLOGY  
+    </h1>
+    <img src="../images/niet.png" class="aktu2">
+    <h5 class="subhead-expanded">
+      Accredited by NAAC (A Grade) CSE, ECE, ME, &amp; B.Pharm are NBA accredited 99th Rank by NIRF (2016)
+    </h5>
+    <h1 class="head-compressed">NIET, GR. NOIDA</h1>
+    <center><div class="line_2"></div></center>
+
+      <h3 class="head-expanded">Ebullience 2K18</h3>
+
+      <h3 class="head-compressed">Ebullience 2K18</h3>
 		<center><div class="line_2"></div></center>
-    <div class="menu-2">
-      <a href="#">HOME</a>
-      <a href="#">ABOUT</a>
-      <a href="#">EVENTS</a>
-      <a href="#">REGISTRATION</a>
-      <a href="#">SCHEDULE</a>
-    </div>
     <div class="navigator">
     	REGISTRATIONS
     </div>
     <center><div class="line_2"></div></center>  
     <div class="menu-2">
-        <a href="../index.php">HOME | </a>
+        <a href="../">HOME | </a>
         <a href="events.php">EVENTS | </a>
         <a href="login.php">Login | </a>
         <a href="forget-pwd.php">Forgot-Password | </a> 
@@ -109,10 +116,12 @@
     <div id="timer" class="timer">
           
     </div>
+    <div style="height: 300px; overflow-y: auto;">
     <form name="reg-form" action="../resources/api.php?action=register&amp;session=<?php echo $session_get;?>" onsubmit="return validateForm()" method="POST" style="padding-bottom: 80px;">
 
     	<input type="text" name="name" placeholder="Name" class="txt-sml" style="margin-top: 10px;"><br>
-    	<input type="text" name="clg_name" placeholder="College" class="txt-sml"><br>
+    	<input type="text" name="branch" placeholder="Branch" class="txt-sml"><br>
+      	<input type="text" name="year" placeholder="Year" class="txt-sml"><br>
     	<input type="text" name="email" placeholder="Email" class="txt-sml"><br>
     	<input type="text" name="roll_no" placeholder="Roll Number" class="txt-sml"><br>
     	<input type="text" name="mob_no" placeholder="Mobile Number" class="txt-sml"><br>
@@ -121,6 +130,7 @@
     	<input type="submit" name="submit" placeholder="Register" value="Register" class="btn-sml">
 
     </form>
+  </div>
     <div class="footer">
 		<div class="line_3"></div>
 			Designed And Developed By 
@@ -132,7 +142,7 @@
 		</div>
 
       	<div class="menu">
-           <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
+           <a href="../"><button><div class="btn-text">HOME</div></button></a><br><br><br>
            <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
            <a href="login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>
            <a href="forget-pwd.php"><button><div class="btn-text" style="font-size: 13px">FORGOT-PASSWORD</div></button></a><br><br><br>

@@ -25,7 +25,7 @@
 
     try {
 
-        require_once 'util/config.php';
+        require_once 'util/config1.php';
         require_once 'util/mail_util.php';
         
         function guid(){
@@ -72,7 +72,8 @@
             global $session_get;
 
             $name = $_POST["name"];
-            $clg = $_POST["clg_name"]; 
+            $branch = $_POST["branch"];
+            $year = $_POST["year"];
             $email = $_POST["email"];
             $roll = (int)$_POST["roll_no"];
             $mobile = (int)$_POST["mob_no"];
@@ -94,7 +95,7 @@
                 $err_form .= "invalid email <br/>";
                 $err_status = 1;
             }
-            if($name == "" || $clg == "" || $email == "" || $roll == "" || $mobile == "" || $pass == ""){
+            if($name == "" || $branch == "" || $year == "" || $email == "" || $roll == "" || $mobile == "" || $pass == ""){
                 $err_form .= "Please fill all the details <br/>";
                 $err_status = 1;
             }
@@ -117,7 +118,7 @@
                     //verification pending
                     //update data for user and send verification link
 
-                    $sql = "UPDATE Students SET roll='$roll', name='$name', password='$pass', mobile='$mobile', college='$clg', status=0  WHERE email='$email'";
+                    $sql = "UPDATE Students SET roll='$roll', name='$name', password='$pass', branch='$branch', year='$year', mobile='$mobile' , status=0  WHERE email='$email'";
                     $conn->exec($sql);
                     
                     //create Access_key for new registration-mail verification 
@@ -146,7 +147,7 @@
 
                 }else{
                     //fresh user
-                    $sql = "INSERT INTO Students VALUES ('$roll', '$name', '$pass', '$email', '$mobile', '$clg', 0, NULL)"; 
+                    $sql = "INSERT INTO Students VALUES ('$roll', '$name', '$pass', '$branch', '$year', '$email', '$mobile', 0, NULL)"; 
                     $conn->exec($sql); 
 
                     $sql = "INSERT INTO Access_key VALUES ('$email', '$verification_token','new_registration')"; 
@@ -191,7 +192,7 @@
                 $head = "Location: ../pages/login.php?session=" . $session_get;                     
                 header($head);
             }else{
-                $statement = executedStatement("SELECT roll, name, status, password, email, mobile, college FROM
+                $statement = executedStatement("SELECT roll, name, status, password, email, mobile, branch, year FROM
                                                 Students WHERE email='$email' and password='$pass'");
                 $result = $statement->Fetch(PDO::FETCH_ASSOC); 
                 
@@ -209,7 +210,8 @@
                         $_SESSION["name"] = $result["name"];
                         $_SESSION["email"] = $result["email"];
                         $_SESSION["mobile"] = $result["mobile"];
-                        $_SESSION["college"] = $result["college"];
+                        $_SESSION["branch"] = $result["branch"];
+                        $_SESSION["year"] = $result["year"];
                         $_SESSION["login_status"] = true;
                         $_SESSION["token"] = $token;
 
@@ -565,7 +567,7 @@
                 $event_name = $result["event"];
                 
                 
-                $statement = executedStatement("SELECT DISTINCT Students.roll, Students.name, Students.college, Students.email,
+                $statement = executedStatement("SELECT DISTINCT Students.roll, Students.name, Students.branch, Students.year, Students.email,
                                                 Students.mobile FROM Students INNER JOIN
                                                 Participation ON Students.email = Participation.email WHERE
                                                 Participation.event_id='$event_id' ");
@@ -576,12 +578,12 @@
 
                 $arr[0] = ",," . $event_name  ;
                 $arr[1] = "";
-                $arr[2] = "Roll No, Name, College, Email, Mobile"  ;
+                $arr[2] = "Roll No, Name, Branch, Year, Email, Mobile"  ;
                 $arr[3] = "";
 
                 for($i=0; $i<sizeof($result); $i++ ){
-                    $line = "" . $result[$i]["roll"] . ","  . $result[$i]["name"] .  ","  . $result[$i]["college"] . 
-                            ","  . $result[$i]["email"] .  ","  . $result[$i]["mobile"];
+                    $line = "" . $result[$i]["roll"] . ","  . $result[$i]["name"] .  ","  . $result[$i]["branch"] . 
+                            ","  . $result[$i]["branch"] . ","  . $result[$i]["email"] .  ","  . $result[$i]["mobile"];
                     $arr[$i + 4] = $line;   
                 }
                 foreach ($arr as $line){

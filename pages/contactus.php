@@ -12,10 +12,10 @@
 
 ?>
 
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-	<title>Ebullience 2K18</title>
+	<title>AKTU Zonal Fest 2K18</title>
 
 	<meta charset="utf-8">
 
@@ -35,6 +35,8 @@
 
 
     <link rel="stylesheet" type="text/css" href="../css/style-extended.css">
+
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 
 	<script>
 		var countDownDate = new Date("Mar 22, 2018 09:30:00").getTime();
@@ -77,8 +79,8 @@
   <div id="skill" style="min-height: 100%; min-width: 100%; position: absolute;z-index: -3"></div>
 
   <div class="main-cont">
-         <div class="line"></div>
-     <img src="../images/biglogo.png" class="aktu">
+     <div class="line"></div>
+    <img src="../images/biglogo.png" class="aktu">
 
     <h1 class="head-expanded">
     NOIDA INSTITUTE OF ENGINEERING AND TECHNOLOGY  
@@ -88,25 +90,17 @@
 
     <img src="../images/niet.png" class="aktu2">
     <h5 class="subhead-expanded">
-      Accredited by NAAC (A Grade) CSE, ECE, ME, &amp; B.Pharm are NBA accredited 99th Rank by NIRF (2016)
+      Accredited by NAAC (A Grade) | CSE, ECE, ME, &amp; B.Pharm are NBA accredited | 99th Rank by NIRF (2016)
     </h5>
     <h1 class="head-compressed">NIET, GR. NOIDA</h1>
-    <center><div class="line_2"></div></center>
-
-      <h3 class="head-expanded">Ebullience 2K18</h3>
-
-      <h3 class="head-compressed">Ebullience 2K18</h3>
     <center><div class="line_2"></div></center>
     <div class="menu-2">
         <a href="../">HOME | </a>
         <a href="events.php">EVENTS | </a>
         <a href="registrations.php">REGISTRATIONS | </a>
-        <a href="login.php">Login | </a>
-        <a href="forget-pwd.php">Forgot-Password |</a>  
         <a href="devpage.php">DEV PAGE  </a>
         
     </div>
-
     
     <center><div class="line_2"></div></center>  
     <br>
@@ -117,17 +111,34 @@
     <div id="timer" class="timer">
           
     </div>
+    <div style="max-width: 800px; margin: auto; height: 500px; overflow-y: scroll;overflow-x: hidden;" class="contactus" >
+      <h2 style="color: white;font-family: 'Audiowide', cursive;font-size: 20px;">Get In Touch With Us</h2>
 
-      <form action="../resources/api.php?action=download_event_csv" method="POST" style="margin-top: 50px;">
+      <div class="row" style="margin-top: 10px;color: white">
+        <div class="col-sm-4">
+          <i class="fas fa-map-marker-alt fa-2x"></i><br>
+          LOCATION<br><br>
+          Noida Institute of Engineering & Technology, 19, Knowledge Park-II, Institutional Area, Greater Noida (UP) -201306<br>
+        </div>
+        <div class="col-sm-4">
+          <i class="fas fa-phone-square fa-2x"></i>
+          TELEPHONE<br><br>
+          0120- 2328062<br>
+Tele Fax No. : 0120-2328062
+        </div>
+        <div class="col-sm-4">
+          <i class="far fa-envelope fa-2x"></i><br>
+          Email<br><br>
+          Director: director@niet.co.in<br>
+          Registrar: registrar@niet.co.in<br>
+          DSW: dsw.niet@niet.co.in
+        </div>
+      </div>
+    <iframe width="100%" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJJa2aAOHBDDkR2IRUXon9z4I&key=AIzaSyCLej0ytnA2hnb9a9p-KxLBQWERIDPwxWs" allowfullscreen></iframe>
+    </div>
 
-      <input type="text" name="token" placeholder="Token-Id" class="txt-sml" style="margin-top: 10px;"><br>
 
-      <input type="submit" name="submit" placeholder="Download CSV" value="Download CSV" class="btn-sml" style="width: auto;">
-
-      </form>
-
-
-        <div class="footer">
+    <div class="footer">
     <div class="line_3"></div>
       Designed And Developed By 
 
@@ -140,10 +151,8 @@
         <div class="menu">
            <a href="../"><button><div class="btn-text">HOME</div></button></a><br><br><br>
            <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
-           <a href="devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
            <a href="registrations.php"><button><div class="btn-text">REGISTRATIONS</div></button></a><br><br><br>
-           <a href="login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>
-           <a href="forget-pwd.php"><button><div class="btn-text" style="font-size: 13px">FORGOT-PASSWORD</div></button></a><br><br><br> 
+           <a href="devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
       </div>
   </div>
 
@@ -175,26 +184,26 @@
   </script>
 
   <?php 
-		if(isset($_SESSION["msg"])){
-			if($_SESSION["msg"]["type"] == "error"){
-				echo '<script>document.getElementById("message").className="";
-						document.getElementById("message").className="error";
-						document.getElementById("message").innerHTML="<b>' 
-							. $_SESSION["msg"]["head"] . '</b><br/>'
-							. $_SESSION["msg"]["body"] . '";
-					</script>';
-			}else if($_SESSION["msg"]["type"] == "success"){
-				echo '<script>document.getElementById("message").className="";
-						document.getElementById("message").className="success";
-						document.getElementById("message").innerHTML="<b>' 
-							. $_SESSION["msg"]["head"] . '</b><br/>'
-							. $_SESSION["msg"]["body"] . '";
-					</script>';
-			}
-			unset($_SESSION["msg"]);
-		}
-		
-	?>
+    if(isset($_SESSION["msg"])){
+      if($_SESSION["msg"]["type"] == "error"){
+        echo '<script>document.getElementById("message").className="";
+            document.getElementById("message").className="error";
+            document.getElementById("message").innerHTML="<b>' 
+              . $_SESSION["msg"]["head"] . '</b><br/>'
+              . $_SESSION["msg"]["body"] . '";
+          </script>';
+      }else if($_SESSION["msg"]["type"] == "success"){
+        echo '<script>document.getElementById("message").className="";
+            document.getElementById("message").className="success";
+            document.getElementById("message").innerHTML="<b>' 
+              . $_SESSION["msg"]["head"] . '</b><br/>'
+              . $_SESSION["msg"]["body"] . '";
+          </script>';
+      }
+      unset($_SESSION["msg"]);
+    }
+    
+  ?>
     
                 
  

@@ -76,11 +76,28 @@ if(!isset($_REQUEST["session"])){
   <div id="skill" style="min-height: 100%; min-width: 100%; position: absolute;z-index: -3"></div>
 
   <div class="main-cont">
-     <div class="line"></div>
-    <h1>ARK 2K18</h1>
+         <div class="line"></div>
+     <img src="../images/biglogo.png" class="aktu">
+
+    <h1 class="head-expanded">
+    NOIDA INSTITUTE OF ENGINEERING AND TECHNOLOGY  
+    </h1>
+
+    
+
+    <img src="../images/niet.png" class="aktu2">
+    <h5 class="subhead-expanded">
+      Accredited by NAAC (A Grade) CSE, ECE, ME, &amp; B.Pharm are NBA accredited 99th Rank by NIRF (2016)
+    </h5>
+    <h1 class="head-compressed">NIET, GR. NOIDA</h1>
+    <center><div class="line_2"></div></center>
+
+      <h3 class="head-expanded">Ebullience 2K18</h3>
+
+      <h3 class="head-compressed">Ebullience 2K18</h3>
     <center><div class="line_2"></div></center>
        <div class="menu-2">
-        <a href="../index.php">HOME | </a>
+        <a href="../">HOME | </a>
         <a href="events.php">EVENTS | </a>
         <a href="registrations.php">REGISTRATIONS | </a>
         <a href="login.php">Login | </a> 
@@ -90,9 +107,6 @@ if(!isset($_REQUEST["session"])){
     </div>
     <center><div class="line_2"></div></center>  
     <br>
-    <div class="navigator">
-    	FORGET PASSWORD
-    </div>
     <div class="error" id="message">
     
     </div>
@@ -121,7 +135,7 @@ if(!isset($_REQUEST["session"])){
         </div>
 
         <div class="menu">
-           <a href="../index.php"><button><div class="btn-text">HOME</div></button></a><br><br><br>
+           <a href="../"><button><div class="btn-text">HOME</div></button></a><br><br><br>
            <a href="events.php"><button><div class="btn-text">EVENTS</div></button></a><br><br><br>
            <a href="registrations.php"><button><div class="btn-text">REGISTRATIONS</div></button></a><br><br><br>
            <a href="login.php"><button><div class="btn-text">LOGIN</div></button></a><br><br><br>
