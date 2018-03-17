@@ -22,10 +22,10 @@
 
 //checking event registrations
   $i = 0;
-  for($j = 0; $j < 10; $j++){
+  for($j = 0; $j < 29; $j++){
     $next = $j + 2;
     if(!(isset($_SESSION["event_participated"]) && $_SESSION["event_participated"][$j] == 1 )){
-      if($j == 9){
+      if($j == 28){
         $next = 1;
       }
       $form_data[$j] = '<center><form action="../resources/api.php?action=event_registered&amp;id=' . ($j + 1) . '&amp;session=' .  $session_get . ' " method="POST">
