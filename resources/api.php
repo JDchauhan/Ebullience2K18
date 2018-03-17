@@ -342,7 +342,7 @@
                     $sql = "INSERT INTO Access_key VALUES ('$email', '$verification_token','reset_password')"; 
                     $conn->exec($sql);
 
-                    OTM($email, $email, $name, $verification_token, "reset_password");
+                    OTM($email, $roll, $name, $verification_token, "reset_password");
                     
                     $_SESSION["msg"]["type"] = "success";
                     $_SESSION["msg"]["head"] = "Reset Link sended";
