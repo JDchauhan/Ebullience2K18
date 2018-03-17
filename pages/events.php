@@ -128,7 +128,7 @@
             SCI-CHERADES<br><br>
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="2">
-            INNOVATIVE PEN DOWN<br><br>
+            Agar Art<br><br>
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="3">
             BEST OUT OF WASTE
@@ -192,8 +192,12 @@
             PPDT
         </button>
 
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="19">
-            GPE
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="20">
+            Tech Apti
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="21">
+          Prashna Baan
         </button>
     </div>
   </div>
@@ -220,14 +224,13 @@
   </div>
 <!--#####################################################################################################-->
   <div class="item">
-    <h3>INNOVATIVE PEN DOWN</h3>
+    <h3>Agar Art</h3>
     <div class="event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      <li>Topics: 1. What is heaven for you? 2. I want to hate___ but I can't. 3. Youth: Love or Career 4. No Expectation, no worries!! 5. Reality in the fake world
-      <li>Fill the blank by place, person or anything. It's up to participant.  
-      <li>World limit is 250-300 words and if it's a poem then it should not exceed 4 para. A4 size sheet required as per the registration. 
-      <li>Participants must come with their respective pen.
+      <li> Team of two members.  
+      <li> They will have to make any theme based art on the petri plate using different colours. 
+      <li> Cordinator: Aditi Saxena and Pulkita
     </ul>
     </div>
     <center>
@@ -768,7 +771,7 @@ E-Others (make your own idea)<br>
 <li>No explicit contents.
 <li>Only 2 Photos with captions.
 <li>No plagiarism allowed, disqualified if found.
-<li>Submission with max likes and based on judgement wins.
+<li>Submission with max likes, shares and based on judgement wins.
 <li>Last submission date - 20 March 2018
 <li>Minimal Editing Allowed.
 <li>No watermarks.
@@ -805,7 +808,8 @@ E-Others (make your own idea)<br>
 <li>After that all the participants will discuss their story whatever they percept about the picture (for 15minutes).
  Each participant has to show the properties of an efficient speaker in a group.
 
-<li>Coordinator : Shubhank Varshney (9149272490) | Ajeet Yadav (9654655862)
+<li>Cordinator: Vinayak Sharma(9208003024) | Ajeet Yadav (9654655862)
+
 
 </ul>
 
@@ -822,38 +826,99 @@ E-Others (make your own idea)<br>
 <!--#####################################################################################################-->
 
 <div class="item">
-        <h3> Picture Perception and Discussion Test </h3>
+        <h3> Tech Apti </h3>
         <div class="event_overview" style="height: 250px;overflow-y: scroll;">
         <ul>
 <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
 
-<li>This test basically designed to check participants decision making capabilities i.e. how quick and effective they are in making decision in time bounded environment.
+<li>An aptitude test is any type of assessment that evaluates the talent, ability and potential to perform a certain task, with no prior knowledge and/or training.
+    
 
-<li>As described GPE is short of “Group Planning Exercise”, participants will be gone through a set of problems all of the problems need to be solved in different time constraints. This test involves:
-  <li>All the group members will get the information about the task by the instructor.
-  <li>Each group should have 4-6 members.
-  <li>Each group has 15minutes to solve the given problem.
-  <li>Group can solve these problems by any strategy.
-  <li>Coordinator : Gajendra Pal Singh (9868677218) | Aman Kumar  (8448677724)
+<li>Aptitude test is to measure a person’s ability to acquire their work-related cognitive capacity; the tests assume that people differ in their special abilities and that these differences can be useful in predicting future achievements. This test consists:
+  <li> Duration of the test is 30 minutes.
+  <li> Questions paper consists of 20 objective questions.
+  <li> Each question is allotted 4 marks for correct response.
+  <li> ¼ marks will be deducted for indicating incorrect response of each question.
+  <li> No deduction for not attempted questions.
+  <li> Conclusions: Aptitude test is specially designed to find out how easily and how well we can do something or to assess our logical reasoning or thinking performance
+  <li> Coordinator : Kuldeep Singh (9990439858)  | Vinayak Sharma (9208003024)
 
 
 </ul>
 
-  </div>
     <center>
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
     </form>
   </center>
+  </div>
+
+
+  </div>
+
+<!--#####################################################################################################-->
+<div class="item">
+    <h3>Prashna Baan</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li>Time limit: 1hr
+
+      <li>Participants: 2
+      <li> GK Questions will be asked.
+      <li>Level by level questions will become difficult.
+      <li> A game of 3 rounds
+
+      <li>Cordinator:  Priyanka Karan and Divyanshi
+    </ul>
+  </div>
+  
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+    </form>
+  </center>
+  </div>
+
     
   </div>
 
 
-
-
 <!--#####################################################################################################-->
+<div class="item">
+    <h3>3-D MACHINE MODEL</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li>This event consists of presentation of working/non-working model showcasing.
+
+      <li>The event is a team event and in every team 2 members are allowed.
+      <li>For this the participants have to prepare a model and one page write-up
+          which has to be presented during the final presentation.
+      <li>The team will get scores on the basis of presentation skills for their model.
+      <li>If any team member is found in any undisciplinary action, the team
+          will get debarred from the event.
+      <li> The judges score will be final and unchanged.
+
+      <li>Cordinator:  Priyanka Karan and Divyanshi
+    </ul>
+  </div>
+  
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+    </form>
+  </center>
+  </div>
+
+    
+  </div>
 
 
 
