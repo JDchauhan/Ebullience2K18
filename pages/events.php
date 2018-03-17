@@ -485,7 +485,7 @@ Anu Sharma
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="10">&gt;</button>
     </form>
   </center>
     
@@ -524,7 +524,7 @@ Aditya Gupta 7011615837
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="11">&gt;</button>
     </form>
   </center>
     
@@ -569,7 +569,7 @@ All 3 members can contribute in this round
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="12">&gt;</button>
     </form>
   </center>
     
@@ -619,7 +619,7 @@ E-Others (make your own idea)<br>
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="13">&gt;</button>
     </form>
   </center>
     
@@ -650,7 +650,7 @@ E-Others (make your own idea)<br>
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="14">&gt;</button>
     </form>
   </center>
     
@@ -684,7 +684,7 @@ E-Others (make your own idea)<br>
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="15">&gt;</button>
     </form>
   </center>
     
@@ -719,7 +719,7 @@ E-Others (make your own idea)<br>
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="16">&gt;</button>
     </form>
   </center>
     
@@ -754,7 +754,7 @@ E-Others (make your own idea)<br>
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="17">&gt;</button>
     </form>
   </center>
     
@@ -786,7 +786,7 @@ E-Others (make your own idea)<br>
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="18">&gt;</button>
     </form>
   </center>
     
@@ -817,7 +817,7 @@ E-Others (make your own idea)<br>
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="19">&gt;</button>
     </form>
   </center>
     
@@ -850,7 +850,7 @@ E-Others (make your own idea)<br>
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="20">&gt;</button>
     </form>
   </center>
     
@@ -877,17 +877,14 @@ E-Others (make your own idea)<br>
 
 
 </ul>
-
+</div>
     <center>
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="21">&gt;</button>
     </form>
   </center>
-  </div>
-
-
   </div>
 
 <!--#####################################################################################################-->
@@ -911,7 +908,7 @@ E-Others (make your own idea)<br>
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="22">&gt;</button>
     </form>
   </center>
   </div>
@@ -939,7 +936,7 @@ present on the date of event.
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="23">&gt;</button>
     </form>
   </center>
   </div>
@@ -970,7 +967,7 @@ present on the date of event.
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="24">&gt;</button>
     </form>
   </center>
   </div>
@@ -996,7 +993,7 @@ present on the date of event.
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="25">&gt;</button>
     </form>
   </center>
   </div>
@@ -1023,7 +1020,7 @@ present on the date of event.
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="26">&gt;</button>
     </form>
   </center>
   </div>
@@ -1049,7 +1046,7 @@ present on the date of event.
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="27">&gt;</button>
     </form>
   </center>
   </div>
@@ -1080,7 +1077,7 @@ present on the date of event.
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="28">&gt;</button>
     </form>
   </center>
   </div>
@@ -1113,7 +1110,7 @@ present on the date of event.
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="29">&gt;</button>
     </form>
   </center>
   </div>
@@ -1147,7 +1144,7 @@ present on the date of event.
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="5">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
     </form>
   </center>
   </div>
