@@ -28,17 +28,17 @@
       if($j == 9){
         $next = 1;
       }
-      $form_data[$j] = '<form action="../resources/api.php?action=event_registered&amp;id=' . ($j + 1) . '&amp;session=' .  $session_get . ' " method="POST">
+      $form_data[$j] = '<center><form action="../resources/api.php?action=event_registered&amp;id=' . ($j + 1) . '&amp;session=' .  $session_get . ' " method="POST">
                           <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
                           <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
                           <button class="back" type="button" data-target="#myCarousel2" data-slide-to="' . $next . '">&gt;</button>
-                        </form>'  ;  
+                        </form></center>'  ;  
     } else{
-      $form_data[$j] = '<form action="../resources/api.php?action=event_unregistered&amp;id=' . ($j + 1) . '&amp;session=' .  $session_get . ' " method="POST">
+      $form_data[$j] = '<center><form action="../resources/api.php?action=event_unregistered&amp;id=' . ($j + 1) . '&amp;session=' .  $session_get . ' " method="POST">
                           <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
                           <input type="submit" name="submit" placeholder="Unregister" value="UNREGISTER" class="btn-sml" style="width: auto;">
                           <button class="back" type="button" data-target="#myCarousel2" data-slide-to="' . $next . '">&gt;</button>
-                        </form>'   ; 
+                        </form></center>'   ; 
     }
   }
 ?>
@@ -134,54 +134,130 @@
 <div id="myCarousel2" class="carousel" data-ride="carousel" data-interval="false" data-wrap="false">
   <div class="carousel-inner">
   
-  <div class="item active">
+  <div class="item active" style="text-align: center;">
     <div class="event-cont">
       
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="1">
-            BUSINESS PLAN
+            SCI-CHERADES<br><br>
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="2">
-            BRIDGE KRITI
+            AGAR ART<br><br>
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="3">
-            CHECK YOUR KNOWLEDGE
+            BEST OUT OF WASTE
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="4">
-            CODING CONTEST
+            GREETING CARD MAKING
+            <br><br>
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="5">
-            DEBATE
+            FIND IF YOU CAN<br><br><br>
         </button>
         <br>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="6">
-            FRUGAL ENGINEERING
+            Counter strike 1.6
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="7">
-            JUST A MINUTE
+            CAPTURE THE FLAG
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="8">
-            ROBO RACE
+           <br>BLIND CODING
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="9">
-            ROBO WAR
+            <br>CHEM-WAR
         </button>
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="10">
-            TECHNICAL POSTER
+            TIME GAME
+        </button>
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="11">
+            THE MIND FIZZ
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="12">
+            SCIENCE BREAKER
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="13">
+            RoboTag
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="14">
+            CAD Modelling
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="15">
+            AMPHIBIAN RACE
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="16">
+            ROBO SOCCER
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="17">
+            Water Rocketry 
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="18">
+            VISION
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="19">
+            PPDT
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="20">
+          TECH APTI
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="21">
+          PRASHNA BAAN
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="22">
+           MODEL MANIA
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="23">
+           KARYANEETI
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="24">
+           MUSICAL .LY
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="25">
+           BALLOON BUILDING
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="26">
+           LEGEND OF THE LOST
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="27">
+           3-D MACHINE MODEL
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="28">
+           ELECTRIC COLLAGE
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="29">
+           APTITUDE TEST
         </button>
     </div>
   </div>
 
+
   <div class="item">
-    <h3>BUSINESS PLAN</h3>
-    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+  <h3>SCI-CHERADES</h3>
+    <div class="event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>      
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      <li>Individual participant can take part</li>
-      <li>Have to explore business ideas to run the Business.</li>
-      <li>Topics will be given</li>
-      <li>Means of communication will be English.</li>
-      <li>Duration: 45 Minutes.</li>
-      <li>The Judges decision will be final and binding to all.</li>
+      <li>The game will have 2 rounds.
+      <li>Participants must come in pairs (2 participants)
+      <li>Round 1: You have to pick up a chit from a box that will contain some basic science terminologies. You have the choice to decide whether who will enact and who will guess. The pair who guesses right will be proceeded to the second round.
+      <li>Round 2 : This will contain a time duration of 2 mins and its again the same as round 1. Do not exceed the time limit.
+      <li>Student Co-ordinator: Prashant Kumar Singh- (9415679329) | Ayushi Tiwari –(9307812257)
     </ul>
     </div>
     <?php
@@ -191,108 +267,767 @@
   </div>
 
   <div class="item">
-    <h3>BRIDGE KRITI</h3>
+  <h3>Agar Art</h3>
+    <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li> Team of two members.  
+      <li> They will have to make any theme based art on the petri plate using different colours. 
+      <li> Cordinator: Aditi Saxena and Pulkita
+    </ul>
+    </div>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+  <div class="item">
+  <h3>BEST OUT OF WASTE</h3>
+    <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      
+      <li>Time limit: 2hrs
+      <li>Participants: 2-4
+<li>The required waste material and stationary should be brought by participants.
+
+<li>Wate material could be anything that would otherwise be thrown away.
+
+<li>The material would be rejected if not found to be a waste material.
+
+<li>No ready or semi finished material would be accepted from participant in competition.
+<li>
+Details:
+Participants will be judged on creativity, utilization of resources, artistic composition and design, utility of product and overall presentation.
+
+<li>NO MOBILE PHONES OR INTERNET MEANS WOULD BE ALLOWED AT THE TIME OF COMPETITION.
+    </ul>
+  </div>
+    
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+  <div class="item">
+  <h3>CARD MAKING</h3>
     <div class"event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      <li>Be a real builder, identify how the geometry affects the bridge design, functions and apply that knowledge to construct a model of a bridge using ice cream sticks. Bridge kriti provide a platform to young engineers to showcase their construction skills amidst several constraints. </li>
+      <li>Time limit: 1hr
 
-      <li>Each Team can have 2 members. Maximum two teams Design a Bridge of given specifications satisfying the stated constraints using popsicles (ice). </li>
-      <li>Span length: 60-65 cm and 10 cm at both ends </li>
-      <li>Height of the horizontal span: 11 cm (max.) from the ground </li>
-      <li>Stick overlapping should not exceed 3 cm </li>
-      <li>Crown of arch must be above horizontal span and its height should not exceed 25 cm.</li>
+      <li>Participants: 2
+      <li>Theme could be anything.
+
+      <li>All stationary to be brought by participants.
+
+      <li>Participants will be judged on creativity, utilization of resources, artistic composition and design, utility of product and overall presentation.
+
+      <li>NO MOBILE PHONES OR INTERNET MEANS WOULD BE ALLOWED AT THE TIME OF COMPETITION.
     </ul>
-    </div>
+  </div>
     <?php
       echo $form_data[$i];
       $i++;
     ?>
   </div>
 
-  <div class="item">
-    <h3>CHECK YOUR KNOWLEDGE</h3>
 
+  <div class="item">
+  <h3>FIND IF YOU CAN</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>
-      <li>Questions will be of general awareness type</li>
-      <li>Each college can send one team only</li>
-      <li>Each team to have 2 members</li>
-      <li>To answer question team will be given 10 second. </li>
-      <li> Each question will carry 3 points for correct answer. </li>
-      <li>For wrong answer no point will be given. No negative points will be awarded. </li>
-      <li>Only ONE attempt for one question is permissible</li>
-      <li> For no answer attempted, question will be passed to next team. It will be given chance to answer the question in 5 seconds and Ipoint for right answer will be awarded. </li>
-      <li>There will be 5 to 10 rounds depending upon number of team participating and availability of team. </li>
-      <li>The Judges decision will be final and binding to all. </li>
-    </ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li>Find the error if present or give the output of the code provided in C language.
 
+<li>Code will be given.
+
+<li> Participants will have to Dry Run as there will be no IDE.
+
+<li> Debug the code.
+
+<li> If there is error, give the reason and remove it.
+
+<li> Give the output of the code.
+
+<li> No internet access.
+
+<li> It is not MCQ , so luck can’t be tested.
+
+<li> Manual will be provided at the time of event.
+
+<li>Team size - 1 member
+
+<li>Duration – 1 hour
+
+<li>Skills required – C language.
+
+<li>Students coordinators
+
+ Shamsher Alam (IT) (8860994540) | Suraj (IT) (9113730080)
+    </ul>
+  </div>
+      <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+  <div class="item">
+  <h3>Counter strike 1.6</h3>
+      <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+<ul>
+  <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+<li>A team cab be of max 4 players .
+<li>Round time :2 mins  and number of rounds that each team has to play would b decided spontaneously
+<li>Maps included would be
+de_nuke | 
+de_dust2 | 
+de_inferno | 
+de_aztec | 
+de_train | 
+
+<li>Banned weapons will be bullpup and creg 552 and sheild as well .
+<li>Systems would be provided by the collg  and  participants are allowed to bring their headphones and mouse only .
+<li>Each Team Registration Price is 200 Rupees.
+<li>1st Event Winner Will Get 800 Rupees as Prize.
+
+</ul>
+  </div>
+      <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+  <div class="item">
+  <h3>CAPTURE THE FLAG</h3>
+  <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+  <ul>
+    <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+    <li> Participants will be using a platform for the event.
+    <li> Questions based on Web and Programming Will be there and Participants Need to find the flag by solving the questions.
+    <li>Participant solving maximum Questions Over a fixed time will win.
+    <li>Student Co-ordinator: Ashish Gupta (8527769723).
+  </ul>
+  </div>  <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+  <div class="item">
+  <h3>BLIND CODING</h3>
+  <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+  <ul>
+    <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+    <li>Individual Event
+    <li>The compiler provided will be TURBO C
+    <li>Consists of two rounds
+    <li>The Judges decision is final
+    <li>Participants have to correct the errors on paper and type the code with MONITOR SWITCHED OFF
+  </ul>
+  </div>
     <?php
       echo $form_data[$i];
       $i++;
     ?>
   </div>
 
+
   <div class="item">
-    <h3>CODING CONTEST</h3>
+  <h3>Chem-War</h3>
+      <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+      <ul>
+        <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+        <li>Chemwars is a event that combines strategy with knowledge. It requires you to merge practical thinking and decision making with theoretical knowledge of chemistry.
+
+<li>1st round -
+Elementary round consisting of 20 questions that will be judged. Maximum scoring team will go to next round. 
+
+<li>2nd round -
+
+<li>It will be a fun interactive round.
+
+"Beat the time be the winner"
+
+<li>Use of cell phones and other electronic gadgets is not permitted unless if a powerup involving them are chosen.
+
+<li>Teams will lose points if the answer is not given in the allotted time frame(time-keeper will be present)
+
+   <li>The Team should have only 2 participants.
+   <li>Venue :- 001 B 
+
+    <li>Coordinators: 
+Shubhangi Verma 8299290730 | 
+
+Anu Sharma
+      </ul>
+  </div>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+  <div class="item">
+  <h3> Time Game </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+<li>Time game is a event all about how fast you can beat the clock. 
+
+<li>
+We will give one Task to each team. The task should be completed within a given time. 
+
+<li>Task :- You have to find 10 Chemical Component's formula within given time from the bowl.
+The team have to be fast and accurate to be the Winner 
+
+<li>Use of cell phones and other electronic gadgets is not permitted unless if a powerup involving them are chosen.
+
+<li>Correct answer and time, both factors will be counted to declare the winner. 
+
+<li>The Team should have only 2 participants.
+Venue :- 001 B
+
+<li>Coordinators : 
+
+Aman Varshney  9811823830 |
+
+Aditya Gupta 7011615837
+
+</ul>
+
+  </div>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+  <div class="item">
+  <h3> THE MIND FIZZ </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+<li>Team Size: 2 or 3
+
+<li>There are 3 rounds
+
+<li>ROUND 1: (Brain Teaser)
+
+In this round Questions will be asked related to common sense, puzzles and riddles.
+
+<li>All 3 members can contribute and solve questions.
+
+<li>ROUND 2: (Let Me Know )
+
+In this round Questions will be asked related to music, songs, dialogues and movie names.
+
+Only 2 members can contribute in this round
+
+<li>ROUND 3: (Can You See Me)
+
+In this round some Fun Game will be conducted between the participants.
+
+All 3 members can contribute in this round
+
+<li>STUDENT COORDINATORS : 
+ MOHAMMAD FAHAD (9639647747) | HIMANSHU SAHRAWAT (7906666056)
+
+</ul>
+
+  </div>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+  <div class="item">
+  <h3> SCIENCE BREAKER </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+<li>Team Size: 2 or 3
+
+<li>ROUND 1: (General Tech Quiz)
+
+In the First Round of this Event, A test will be conducted which consists of General Technical Question based on First Year knowledge. Questions are of Objective type and some Fill in the Blanks type.
+
+<li>ROUND 2: (Think and Create a Model)
+
+For the Second Round Participants brings their own material and Design any Working as well as Non-Working Model during the event timing, based on the given Themes and Give proper Explanation to the Judges.
+
+<li>THEMES FOR SECOND ROUND<br>
+
+A-Renewable Energy<br>
+
+B-Electricity<br>
+
+C-Scientific Law<br>
+
+D-Latest Technology<br>
+
+E-Others (make your own idea)<br>
+
+
+<li>Present your model which shows your theme.
+
+<li>The decision of Judges will be Final.
+
+<li>Any Argument or Misbehavior with Coordinators and Judges will lead to Disqualify the Team.
+
+<li>STUDENTS COORDINATOR : SHABAN (8826105538) | PRAGYA SHIVHARE
+
+</ul>
+
+  </div>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+  <div class="item">
+  <h3> RoboTag </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+	<li>In this competition the participants have to bring their bot which is capable to lift a cube of 3.5*3.5*3.5 cm from random places to destined location. The team which scores the most will be the winner.
+	<li>Participants should carry their I-cards.
+	<li>Weight limit of bot -6kg.
+	<li>Dimensions -35cm*35cm*35cm.
+	<li>Voltage supply –up to 12 volts.
+	<li>Bot can be wired or wireless.
+	<li>No weapon should be there on bot.
+	<li>Electricity supply of 220volts,50hz will be provided, participants should carry their own adaptors.
+	 Misbehaviour of participants will lead to disqualification from competition.
+
+</ul>
+
+  </div>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+  <div class="item">
+  <h3> CAD MODELLING </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+	<li>This event is to test the drafting and designing skills of the engineering students. In this event there are two rounds. In first round participants has to sketch the given sketch while in second round they are required to do solid modeling. For this competition participants are requires to bring their laptops for better working. They can use CATIA, SolidWorks or AutoCAD. 
+
+	<li>1st round – 2d sketching
+	<li>Time allotted – 30 min 
+<li>2nd round - Assembly (3D modeling)
+	<li>Time allotted – 1 hr. 
+	<li>Bring your own laptops with required software installed
+	<li>Bring your college ID card
+	<li>Report 15 min before given time
+	<li>Gaurav Malik (9015819151) | Abhay Verma	(9554708201)
+
+
+</ul>
+
+  </div>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+  <div class="item">
+  <h3> AMPHIBIAN RACE </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+	<li>In this competition the participants have to build a bot which can run on water as well as on the land. 
+
+	<li>Participants should carry their I-cards.
+	<li>Weight limit of bot -6kg.
+	<li>Dimensions -35cm*35cm*35cm.
+	<li>Bot should be able to run on land and water.
+	<li>Voltage supply –up to 12 volts.
+	<li>Bot can be wired or wireless.
+	<li>No weapon or accessories should be there on bot.
+	<li>Electricity supply of 220volts,50hz will be provided, participants should carry their own adaptors.
+	<li>Misbehaviour of participants will lead to disqualification from competition.
+
+
+</ul>
+
+  </div>
+  <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+  <div class="item">
+  <h3> Robo Soccer </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+	<li>Similar to real soccer the participants’ bot will be playing the soccer. There will be 10-20 balls on the field, the one bot is allowed to do goal while other saves the goal. Team which scores the highest will be the winner. 
+
+	<li>Participants should carry their I-cards.
+	<li>Weight limit of bot -6kg.
+	<li>Dimensions -35cm*35cm*35cm.
+	<li>Voltage supply –up to 12 volts.
+	<li>Bot can be wired or wireless.
+	<li>No weapon should be there on bot.
+	<li>Electricity supply of 220volts,50hz will be provided, participants should carry their own adaptors.
+	<li>Misbehaviour of participants will lead to disqualification from competition.
+
+
+
+</ul>
+
+  </div>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+  <div class="item">
+  <h3> Water Rocketry  </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+	<li>In this competition participants have to bring their rocket formed by the water bottle filled with water. The pump will be provided by us. The rocket covering the longest distance will be the winner.
+
+	<li>Participants should carry their I-cards.
+	<li>Max 2.5liter bottle can be used for making rocket.
+	<li>Launcher will be provided.
+	<li>Build quality and distance achieved will be the judging criteria.
+	<li>Misbehaviour of participants will lead to disqualification from competition.
+
+
+
+</ul>
+
+  </div>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+  <div class="item">
+  <h3> VISION</h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+<li>Theme - Open Theme
+<li>No explicit contents.
+<li>Only 2 Photos with captions.
+<li>No plagiarism allowed, disqualified if found.
+<li>Submission with max likes, shares and based on judgement wins.
+<li>Last submission date - 20 March 2018
+<li>Minimal Editing Allowed.
+<li>No watermarks.
+<li>Winner will be awarded with certificates.
+
+
+</ul>
+
+  </div>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+  <div class="item">
+  <h3> Picture Perception and Discussion Test </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+<li>PPDT consists of story writing and discussion. Participants will be shown a picture, later they have to write a story based on the picture & will discuss about what they have seen. 
+<li>As described PPDT is short of “Picture Perception and Description Test”, Participants will be shown a random picture on which they have to write a story in a brief amount of time then each participant have to take part in a group discussion where they will discuss their stories with each other and make a conclusion.
+
+<li>During PPDT a bit hazy or blurred picture is shown to the participants for about a minute.
+<li>In about next ten minutes participants have to write down the details that have noticed in the picture & make a story
+<li>After that all the participants will discuss their story whatever they percept about the picture (for 15minutes).
+ Each participant has to show the properties of an efficient speaker in a group.
+
+<li>Cordinator: Vinayak Sharma(9208003024) | Ajeet Yadav (9654655862)
+
+
+</ul>
+
+  </div>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+  <div class="item">
+  <h3> Tech Apti </h3>
+        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
+        <ul>
+<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+
+<li>An aptitude test is any type of assessment that evaluates the talent, ability and potential to perform a certain task, with no prior knowledge and/or training.
+    
+
+<li>Aptitude test is to measure a person’s ability to acquire their work-related cognitive capacity; the tests assume that people differ in their special abilities and that these differences can be useful in predicting future achievements. This test consists:
+  <li> Duration of the test is 30 minutes.
+  <li> Questions paper consists of 20 objective questions.
+  <li> Each question is allotted 4 marks for correct response.
+  <li> ¼ marks will be deducted for indicating incorrect response of each question.
+  <li> No deduction for not attempted questions.
+  <li> Conclusions: Aptitude test is specially designed to find out how easily and how well we can do something or to assess our logical reasoning or thinking performance
+  <li> Coordinator : Kuldeep Singh (9990439858)  | Vinayak Sharma (9208003024)
+
+
+</ul>
+
+</div>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+  <div class="item">
+  <h3>Prashna Baan</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>
-      <li></li>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li>Time limit: 1hr
+
+      <li>Participants: 2
+      <li> GK Questions will be asked.
+      <li>Level by level questions will become difficult.
+      <li> A game of 3 rounds
+
+      <li>Cordinator:  Priyanka Karan and Divyanshi
     </ul>
+  </div>
     <?php
       echo $form_data[$i];
       $i++;
     ?>
   </div>
 
+
   <div class="item">
-    
-
-
+  <h3>MODEL MANIA</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li>A team shall consist minimum 2 and maximum 5 members.
+      <li>The model should be engineering based only.
+      <li>The model may be working or non-working.
+      <li>Each group must make the model before the event date and only must
+present on the date of event.
+      <li>Every member of the group must explain the model to the judge.
+      <li>Mode of explanation should be English only.
+    </ul>
+  </div>
     <?php
       echo $form_data[$i];
       $i++;
     ?>
   </div>
 
+
   <div class="item">
-    
+  <h3>KARYANEETI</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li>4 member in each group.
 
+<li> 1 member is blind fold
 
+<li>There is a track (zig zag)
+
+<li>3 member guiding the track and 1 member have to cross it.
+
+<li>At the end of the track colored balls are placed .
+
+<li>Blind fold member collect the maximum balls and place it at starting point.
+    </ul>
+  </div>
+  
     <?php
       echo $form_data[$i];
       $i++;
     ?>
   </div>
 
-  <div class="item">
-    
 
+  <div class="item">
+  <h3>MUSICAL.LY</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      
+      <li>8 selected teams enter in this round.
+
+      <li>2 team compete (at one time)
+
+      <li>We play instrumental song
+
+      <li>Teams have to guess song lyrics.
+    </ul>
+  </div>
+  
     <?php
       echo $form_data[$i];
       $i++;
     ?>
   </div>
 
-  <div class="item">
-    
 
+  <div class="item">
+  <h3>BALLOON BUILDING</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      
+      <li>4 selected team play this game.
+
+      <li> 3 member grab the balloon and blow it up.
+
+      <li> Then paste the maximum number of balloons on 4 th member in given time period.
+    </ul>
+  </div>
+  
     <?php
       echo $form_data[$i];
       $i++;
     ?>
   </div>
 
-  <div class="item">
-    
 
+  <div class="item">
+  <h3>LEGEND OF THE LOST</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      
+      <li>3 selected team enter in this round .
+
+      <li>All the clues of the team are same
+
+      <li>The team which find the treasure win first.
+    </ul>
+  </div>
+  
     <?php
       echo $form_data[$i];
       $i++;
     ?>
   </div>
 
-  <div class="item">
-    
 
+  <div class="item">
+  <h3>3-D MACHINE MODEL</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      
+      <li>This event consists of presentation of working/non-working model showcasing.
+
+      <li>The event is a team event and in every team 2 members are allowed.
+
+<li>For this the participants have to prepare a model and one page write-up which has to be presented during the final presentation.
+
+<li>The team will get scores on the basis of presentation skills for their model.
+
+<li>If any team member is found in any undisciplinary action, the team will get debarred from the event.
+
+<li>The judges score will be final and unchanged
+    </ul>
+  </div>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+  <div class="item">
+  <h3>ELECTRIC COLLAGE</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      
+      <li>This event consist of two rounds-Treasure Hunt and Creative Designing.
+
+<li>The event is a team event and in every team 2 members are allowed.
+
+<li>In the first round, the participants have to hunt down the hidden components and this round will be elimination round.
+
+<li>The second round is mains round in which the participants have to design something creative, either working or non-working but mewningful with the given components.
+
+<li>The team will get scores on the basis of their design presentation and explanation.
+
+<li>If any team member is found in any undisciplinary action, the team will get debarred from the event.
+    </ul>
+  </div>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+  <div class="item">
+  <h3>APTITUDE TEST</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li>Duration of the test is 30 minutes.
+
+      <li>Questions paper consists of 20 objective questions.
+
+      <li>Each question is allotted 4 marks for correct response.
+
+      <li>0.25 marks will be deducted for indicating incorrect response of each question.
+
+    <li>No deduction for not attempted questions.
+
+      <li>Coordinator : Kuldeep Singh (9990439858) | Vinayak Sharma (9208003024)
+    
+    </ul>
+  </div>
+  
     <?php
       echo $form_data[$i];
       $i++;
