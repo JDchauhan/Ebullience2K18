@@ -982,7 +982,7 @@ present on the date of event.
 
 <!--#####################################################################################################-->
 <div class="item">
-    <h3>MUSICAL.LY</h3>
+    <h3> STUBBORN IDEAS</h3>
     <div class"event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>

@@ -24,10 +24,18 @@
   $i = 0;
   for($j = 0; $j < 31; $j++){
     $next = $j + 2;
+    if($j == 24){
+      $j = 25;
+      $next = 27;
+    }
+    if($next == 25){
+      $next = 27;
+    }
+    if($j == 30){
+      $next = 1;
+    }
+    
     if(!(isset($_SESSION["event_participated"]) && $_SESSION["event_participated"][$j] == 1 )){
-      if($j == 28){
-        $next = 1;
-      }
       $form_data[$j] = '<center><form action="../resources/api.php?action=event_registered&amp;id=' . ($j + 1) . '&amp;session=' .  $session_get . ' " method="POST">
                           <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
                           <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
@@ -222,15 +230,7 @@
         </button>
 
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="24">
-           MUSICAL .LY
-        </button>
-
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="25">
-           BALLOON BUILDING
-        </button>
-
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="26">
-           LEGEND OF THE LOST
+        STUBBORN IDEAS
         </button>
 
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="27">
@@ -900,20 +900,31 @@ present on the date of event.
 
 
   <div class="item">
-  <h3>MUSICAL.LY</h3>
+    <h3> STUBBORN IDEAS</h3>
     <div class"event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
       
-      <li>8 selected teams enter in this round.
+      <li>Stubborn ideas help you to show a dogged determination through your sketches, designs and your artworks. The pictures could speak itself, we will make them share their words with the public.
 
-      <li>2 team compete (at one time)
+      <li>COORDINATORS- Rajat Pundir (Cse 3 Year) | Spriha Srivastava (Cse 3 Year)
 
-      <li>We play instrumental song
+      <li>The artwork can be on any topic or theme.
 
-      <li>Teams have to guess song lyrics.
+      <li>There can be any 2D or 3D artwork.
+
+      <li>It should not be printed or traced.
     </ul>
   </div>
+
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+  <div class="item">
   
     <?php
       echo $form_data[$i];
@@ -923,40 +934,6 @@ present on the date of event.
 
 
   <div class="item">
-  <h3>BALLOON BUILDING</h3>
-    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
-    <ul>
-      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      
-      <li>4 selected team play this game.
-
-      <li> 3 member grab the balloon and blow it up.
-
-      <li> Then paste the maximum number of balloons on 4 th member in given time period.
-    </ul>
-  </div>
-  
-    <?php
-      echo $form_data[$i];
-      $i++;
-    ?>
-  </div>
-
-
-  <div class="item">
-  <h3>LEGEND OF THE LOST</h3>
-    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
-    <ul>
-      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      
-      <li>3 selected team enter in this round .
-
-      <li>All the clues of the team are same
-
-      <li>The team which find the treasure win first.
-    </ul>
-  </div>
-  
     <?php
       echo $form_data[$i];
       $i++;
