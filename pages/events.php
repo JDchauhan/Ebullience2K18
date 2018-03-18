@@ -209,7 +209,7 @@
         </button>
 
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="24">
-           MUSICAL .LY
+           STUBBORN IDEAS
         </button>
 
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="25">
@@ -239,11 +239,6 @@
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="31">
           GREEN CANVAS
         </button>
-
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="32">
-          STUBBORN IDEAS
-        </button>
-
     </div>
   </div>
 
@@ -992,13 +987,15 @@ present on the date of event.
     <ul>
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
       
-      <li>8 selected teams enter in this round.
+      <li>Stubborn ideas help you to show a dogged determination through your sketches, designs and your artworks. The pictures could speak itself, we will make them share their words with the public.
 
-      <li>2 team compete (at one time)
+      <li>COORDINATORS- Rajat Pundir (Cse 3 Year) | Spriha Srivastava (Cse 3 Year)
 
-      <li>We play instrumental song
+      <li>The artwork can be on any topic or theme.
 
-      <li>Teams have to guess song lyrics.
+      <li>There can be any 2D or 3D artwork.
+
+      <li>It should not be printed or traced.
     </ul>
   </div>
   
@@ -1229,40 +1226,6 @@ less tiring to the eye and mind.
 
 <!--#####################################################################################################-->
 
-<!--#####################################################################################################-->
-
-
-
-
-<div class="item">
-    <h3>STUBBORN IDEAS</h3>
-    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
-    <ul>
-      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      <li>Stubborn ideas help you to show a dogged determination through your sketches, designs and your artworks. The pictures could speak itself, we will make them share their words with the public.
-
-      <li>COORDINATORS- Rajat Pundir (Cse 3 Year) | Spriha Srivastava (Cse 3 Year)
-
-      <li>The artwork can be on any topic or theme.
-
-      <li>There can be any 2D or 3D artwork.
-
-      <li>It should not be printed or traced.
-
-
-    </ul>
-  </div>
-  
-    <center>
-    <form action="login.php" method="POST">
-      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
-      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
-    </form>
-  </center>
-  </div>
-
-<!--#####################################################################################################-->
 
 
 <!--#####################################################################################################-->
