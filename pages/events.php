@@ -1152,7 +1152,7 @@ present on the date of event.
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="30">&gt;</button>
     </form>
   </center>
   </div>
@@ -1177,7 +1177,7 @@ Katiyar, Akanksha Singh, Shivangi Singh</li>
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="31">&gt;</button>
     </form>
   </center>
   </div>
