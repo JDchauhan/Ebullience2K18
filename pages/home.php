@@ -22,7 +22,7 @@
 
 //checking event registrations
   $i = 0;
-  for($j = 0; $j < 29; $j++){
+  for($j = 0; $j < 31; $j++){
     $next = $j + 2;
     if(!(isset($_SESSION["event_participated"]) && $_SESSION["event_participated"][$j] == 1 )){
       if($j == 28){
@@ -240,9 +240,17 @@
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="28">
            ELECTRIC COLLAGE
         </button>
-
+        
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="29">
-           APTITUDE TEST
+          POETRY SLAM
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="30">
+           BIO-TREASURE HUNT
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="31">
+          GREEN CANVAS
         </button>
     </div>
   </div>
@@ -1009,22 +1017,75 @@ present on the date of event.
 
 
   <div class="item">
-  <h3>APTITUDE TEST</h3>
+  <h3>POETRY SLAM</h3>
     <div class"event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      <li>Duration of the test is 30 minutes.
+     <li>Participants have to submit their poem through email to nietchronicle.nc@gmail.com after registering on the website . Deadline for submitting the poems is 22nd March 2018.
 
-      <li>Questions paper consists of 20 objective questions.
+      <li>Participants may submit ONE entry only. Submission of multiple entries shall lead to disqualification.
 
-      <li>Each question is allotted 4 marks for correct response.
+      <li> Participation will take place individually.
 
-      <li>0.25 marks will be deducted for indicating incorrect response of each question.
+      <li>The event is multilingual in nature: participants may submit their pieces in their desired languages i.e. English, Hindi and Urdu.
 
-    <li>No deduction for not attempted questions.
+      <li> Plagiarism will not be tolerated and shall lead to disqualification.
 
-      <li>Coordinator : Kuldeep Singh (9990439858) | Vinayak Sharma (9208003024)
+      <li>The time for the recitation should not exceed 7 minutes.
+
+      <li>Venue: B-block auditorium
+    </ul>
+  </div>
     
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+
+  <div class="item">
+  <h3>BIO-TRESURE HUNT</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li>A biotechnological (basic) level based treasure hunt
+inside the campus.
+      <li>Coordinator- Prerit Gupta, Sugandha
+Katiyar, Akanksha Singh, Shivangi Singh</li>
+    </ul>
+  </div>
+    <?php
+      echo $form_data[$i];
+      $i++;
+    ?>
+  </div>
+
+
+
+  <div class="item">
+  <h3>GREEN CANVAS</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li>A poster is a graphically based approach to presenting research. In presenting
+your research with a poster, you should aim to use the poster as a means for
+generating active discussion of the research.
+      <li>Limit the text to about one-fourth of the poster space, and use "visuals"
+(graphs, photographs, schematics, maps, etc.) to tell your "story".
+
+      <li>The entire poster must be mounted on a 40" x 60" foam-core board. The poster
+does not necessarily have to fill the entire working area.
+      <li> The board must be oriented in the "landscape" position (long dimension is
+horizontal).
+      <li> A banner displaying your poster title, name, and department (or class, if
+appropriate) should be positioned at top-center of the board (see Figure 1).
+      <li>Make it obvious to the viewer how to progressively view the poster. The poster
+generally should read from left to right, and top to bottom. 
+      <li>Numbering the individuals panels, or connecting them with arrows is a standard "guidance
+system" (see Figure 1).Leave some open space in the design. An open layout is
+less tiring to the eye and mind.  
     </ul>
   </div>
   
@@ -1037,6 +1098,8 @@ present on the date of event.
 </div>
 
 </div>
+
+
 
     <div class="footer">
       <div class="line_3"></div>

@@ -220,7 +220,7 @@
                             
                             //create binary table for event list
                             $j=0;
-                            for( $i = 0; $i <29; $i++){
+                            for( $i = 0; $i <31; $i++){
                                 $event_ids[$i] = 0;
                             }
                             foreach($result as $k => $v){
@@ -477,7 +477,7 @@
                     
                     //create binary table for event list
                     $j=0;
-                    for( $i = 0; $i <29; $i++){
+                    for( $i = 0; $i <31; $i++){
                         $event_ids[$i] = 0;
                     }
                     foreach($result as $k => $v){
@@ -526,7 +526,7 @@
                     
                     //create binary table for event list
                     $j=0;
-                    for( $i = 0; $i <29; $i++){
+                    for( $i = 0; $i <31; $i++){
                         $event_ids[$i] = 0;
                     }
                     foreach($result as $k => $v){
