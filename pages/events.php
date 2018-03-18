@@ -239,6 +239,10 @@
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="31">
           GREEN CANVAS
         </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="32">
+          POETRY SLAM
+        </button>
     </div>
   </div>
 
@@ -1215,11 +1219,51 @@ less tiring to the eye and mind.
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="32">&gt;</button>
+    </form>
+  </center>
+  </div>
+<!--#####################################################################################################-->
+
+
+
+<!--#####################################################################################################-->
+
+
+
+
+<div class="item">
+    <h3>GREEN CANVAS</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+     <li>Participants have to submit their poem through email to nietchronicle.nc@gmail.com after registering on the website . Deadline for submitting the poems is 22nd March 2018.
+
+      <li>Participants may submit ONE entry only. Submission of multiple entries shall lead to disqualification.
+
+      <li> Participation will take place individually.
+
+      <li>The event is multilingual in nature: participants may submit their pieces in their desired languages i.e. English, Hindi and Urdu.
+
+      <li> Plagiarism will not be tolerated and shall lead to disqualification.
+
+      <li>The time for the recitation should not exceed 7 minutes.
+
+      <li>Venue: B-block auditorium
+    </ul>
+  </div>
+  
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
     </form>
   </center>
   </div>
 <!--#####################################################################################################-->
+
+
 <!--#####################################################################################################-->
 </div>
 
