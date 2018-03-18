@@ -231,6 +231,18 @@
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="29">
            APTITUDE TEST
         </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="30">
+           BIO-TREASURE HUNT
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="31">
+          GREEN CANVAS
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="32">
+          POETRY SLAM
+        </button>
     </div>
   </div>
 
@@ -1144,11 +1156,114 @@ present on the date of event.
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="30">&gt;</button>
+    </form>
+  </center>
+  </div>
+<!--#####################################################################################################-->
+
+
+
+<!--#####################################################################################################-->
+<div class="item">
+    <h3>BIO-TRESURE HUNT</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li>A biotechnological (basic) level based treasure hunt
+inside the campus.
+      <li>Coordinator- Prerit Gupta, Sugandha
+Katiyar, Akanksha Singh, Shivangi Singh</li>
+    </ul>
+  </div>
+  
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="31">&gt;</button>
+    </form>
+  </center>
+  </div>
+<!--#####################################################################################################-->
+
+
+
+
+<div class="item">
+    <h3>GREEN CANVAS</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li>A poster is a graphically based approach to presenting research. In presenting
+your research with a poster, you should aim to use the poster as a means for
+generating active discussion of the research.
+      <li>Limit the text to about one-fourth of the poster space, and use "visuals"
+(graphs, photographs, schematics, maps, etc.) to tell your "story".
+
+      <li>The entire poster must be mounted on a 40" x 60" foam-core board. The poster
+does not necessarily have to fill the entire working area.
+      <li> The board must be oriented in the "landscape" position (long dimension is
+horizontal).
+      <li> A banner displaying your poster title, name, and department (or class, if
+appropriate) should be positioned at top-center of the board (see Figure 1).
+      <li>Make it obvious to the viewer how to progressively view the poster. The poster
+generally should read from left to right, and top to bottom. 
+      <li>Numbering the individuals panels, or connecting them with arrows is a standard "guidance
+system" (see Figure 1).Leave some open space in the design. An open layout is
+less tiring to the eye and mind.  
+    </ul>
+  </div>
+  
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="32">&gt;</button>
+    </form>
+  </center>
+  </div>
+<!--#####################################################################################################-->
+
+
+
+<!--#####################################################################################################-->
+
+
+
+
+<div class="item">
+    <h3>GREEN CANVAS</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+     <li>Participants have to submit their poem through email to nietchronicle.nc@gmail.com after registering on the website . Deadline for submitting the poems is 22nd March 2018.
+
+      <li>Participants may submit ONE entry only. Submission of multiple entries shall lead to disqualification.
+
+      <li> Participation will take place individually.
+
+      <li>The event is multilingual in nature: participants may submit their pieces in their desired languages i.e. English, Hindi and Urdu.
+
+      <li> Plagiarism will not be tolerated and shall lead to disqualification.
+
+      <li>The time for the recitation should not exceed 7 minutes.
+
+      <li>Venue: B-block auditorium
+    </ul>
+  </div>
+  
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
     </form>
   </center>
   </div>
 <!--#####################################################################################################-->
+
+
 <!--#####################################################################################################-->
 </div>
 
