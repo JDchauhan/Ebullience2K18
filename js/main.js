@@ -89,11 +89,22 @@ waves: [
 function validateForm() 
 {
     var name = document.forms["reg-form"]["name"].value;
-    var clg_name=document.forms["reg-form"]["clg_name"].value;
+    var branch=document.forms["reg-form"]["branch"].value;
+    var year=document.forms["reg-form"]["year"].value;
     var email=document.forms["reg-form"]["email"].value;
     var roll_no=document.forms["reg-form"]["roll_no"].value;
     var mob_no=document.forms["reg-form"]["mob_no"].value;
     var pass=document.forms["reg-form"]["pass"].value;
+
+    var re = new RegExp("133");
+    if (re.test(roll_no)) 
+    {
+        var flag=0;
+    } 
+    else 
+    {
+        var flag=1;
+    }
     if (name == "") 
     {
         document.getElementById("message").className="";
@@ -115,14 +126,21 @@ function validateForm()
         document.getElementById("message").innerHTML="PLEASE ENTER CORRECT EMAIL";
         return false;
     }
-    else if(clg_name== "")
+    else if(branch== "")
     {
         document.getElementById("message").className="";
         document.getElementById("message").className="error";
-        document.getElementById("message").innerHTML="PLEASE ENTER COLLEGE NAME";
+        document.getElementById("message").innerHTML="PLEASE ENTER BRANCH NAME";
         return false;
     }
-    else if(isNaN(roll_no) || roll_no.length < 1)
+    else if(year== "null")
+    {
+        document.getElementById("message").className="";
+        document.getElementById("message").className="error";
+        document.getElementById("message").innerHTML="PLEASE CHOOSE YEAR";
+        return false;
+    }
+    else if(isNaN(roll_no) || roll_no.length < 1 || flag==1 )
     {
         document.getElementById("message").className="";
         document.getElementById("message").className="error";
@@ -133,7 +151,7 @@ function validateForm()
     {
         document.getElementById("message").className="";
         document.getElementById("message").className="error";
-        document.getElementById("message").innerHTML="PLEASE CORRECT MOBILE NUMBER";
+        document.getElementById("message").innerHTML="PLEASE CORRECT 10 digit MOBILE NUMBER";
         return false;
     }
     else if(pass=="")

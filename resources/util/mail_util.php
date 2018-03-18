@@ -3,6 +3,12 @@
 function OTM($email, $roll, $name, $verification_token, $services){
     $actual_link = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://".  $_SERVER[HTTP_HOST] . "/resources" ;
 
+    if($roll == NULL){
+        $roll = "";
+    }else{
+        $roll = "Roll No.: <b>" . $roll . "</b><br />";
+    }
+
     $to = $email;
     $subject = "Ebullience 2K18 Verification Link";
 
@@ -29,8 +35,8 @@ function OTM($email, $roll, $name, $verification_token, $services){
         <body>
             <p>
                 Dear <b>" . $name . "</b>, <br />
-                You have registered for an account in the <b>Cloudy Vault</b> with the following credentials:<br />
-                Roll No.: <b>" . $roll . "</b><br />
+                You have registered in the <b>Ebullience 2K18</b> with the following credentials:<br />
+                " . $roll . " 
                 Email-ID: <b>" . $email . "</b><br />
                 Name: <b>" . $name . "</b><br />" . $dyn_message1 .
                 "<a href='" . $actual_link . "/api.php?action=authenticate&token=" . $verification_token .
