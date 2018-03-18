@@ -391,8 +391,6 @@ de_train |
 
 <li>Banned weapons will be bullpup and creg 552 and sheild as well .
 <li>Systems would be provided by the collg  and  participants are allowed to bring their headphones and mouse only .
-<li>Each Team Registration Price is 200 Rupees.
-<li>1st Event Winner Will Get 800 Rupees as Prize.
 
 </ul>
   </div>
