@@ -240,6 +240,10 @@
           GREEN CANVAS
         </button>
 
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="32">
+          STUBBORN IDEAS
+        </button>
+
     </div>
   </div>
 
@@ -1211,6 +1215,41 @@ generally should read from left to right, and top to bottom.
       <li>Numbering the individuals panels, or connecting them with arrows is a standard "guidance
 system" (see Figure 1).Leave some open space in the design. An open layout is
 less tiring to the eye and mind.  
+    </ul>
+  </div>
+  
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="1">&gt;</button>
+    </form>
+  </center>
+  </div>
+
+<!--#####################################################################################################-->
+
+<!--#####################################################################################################-->
+
+
+
+
+<div class="item">
+    <h3>STUBBORN IDEAS</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li>Stubborn ideas help you to show a dogged determination through your sketches, designs and your artworks. The pictures could speak itself, we will make them share their words with the public.
+
+      <li>COORDINATORS- Rajat Pundir (Cse 3 Year) | Spriha Srivastava (Cse 3 Year)
+
+      <li>The artwork can be on any topic or theme.
+
+      <li>There can be any 2D or 3D artwork.
+
+      <li>It should not be printed or traced.
+
+
     </ul>
   </div>
   
