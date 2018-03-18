@@ -213,30 +213,22 @@
         </button>
 
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="25">
-           BALLOON BUILDING
-        </button>
-
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="26">
-           LEGEND OF THE LOST
-        </button>
-
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="27">
            3-D MACHINE MODEL
         </button>
 
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="28">
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="26">
            ELECTRIC COLLAGE
         </button>
 
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="29">
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="27">
           POETRY SLAM
         </button>
 
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="30">
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="28">
            BIO-TREASURE HUNT
         </button>
 
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="31">
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="29">
           GREEN CANVAS
         </button>
     </div>
@@ -1007,59 +999,6 @@ present on the date of event.
     </form>
   </center>
   </div>
-
-<!--#####################################################################################################-->
-
-
-<!--#####################################################################################################-->
-<div class="item">
-    <h3>BALLOON BUILDING</h3>
-    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
-    <ul>
-      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      
-      <li>4 selected team play this game.
-
-      <li> 3 member grab the balloon and blow it up.
-
-      <li> Then paste the maximum number of balloons on 4 th member in given time period.
-    </ul>
-  </div>
-  
-    <center>
-    <form action="login.php" method="POST">
-      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
-      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="26">&gt;</button>
-    </form>
-  </center>
-  </div>
-
-<!--#####################################################################################################-->
-
-<!--#####################################################################################################-->
-<div class="item">
-    <h3>LEGEND OF THE LOST</h3>
-    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
-    <ul>
-      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      
-      <li>3 selected team enter in this round .
-
-      <li>All the clues of the team are same
-
-      <li>The team which find the treasure win first.
-    </ul>
-  </div>
-  
-    <center>
-    <form action="login.php" method="POST">
-      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
-      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="27">&gt;</button>
-    </form>
-  </center>
-  </div>
 <!--#####################################################################################################-->
 
 <!--#####################################################################################################-->
@@ -1087,7 +1026,7 @@ present on the date of event.
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="28">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="26">&gt;</button>
     </form>
   </center>
   </div>
@@ -1120,7 +1059,7 @@ present on the date of event.
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="29">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="27">&gt;</button>
     </form>
   </center>
   </div>
@@ -1156,7 +1095,7 @@ present on the date of event.
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="30">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="28">&gt;</button>
     </form>
   </center>
   </div>
@@ -1181,7 +1120,7 @@ Katiyar, Akanksha Singh, Shivangi Singh</li>
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="31">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="29">&gt;</button>
     </form>
   </center>
   </div>
