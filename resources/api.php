@@ -285,8 +285,9 @@
 
             }else{
                 //error: expired link
-                session_unset();
-                session_destroy();
+                $_SESSION["msg"]["type"] = "error";
+                $_SESSION["msg"]["head"] = "Some error occured";
+                $_SESSION["msg"]["body"] = "The link you have clicked has been expired";
                 $head = "Location: ../pages/login.php?session=" . $session_get;
                 header($head);
             }
