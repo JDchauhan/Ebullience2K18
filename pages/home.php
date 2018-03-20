@@ -383,7 +383,7 @@ Participants will be judged on creativity, utilization of resources, artistic co
 
  Shamsher Alam (IT) (8860994540) | Suraj (IT) (9113730080)
     
-<li>Date : 24-03-18, Time : 1:30 PM
+<li>Date : 24-03-18, Time : 10:00 AM
     </ul>
   </div>
       <?php
@@ -424,12 +424,12 @@ de_aztec |
   <h3>CAPTURE THE FLAG</h3>
   <div class"event_overview" style="height: 250px;overflow-y: scroll;">
   <ul>
-    <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+    <li style="color:rgba(2 4, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
     <li> Participants will be using a platform for the event.
     <li> Questions based on Web and Programming Will be there and Participants Need to find the flag by solving the questions.
     <li>Participant solving maximum Questions Over a fixed time will win.
     <li>Student Co-ordinator: Ashish Gupta (8527769723).
-    <li>Date : 24-03-18, Time : 10:00 AM
+    <li>Date : 24-03-18, Time : 12:30 PM
 
   </ul>
   </div>  <?php
@@ -726,7 +726,7 @@ remain slack during the complete run.
 	<li>No weapon should be there on bot.
 	<li>Electricity supply of 220volts,50hz will be provided, participants should carry their own adaptors.
 	<li>Misbehaviour of participants will lead to disqualification from competition.
-  <li> Date : 24-03-18, Time : 10:00 PM
+  <li> Date : 24-03-18, Time : 10:00 AM
   <li>Co-ordinator: Himanshu Yadav (8218640230) | Ankur Yadav (9871470046)
 
 
@@ -1018,7 +1018,7 @@ present on the date of event.
 <li>The team will get scores on the basis of their design presentation and explanation.
 
 <li>If any team member is found in any undisciplinary action, the team will get debarred from the event.
-<li> Date : 24-03-18, Time : 10:00 PM
+<li> Date : 24-03-18, Time : 10:00 AM
 
 <li>Co-ordinator : Manish Bhardwaj (8800970331)
     </ul>
