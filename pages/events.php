@@ -727,6 +727,7 @@ remain slack during the complete run.
 <li>The robot must not leave behind any of its parts during the run; else it will result in disqualification.
 <li>Unethical behavior could lead to disqualification
 <li> Date : 22-03-18, Time : 11:00 AM
+<li> Co-ordinators : Ravi Pratap Singh (9718929490)
   </ul>
   </div>
 <center>
@@ -759,7 +760,7 @@ remain slack during the complete run.
 	<li>Electricity supply of 220volts,50hz will be provided, participants should carry their own adaptors.
 	<li>Misbehaviour of participants will lead to disqualification from competition.
   <li> Date : 24-03-18, Time : 10:00 PM
-
+  <li>Co-ordinator: Himanshu Yadav (8218640230) | Ankur Yadav (9871470046)
 
 </ul>
 
@@ -790,8 +791,8 @@ remain slack during the complete run.
 	<li>Launcher will be provided.
 	<li>Build quality and distance achieved will be the judging criteria.
 	<li>Misbehaviour of participants will lead to disqualification from competition.
-  <li> Date : 23-03-18, Time : 1:30 PM
-
+  <li>Date : 23-03-18, Time : 1:30 PM
+  <li>Co-ordinators : Ankit Tripathi (9650575205)
 
 </ul>
 
@@ -913,7 +914,7 @@ remain slack during the complete run.
       <li>Level by level questions will become difficult.
       <li> A game of 3 rounds
 
-      <li>Cordinator:  Priyanka Karan and Divyanshi
+      <li>Cordinator:  Priyanka Karan (8377852399) and Divyanshi
       <li> Date : 22-03-18, Time : 11:00 AM
     </ul>
   </div>
@@ -975,7 +976,7 @@ present on the date of event.
 <li>At the end of the track colored balls are placed .
 
 <li>Blind fold member collect the maximum balls and place it at starting point.
-
+<li>Co-ordinators: Shujat Abbas (9897669154)
 <li> Date : 23-03-18, Time : 11:30 AM
     </ul>
   </div>
@@ -1005,6 +1006,8 @@ present on the date of event.
       <li>There can be any 2D or 3D artwork.
 
       <li>It should not be printed or traced.
+
+      <li>Co-ordinators : 
     </ul>
   </div>
   
@@ -1038,6 +1041,8 @@ present on the date of event.
 <li>The judges score will be final and unchanged
 
 <li> Date : 22-03-18, Time : 2:00 PM
+
+<li>Co-ordinators: Disha Dwivedi (9582795041)
     </ul>
   </div>
   
@@ -1073,6 +1078,8 @@ present on the date of event.
 <li>If any team member is found in any undisciplinary action, the team will get debarred from the event.
 
 <li> Date : 24-03-18, Time : 10:00 PM
+
+<li>Co-ordinator : Manish Bhardwaj (8800970331)
     </ul>
   </div>
   
