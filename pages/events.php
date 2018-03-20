@@ -244,6 +244,7 @@
       <li>Round 1: You have to pick up a chit from a box that will contain some basic science terminologies. You have the choice to decide whether who will enact and who will guess. The pair who guesses right will be proceeded to the second round.
       <li>Round 2 : This will contain a time duration of 2 mins and its again the same as round 1. Do not exceed the time limit.
       <li>Student Co-ordinator: Prashant Kumar Singh- (9415679329) | Ayushi Tiwari –(9307812257)
+      <li>Date : 22-03-2018, Time : 1:00 PM
     </ul>
     </div>
     <center>
@@ -261,7 +262,8 @@
     <ul>
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
       <li> Team of two members.  
-      <li> They will have to make any theme based art on the petri plate using different colours. 
+      <li> They will have to make any theme based art on the petri plate using different colours.
+      <li> Date : 23-08-18, Time : 1:00 PM  
       <li> Cordinator: Aditi Saxena and Pulkita
     </ul>
     </div>
@@ -294,6 +296,8 @@ Details:
 Participants will be judged on creativity, utilization of resources, artistic composition and design, utility of product and overall presentation.
 
 <li>NO MOBILE PHONES OR INTERNET MEANS WOULD BE ALLOWED AT THE TIME OF COMPETITION.
+
+<li>Date : 23-03-18, Time : 1:00 PM
     </ul>
   </div>
     <center>
@@ -320,6 +324,8 @@ Participants will be judged on creativity, utilization of resources, artistic co
       <li>Participants will be judged on creativity, utilization of resources, artistic composition and design, utility of product and overall presentation.
 
       <li>NO MOBILE PHONES OR INTERNET MEANS WOULD BE ALLOWED AT THE TIME OF COMPETITION.
+
+      <li>Date : 22-03-18, Time : 2:00 PM
     </ul>
   </div>
     <center>
@@ -363,6 +369,8 @@ Participants will be judged on creativity, utilization of resources, artistic co
 <li>Students coordinators
 
  Shamsher Alam (IT) (8860994540) | Suraj (IT) (9113730080)
+
+<li>Date : 24-03-18, Time : 1:30 PM
     </ul>
   </div>
     <center>
@@ -386,12 +394,11 @@ Participants will be judged on creativity, utilization of resources, artistic co
 de_nuke | 
 de_dust2 | 
 de_inferno | 
-de_aztec | 
-de_train | 
+de_aztec |
 
 <li>Banned weapons will be bullpup and creg 552 and sheild as well .
 <li>Systems would be provided by the collg  and  participants are allowed to bring their headphones and mouse only .
-
+<li>Date : 23-03-18, Time : 10:00 AM 
 </ul>
   </div>
     <center>
@@ -414,6 +421,7 @@ de_train |
     <li> Questions based on Web and Programming Will be there and Participants Need to find the flag by solving the questions.
     <li>Participant solving maximum Questions Over a fixed time will win.
     <li>Student Co-ordinator: Ashish Gupta (8527769723).
+    <li>Date : 24-03-18, Time : 10:00 AM
   </ul>
   </div>
 <center>
@@ -437,6 +445,7 @@ de_train |
     <li>Consists of two rounds
     <li>The Judges decision is final
     <li>Participants have to correct the errors on paper and type the code with MONITOR SWITCHED OFF
+    <li>Date : 23-03-18, Time : 1:30 PM
   </ul>
   </div>
 <center>
@@ -474,9 +483,9 @@ Elementary round consisting of 20 questions that will be judged. Maximum scoring
    <li>Venue :- 001 B 
 
     <li>Coordinators: 
-Shubhangi Verma 8299290730 | 
+Shubhangi Verma 8299290730 | Anu Sharma
 
-Anu Sharma
+<li>Date : 23-03-18, Time : 2:00 PM
       </ul>
   </div>
     <center>
@@ -514,6 +523,8 @@ Venue :- 001 B
 Aman Varshney  9811823830 |
 
 Aditya Gupta 7011615837
+
+<li>Date: 23-03-18, Time : 11:30 AM
 
 </ul>
 
@@ -559,6 +570,8 @@ All 3 members can contribute in this round
 
 <li>STUDENT COORDINATORS : 
  MOHAMMAD FAHAD (9639647747) | HIMANSHU SAHRAWAT (7906666056)
+
+<li> Date : 22-03-18, Time : 12:00 PM
 
 </ul>
 
@@ -610,6 +623,8 @@ E-Others (make your own idea)<br>
 
 <li>STUDENTS COORDINATOR : SHABAN (8826105538) | PRAGYA SHIVHARE
 
+<li> Date : 24-03-18, Time : 11:00 PM
+
 </ul>
 
   </div>
@@ -640,7 +655,7 @@ E-Others (make your own idea)<br>
 	<li>No weapon should be there on bot.
 	<li>Electricity supply of 220volts,50hz will be provided, participants should carry their own adaptors.
 	 Misbehaviour of participants will lead to disqualification from competition.
-
+   <li> Date : 23-03-18, Time : 11:30 AM
 </ul>
 
   </div>
@@ -673,7 +688,7 @@ E-Others (make your own idea)<br>
 	<li>Bring your college ID card
 	<li>Report 15 min before given time
 	<li>Gaurav Malik (9015819151) | Abhay Verma	(9554708201)
-
+  <li> Date : 24-03-18, Time : 12:30 PM
 
 </ul>
 
@@ -711,6 +726,7 @@ remain slack during the complete run.
 <li>The robot should not damage the arena.
 <li>The robot must not leave behind any of its parts during the run; else it will result in disqualification.
 <li>Unethical behavior could lead to disqualification
+<li> Date : 22-03-18, Time : 11:00 AM
   </ul>
   </div>
 <center>
@@ -742,7 +758,7 @@ remain slack during the complete run.
 	<li>No weapon should be there on bot.
 	<li>Electricity supply of 220volts,50hz will be provided, participants should carry their own adaptors.
 	<li>Misbehaviour of participants will lead to disqualification from competition.
-
+  <li> Date : 24-03-18, Time : 10:00 PM
 
 
 </ul>
@@ -774,7 +790,7 @@ remain slack during the complete run.
 	<li>Launcher will be provided.
 	<li>Build quality and distance achieved will be the judging criteria.
 	<li>Misbehaviour of participants will lead to disqualification from competition.
-
+  <li> Date : 23-03-18, Time : 1:30 PM
 
 
 </ul>
@@ -807,7 +823,6 @@ remain slack during the complete run.
 <li>No watermarks.
 <li>Winner will be awarded with certificates.
 
-
 </ul>
 
   </div>
@@ -839,7 +854,7 @@ remain slack during the complete run.
  Each participant has to show the properties of an efficient speaker in a group.
 
 <li>Cordinator: Vinayak Sharma(9208003024) | Ajeet Yadav (9654655862)
-
+<li> Date : 23-03-18, Time : 10:00 AM
 
 </ul>
 
@@ -872,7 +887,7 @@ remain slack during the complete run.
   <li> No deduction for not attempted questions.
   <li> Conclusions: Aptitude test is specially designed to find out how easily and how well we can do something or to assess our logical reasoning or thinking performance
   <li> Coordinator : Kuldeep Singh (9990439858)  | Vinayak Sharma (9208003024)
-
+  <li> Date : 23-03-18, Time : 1:30 PM
 
 </ul>
 </div>
@@ -899,6 +914,7 @@ remain slack during the complete run.
       <li> A game of 3 rounds
 
       <li>Cordinator:  Priyanka Karan and Divyanshi
+      <li> Date : 22-03-18, Time : 11:00 AM
     </ul>
   </div>
   
@@ -927,6 +943,7 @@ remain slack during the complete run.
 present on the date of event.
       <li>Every member of the group must explain the model to the judge.
       <li>Mode of explanation should be English only.
+      <li> Date : 22-03-18, Time : 2:30 PM
     </ul>
   </div>
   
@@ -958,6 +975,8 @@ present on the date of event.
 <li>At the end of the track colored balls are placed .
 
 <li>Blind fold member collect the maximum balls and place it at starting point.
+
+<li> Date : 23-03-18, Time : 11:30 AM
     </ul>
   </div>
   
@@ -1017,6 +1036,8 @@ present on the date of event.
 <li>If any team member is found in any undisciplinary action, the team will get debarred from the event.
 
 <li>The judges score will be final and unchanged
+
+<li> Date : 22-03-18, Time : 2:00 PM
     </ul>
   </div>
   
@@ -1050,6 +1071,8 @@ present on the date of event.
 <li>The team will get scores on the basis of their design presentation and explanation.
 
 <li>If any team member is found in any undisciplinary action, the team will get debarred from the event.
+
+<li> Date : 24-03-18, Time : 10:00 PM
     </ul>
   </div>
   
@@ -1111,6 +1134,7 @@ present on the date of event.
 inside the campus.
       <li>Coordinator- Prerit Gupta, Sugandha
 Katiyar, Akanksha Singh, Shivangi Singh</li>
+    <li> Date : 23-03-18, Time : 10:00 AM
     </ul>
   </div>
   
@@ -1149,6 +1173,7 @@ generally should read from left to right, and top to bottom.
       <li>Numbering the individuals panels, or connecting them with arrows is a standard "guidance
 system" (see Figure 1).Leave some open space in the design. An open layout is
 less tiring to the eye and mind.  
+      <li> Date : 24-03-18, Time : 11:00 AM
     </ul>
   </div>
   
