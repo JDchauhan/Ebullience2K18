@@ -194,7 +194,7 @@
         </button>
 
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="15">
-            AMPHIBIAN RACE
+            ROBO RACE
         </button>
 
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="16">
@@ -661,26 +661,26 @@ E-Others (make your own idea)<br>
 
 
   <div class="item">
-  <h3> AMPHIBIAN RACE </h3>
-        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
-        <ul>
-<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-
-	<li>In this competition the participants have to build a bot which can run on water as well as on the land. 
-
-	<li>Participants should carry their I-cards.
-	<li>Weight limit of bot -6kg.
-	<li>Dimensions -35cm*35cm*35cm.
-	<li>Bot should be able to run on land and water.
-	<li>Voltage supply –up to 12 volts.
-	<li>Bot can be wired or wireless.
-	<li>No weapon or accessories should be there on bot.
-	<li>Electricity supply of 220volts,50hz will be provided, participants should carry their own adaptors.
-	<li>Misbehaviour of participants will lead to disqualification from competition.
-
-
-</ul>
-
+  <h3>ROBO RACE</h3>
+  <div class"event_overview" style="height: 240px;overflow-y: scroll;">
+  <ul>
+    <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+<li>Design a manually controlled ROBOT that has capacity to cover maximum distance in shortest
+possible time, challenging the hurdles and be one of the best opponents. <li>The maximum dimension of
+the robot can be 35 x 35 cm (I x b).
+<li>The robot may be wired or wireless.
+<li>The length of the wire (for wired hots) should be long enough to cover the whole track and wire should
+remain slack during the complete run.
+<li>Max weight must not exceed 6 kg.
+<li>The power supply will be provided maximum up to 12Volt.
+<li>Ready made toys car are not allowed.
+<li>This is a racing event, so fastest and most balanced robot will win.
+<li>Each team can have maximum four (4) members.
+<li>Each member of the team must contain the identity card of the Institute.
+<li>The robot should not damage the arena.
+<li>The robot must not leave behind any of its parts during the run; else it will result in disqualification.
+<li>Unethical behavior could lead to disqualification
+  </ul>
   </div>
   <?php
       echo $form_data[$i];

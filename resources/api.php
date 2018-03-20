@@ -71,12 +71,12 @@
              */
             global $session_get;
 
-            $name = $_POST["name"];
-            $branch = $_POST["branch"];
+            $name = trim($_POST["name"]);
+            $branch = trim($_POST["branch"]);
             $year = $_POST["year"];
-            $email = $_POST["email"];
-            $roll = (int)$_POST["roll_no"];
-            $mobile = (int)$_POST["mob_no"];
+            $email = trim($_POST["email"]);
+            $roll = (int)trim($_POST["roll_no"]);
+            $mobile = (int)trim($_POST["mob_no"]);
             $pass = $_POST["pass"];
             $verification_token = guid();
 
@@ -166,8 +166,8 @@
         function login(){
             global $session_get;
 
-            $email=$_POST["email"]; 
-            $pass=$_POST["password"];
+            $email = trim($_POST["email"]); 
+            $pass = $_POST["password"];
 
             $err_form = "";
             $err_status = 0;
