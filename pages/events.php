@@ -715,7 +715,7 @@ E-Others (make your own idea)<br>
 possible time, challenging the hurdles and be one of the best opponents. <li>The maximum dimension of
 the robot can be 35 x 35 cm (I x b).
 <li>The robot may be wired or wireless.
-<li>The length of the wire (for wired hots) should be long enough to cover the whole track and wire should
+<li>The length of the wire (for wired bots) should be long enough to cover the whole track and wire should
 remain slack during the complete run.
 <li>Max weight must not exceed 6 kg.
 <li>The power supply will be provided maximum up to 12Volt.
