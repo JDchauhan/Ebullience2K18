@@ -397,7 +397,8 @@ de_inferno |
 de_aztec |
 
 <li>Banned weapons will be bullpup and creg 552 and sheild as well .
-<li>Systems would be provided by the collg  and  participants are allowed to bring their headphones and mouse only .
+<li>Systems would be provided by the college  and  participants are allowed to bring their headphones and mouse only .
+<li>Student Co-ordinator: Ashish Gupta (8527769723).
 <li>Date : 23-03-18, Time : 10:00 AM 
 </ul>
   </div>
@@ -445,6 +446,7 @@ de_aztec |
     <li>Consists of two rounds
     <li>The Judges decision is final
     <li>Participants have to correct the errors on paper and type the code with MONITOR SWITCHED OFF
+    <li>Student Co-ordinator: Ashish Gupta (8527769723).
     <li>Date : 23-03-18, Time : 1:30 PM
   </ul>
   </div>
