@@ -29,7 +29,7 @@
     
     <meta name="author" content="Jagdish Singh, Ashish Gupta">
 
-    <meta name="theme-color" content="#04080F">
+	<meta name="theme-color" content="#030710">
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
