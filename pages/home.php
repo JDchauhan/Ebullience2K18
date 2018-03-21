@@ -564,7 +564,8 @@ All 3 members can contribute in this round
 
 <li>STUDENT COORDINATORS : 
  MOHAMMAD FAHAD (9639647747) | HIMANSHU SAHRAWAT (7906666056)
-<li> Time : 11:00 AM, 24 March 2017
+ <li> Time : 12:30 PM, 22 March 2018
+
 
 </ul>
 
