@@ -15,7 +15,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ebullience 2K18</title>
+	<title>Ebullience 2k18</title>
 
 	<meta charset="utf-8">
 
@@ -29,7 +29,7 @@
     
     <meta name="author" content="Jagdish Singh, Ashish Gupta">
 
-    <meta name="theme-color" content="#030710">
+    <meta name="theme-color" content="#04080F">
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -129,6 +129,7 @@
         <a href="pages/co-ordinator-panel.php"> Console</a> | 
 	    <a href="pages/devpage.php">DEV PAGE</a> | 
         <a href="pages/contactus.php">CONTACT US</a> | 
+        <a href="images/schedule.jpeg">SCHEDULE</a> | 
         <a href="pages/management.php">MANAGEMENT</a>
     
     </div> 
@@ -163,6 +164,7 @@
         <a href="pages/co-ordinator-panel.php"><button><div class="btn-text">CONSOLE</div></button></a><br><br><br>
     <a href="pages/devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
     <a href="pages/contactus.php"><button><div class="btn-text">CONTACT US</div></button></a><br><br><br>
+    <a href="images/schedule.jpeg"><button><div class="btn-text">SCHEDULE</div></button></a><br><br><br>
     <a href="pages/management.php"><button><div class="btn-text">MANAGEMENTS</div></button></a><br><br><br> 
 	</div>
 
