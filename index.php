@@ -15,7 +15,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Techno Orbit</title>
+	<title>Ebullience 2k18</title>
 
 	<meta charset="utf-8">
 
