@@ -160,7 +160,7 @@
          <div class="social-links">
          <a target="_blank" href="https://github.com/ashigupta007"><i class="fab fa-github fa-2x"></i></a>
          <a target="_blank" href="https://www.facebook.com/Ashugupta007"><i class="fab fa-facebook-square fa-2x"></i></a>
-         <a target="_blank" href="https://www.instagram.com/mr_ashish__"><i class="fab fa-instagram fa-2x"></i></a>
+         <a target="_blank" href="https://www.instagram.com/mr_ashish___"><i class="fab fa-instagram fa-2x"></i></a>
          <a target="_blank" href="https://www.linkedin.com/in/https://www.linkedin.com/in/ashish-gupta-aa32bb129"><i class="fab fa-linkedin fa-2x"></i></a>
          <a target="_blank" href="https://www.twitter.com/AshishG31444945/"><i class="fab fa-twitter-square fa-2x"></i></a>
          <a target="_blank" href="https://t.me/Akgupta007"><i class="fab fa-telegram fa-2x"></i></a>
