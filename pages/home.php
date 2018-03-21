@@ -265,7 +265,7 @@
       <li>Participants must come in pairs (2 participants)
       <li>Round 1: You have to pick up a chit from a box that will contain some basic science terminologies. You have the choice to decide whether who will enact and who will guess. The pair who guesses right will be proceeded to the second round.
       <li>Round 2 : This will contain a time duration of 2 mins and its again the same as round 1. Do not exceed the time limit.
-      <li>Student Co-ordinator: Prashant Kumar Singh- (9415679329) | Ayushi Tiwari –(9307812257)
+      <li>Student Co-ordinator: Prerit (8077974510)
       <li>Date : 22-03-2018, Time : 1:00 PM
 
     </ul>
@@ -284,8 +284,8 @@
       <li> Team of two members.  
       <li> They will have to make any theme based art on the petri plate using different colours. 
       <li> Date : 23-08-18, Time : 1:00 PM  
-      <li> Cordinator: Aditi Saxena and Pulkita
-    </ul>
+      
+      <li>Student Co-ordinator: Prerit (8077974510) | Aritri Sarkar</ul>
     </div>
     <?php
       echo $form_data[$i];
@@ -408,7 +408,7 @@ de_aztec |
 
 <li>Banned weapons will be bullpup and creg 552 and sheild as well .
 <li>Systems would be provided by the college  and  participants are allowed to bring their headphones and mouse only .
-<li>Student Co-ordinator: Ashish Gupta (8527769723).
+<li>Student Co-ordinator: Karan Khera (9971909521).
 <li>Date : 23-03-18, Time : 10:00 AM 
 
 </ul>
@@ -612,7 +612,7 @@ E-Others (make your own idea)<br>
 
 <li>STUDENTS COORDINATOR : SHABAN (8826105538) | PRAGYA SHIVHARE
 
-<li> Date : 24-03-18, Time : 11:00 PM
+<li> Date : 24-03-18, Time : 11:00 AM
 
 </ul>
 
@@ -700,6 +700,7 @@ remain slack during the complete run.
 <li>The robot must not leave behind any of its parts during the run; else it will result in disqualification.
 <li>Unethical behavior could lead to disqualification
 <li> Date : 22-03-18, Time : 11:00 AM
+<li> Ground
 <li> Co-ordinators : Ravi Pratap Singh (9718929490)
   </ul>
   </div>
@@ -866,7 +867,7 @@ remain slack during the complete run.
       <li>Level by level questions will become difficult.
       <li> A game of 3 rounds
 
-      <li>Cordinator:  Priyanka Karan (8377852399) and Divyanshi
+      <li>Student Co-ordinator: Prerit (8077974510) | Vasudha
       <li> Date : 22-03-18, Time : 11:00 AM
     </ul>
   </div>
@@ -890,6 +891,7 @@ remain slack during the complete run.
 present on the date of event.
       <li>Every member of the group must explain the model to the judge.
       <li>Mode of explanation should be English only.
+      <li> Priyanshu Garg (9205026533) | Raghvendra Tripathi | Mini Gupta
       <li> Date : 22-03-18, Time : 2:30 PM
     </ul>
   </div>
@@ -988,7 +990,8 @@ present on the date of event.
 
 <li>The judges score will be final and unchanged
 
-<li> Date : 22-03-18, Time : 2:00 PM
+<li> Date : 23-03-18, Time : 2:00 PM
+<li> Venue : 211 B-Block
 
 <li>Co-ordinators: Disha Dwivedi (9582795041)
 
@@ -1011,7 +1014,7 @@ present on the date of event.
 
 <li>The event is a team event and in every team 2 members are allowed.
 
-<li>In the first round, the participants have to hunt down the hidden components and this round will be elimination round.
+<li>In the first round, the participants have to hunt drobo raown the hidden components and this round will be elimination round.
 
 <li>The second round is mains round in which the participants have to design something creative, either working or non-working but mewningful with the given components.
 
@@ -1019,7 +1022,7 @@ present on the date of event.
 
 <li>If any team member is found in any undisciplinary action, the team will get debarred from the event.
 <li> Date : 24-03-18, Time : 10:00 AM
-
+<li> Venue : 308 B and 310 B
 <li>Co-ordinator : Manish Bhardwaj (8800970331)
     </ul>
   </div>
@@ -1101,6 +1104,7 @@ generally should read from left to right, and top to bottom.
       <li>Numbering the individuals panels, or connecting them with arrows is a standard "guidance
 system" (see Figure 1).Leave some open space in the design. An open layout is
 less tiring to the eye and mind.  
+<li> Rahul Kumar (8287351493) | Shristy Singh | Vivek Kumar Sharma
 <li> Date : 24-03-18, Time : 11:00 AM
     </ul>
   </div>
