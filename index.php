@@ -129,8 +129,7 @@
         <a href="pages/co-ordinator-panel.php"> Console</a> | 
 	    <a href="pages/devpage.php">DEV PAGE</a> | 
         <a href="pages/contactus.php">CONTACT US</a> | 
-        <a href="images/schedule.jpeg">SCHEDULE</a> | 
-        <a href="pages/management.php">MANAGEMENT</a>
+        <a href="images/schedule.jpeg">SCHEDULE</a> 
     
     </div> 
 		<br>
@@ -165,7 +164,6 @@
     <a href="pages/devpage.php"><button><div class="btn-text">DEV PAGE</div></button></a><br><br><br>
     <a href="pages/contactus.php"><button><div class="btn-text">CONTACT US</div></button></a><br><br><br>
     <a href="images/schedule.jpeg"><button><div class="btn-text">SCHEDULE</div></button></a><br><br><br>
-    <a href="pages/management.php"><button><div class="btn-text">MANAGEMENTS</div></button></a><br><br><br> 
 	</div>
 
 	</div>

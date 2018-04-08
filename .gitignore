@@ -2,3 +2,4 @@ config.php
 readmm.md
 resources/util/config1.php
 resources/downloads
+jddump.sql
