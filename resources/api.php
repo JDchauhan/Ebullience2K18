@@ -71,12 +71,12 @@
              */
             global $session_get;
 
-            $name = $_POST["name"];
-            $branch = $_POST["branch"];
+            $name = trim($_POST["name"]);
+            $branch = trim($_POST["branch"]);
             $year = $_POST["year"];
-            $email = $_POST["email"];
-            $roll = (int)$_POST["roll_no"];
-            $mobile = (int)$_POST["mob_no"];
+            $email = trim($_POST["email"]);
+            $roll = (int)trim($_POST["roll_no"]);
+            $mobile = (int)trim($_POST["mob_no"]);
             $pass = $_POST["pass"];
             $verification_token = guid();
 
@@ -166,8 +166,8 @@
         function login(){
             global $session_get;
 
-            $email=$_POST["email"]; 
-            $pass=$_POST["password"];
+            $email = trim($_POST["email"]); 
+            $pass = $_POST["password"];
 
             $err_form = "";
             $err_status = 0;
@@ -220,7 +220,7 @@
                             
                             //create binary table for event list
                             $j=0;
-                            for( $i = 0; $i <29; $i++){
+                            for( $i = 0; $i <31; $i++){
                                 $event_ids[$i] = 0;
                             }
                             foreach($result as $k => $v){
@@ -285,8 +285,9 @@
 
             }else{
                 //error: expired link
-                session_unset();
-                session_destroy();
+                $_SESSION["msg"]["type"] = "error";
+                $_SESSION["msg"]["head"] = "Some error occured";
+                $_SESSION["msg"]["body"] = "The link you have clicked has been expired";
                 $head = "Location: ../pages/login.php?session=" . $session_get;
                 header($head);
             }
@@ -477,7 +478,7 @@
                     
                     //create binary table for event list
                     $j=0;
-                    for( $i = 0; $i <29; $i++){
+                    for( $i = 0; $i <31; $i++){
                         $event_ids[$i] = 0;
                     }
                     foreach($result as $k => $v){
@@ -526,7 +527,7 @@
                     
                     //create binary table for event list
                     $j=0;
-                    for( $i = 0; $i <29; $i++){
+                    for( $i = 0; $i <31; $i++){
                         $event_ids[$i] = 0;
                     }
                     foreach($result as $k => $v){

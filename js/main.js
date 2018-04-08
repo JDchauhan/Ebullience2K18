@@ -91,20 +91,11 @@ function validateForm()
     var name = document.forms["reg-form"]["name"].value;
     var branch=document.forms["reg-form"]["branch"].value;
     var year=document.forms["reg-form"]["year"].value;
-    var email=document.forms["reg-form"]["email"].value;
+    var email=trim(document.forms["reg-form"]["email"].value);
     var roll_no=document.forms["reg-form"]["roll_no"].value;
     var mob_no=document.forms["reg-form"]["mob_no"].value;
     var pass=document.forms["reg-form"]["pass"].value;
 
-    var re = new RegExp("133");
-    if (re.test(roll_no)) 
-    {
-        var flag=0;
-    } 
-    else 
-    {
-        var flag=1;
-    }
     if (name == "") 
     {
         document.getElementById("message").className="";
@@ -140,7 +131,7 @@ function validateForm()
         document.getElementById("message").innerHTML="PLEASE CHOOSE YEAR";
         return false;
     }
-    else if(isNaN(roll_no) || roll_no.length < 1 || flag==1 )
+    else if(isNaN(roll_no) || roll_no.length < 1 )
     {
         document.getElementById("message").className="";
         document.getElementById("message").className="error";

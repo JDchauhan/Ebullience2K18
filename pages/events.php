@@ -173,7 +173,7 @@
         </button>
 
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="15">
-            AMPHIBIAN RACE
+            ROBO RACE
         </button>
 
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="16">
@@ -209,27 +209,27 @@
         </button>
 
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="24">
-           MUSICAL .LY
+           STUBBORN IDEAS
         </button>
 
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="25">
-           BALLOON BUILDING
-        </button>
-
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="26">
-           LEGEND OF THE LOST
-        </button>
-
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="27">
            3-D MACHINE MODEL
         </button>
 
-        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="28">
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="26">
            ELECTRIC COLLAGE
         </button>
 
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="27">
+          POETRY SLAM
+        </button>
+
+        <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="28">
+           BIO-TREASURE HUNT
+        </button>
+
         <button class="event-linker" type="button" data-target="#myCarousel2" data-slide-to="29">
-           APTITUDE TEST
+          GREEN CANVAS
         </button>
     </div>
   </div>
@@ -243,7 +243,8 @@
       <li>Participants must come in pairs (2 participants)
       <li>Round 1: You have to pick up a chit from a box that will contain some basic science terminologies. You have the choice to decide whether who will enact and who will guess. The pair who guesses right will be proceeded to the second round.
       <li>Round 2 : This will contain a time duration of 2 mins and its again the same as round 1. Do not exceed the time limit.
-      <li>Student Co-ordinator: Prashant Kumar Singh- (9415679329) | Ayushi Tiwari –(9307812257)
+      <li>Student Co-ordinator: Prerit (8077974510)
+      <li>Date : 22-03-2018, Time : 1:00 PM
     </ul>
     </div>
     <center>
@@ -261,9 +262,11 @@
     <ul>
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
       <li> Team of two members.  
-      <li> They will have to make any theme based art on the petri plate using different colours. 
-      <li> Cordinator: Aditi Saxena and Pulkita
-    </ul>
+      <li> They will have to make any theme based art on the petri plate using different colours.
+      <li> Date : 23-08-18, Time : 1:00 PM  
+      
+      <li>Student Co-ordinator: Prerit (8077974510) | Aritri Sarkar
+      </ul>
     </div>
     <center>
     <form action="login.php" method="POST">
@@ -294,6 +297,8 @@ Details:
 Participants will be judged on creativity, utilization of resources, artistic composition and design, utility of product and overall presentation.
 
 <li>NO MOBILE PHONES OR INTERNET MEANS WOULD BE ALLOWED AT THE TIME OF COMPETITION.
+
+<li>Date : 23-03-18, Time : 1:00 PM
     </ul>
   </div>
     <center>
@@ -320,6 +325,8 @@ Participants will be judged on creativity, utilization of resources, artistic co
       <li>Participants will be judged on creativity, utilization of resources, artistic composition and design, utility of product and overall presentation.
 
       <li>NO MOBILE PHONES OR INTERNET MEANS WOULD BE ALLOWED AT THE TIME OF COMPETITION.
+
+      <li>Date : 22-03-18, Time : 2:00 PM
     </ul>
   </div>
     <center>
@@ -363,6 +370,8 @@ Participants will be judged on creativity, utilization of resources, artistic co
 <li>Students coordinators
 
  Shamsher Alam (IT) (8860994540) | Suraj (IT) (9113730080)
+
+<li>Date : 24-03-18, Time : 10:00 AM
     </ul>
   </div>
     <center>
@@ -386,14 +395,12 @@ Participants will be judged on creativity, utilization of resources, artistic co
 de_nuke | 
 de_dust2 | 
 de_inferno | 
-de_aztec | 
-de_train | 
+de_aztec |
 
 <li>Banned weapons will be bullpup and creg 552 and sheild as well .
-<li>Systems would be provided by the collg  and  participants are allowed to bring their headphones and mouse only .
-<li>Each Team Registration Price is 200 Rupees.
-<li>1st Event Winner Will Get 800 Rupees as Prize.
-
+<li>Systems would be provided by the college  and  participants are allowed to bring their headphones and mouse only .
+<li>Student Co-ordinator: Karan Khera (9971909521).
+<li>Date : 23-03-18, Time : 10:00 AM 
 </ul>
   </div>
     <center>
@@ -416,6 +423,7 @@ de_train |
     <li> Questions based on Web and Programming Will be there and Participants Need to find the flag by solving the questions.
     <li>Participant solving maximum Questions Over a fixed time will win.
     <li>Student Co-ordinator: Ashish Gupta (8527769723).
+    <li>Date : 24-03-18, Time : 12:30 PM
   </ul>
   </div>
 <center>
@@ -439,6 +447,8 @@ de_train |
     <li>Consists of two rounds
     <li>The Judges decision is final
     <li>Participants have to correct the errors on paper and type the code with MONITOR SWITCHED OFF
+    <li>Student Co-ordinator: Ashish Gupta (8527769723).
+    <li>Date : 23-03-18, Time : 1:30 PM
   </ul>
   </div>
 <center>
@@ -476,9 +486,9 @@ Elementary round consisting of 20 questions that will be judged. Maximum scoring
    <li>Venue :- 001 B 
 
     <li>Coordinators: 
-Shubhangi Verma 8299290730 | 
+Shubhangi Verma 8299290730 | Anu Sharma
 
-Anu Sharma
+<li>Date : 23-03-18, Time : 2:00 PM
       </ul>
   </div>
     <center>
@@ -516,6 +526,8 @@ Venue :- 001 B
 Aman Varshney  9811823830 |
 
 Aditya Gupta 7011615837
+
+<li>Date: 23-03-18, Time : 11:30 AM
 
 </ul>
 
@@ -561,6 +573,8 @@ All 3 members can contribute in this round
 
 <li>STUDENT COORDINATORS : 
  MOHAMMAD FAHAD (9639647747) | HIMANSHU SAHRAWAT (7906666056)
+ <li> Time : 12:30 PM, 22 March 2018
+
 
 </ul>
 
@@ -612,6 +626,8 @@ E-Others (make your own idea)<br>
 
 <li>STUDENTS COORDINATOR : SHABAN (8826105538) | PRAGYA SHIVHARE
 
+<li> Date : 24-03-18, Time : 11:00 AM
+
 </ul>
 
   </div>
@@ -642,7 +658,7 @@ E-Others (make your own idea)<br>
 	<li>No weapon should be there on bot.
 	<li>Electricity supply of 220volts,50hz will be provided, participants should carry their own adaptors.
 	 Misbehaviour of participants will lead to disqualification from competition.
-
+   <li> Date : 23-03-18, Time : 11:30 AM
 </ul>
 
   </div>
@@ -675,7 +691,7 @@ E-Others (make your own idea)<br>
 	<li>Bring your college ID card
 	<li>Report 15 min before given time
 	<li>Gaurav Malik (9015819151) | Abhay Verma	(9554708201)
-
+  <li> Date : 24-03-18, Time : 12:30 PM
 
 </ul>
 
@@ -694,29 +710,32 @@ E-Others (make your own idea)<br>
 <!--#####################################################################################################-->
 
   <div class="item">
-        <h3> AMPHIBIAN RACE </h3>
-        <div class="event_overview" style="height: 250px;overflow-y: scroll;">
-        <ul>
-<li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-
-	<li>In this competition the participants have to build a bot which can run on water as well as on the land. 
-
-	<li>Participants should carry their I-cards.
-	<li>Weight limit of bot -6kg.
-	<li>Dimensions -35cm*35cm*35cm.
-	<li>Bot should be able to run on land and water.
-	<li>Voltage supply –up to 12 volts.
-	<li>Bot can be wired or wireless.
-	<li>No weapon or accessories should be there on bot.
-	<li>Electricity supply of 220volts,50hz will be provided, participants should carry their own adaptors.
-	<li>Misbehaviour of participants will lead to disqualification from competition.
-
-
-</ul>
-
+  <h3>ROBO RACE</h3>
+  <div class"event_overview" style="height: 240px;overflow-y: scroll;">
+  <ul>
+    <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+<li>Design a manually controlled ROBOT that has capacity to cover maximum distance in shortest
+possible time, challenging the hurdles and be one of the best opponents. <li>The maximum dimension of
+the robot can be 35 x 35 cm (I x b).
+<li>The robot may be wired or wireless.
+<li>The length of the wire (for wired bots) should be long enough to cover the whole track and wire should
+remain slack during the complete run.
+<li>Max weight must not exceed 6 kg.
+<li>The power supply will be provided maximum up to 12Volt.
+<li>Ready made toys car are not allowed.
+<li>This is a racing event, so fastest and most balanced robot will win.
+<li>Each team can have maximum four (4) members.
+<li>Each member of the team must contain the identity card of the Institute.
+<li>The robot should not damage the arena.
+<li>The robot must not leave behind any of its parts during the run; else it will result in disqualification.
+<li>Unethical behavior could lead to disqualification
+<li> Date : 22-03-18, Time : 11:00 AM
+<li> Ground
+<li> Co-ordinators : Ravi Pratap Singh (9718929490)
+  </ul>
   </div>
-    <center>
-    <form action="login.php" method="POST">
+<center>
+  <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="16">&gt;</button>
@@ -744,8 +763,8 @@ E-Others (make your own idea)<br>
 	<li>No weapon should be there on bot.
 	<li>Electricity supply of 220volts,50hz will be provided, participants should carry their own adaptors.
 	<li>Misbehaviour of participants will lead to disqualification from competition.
-
-
+  <li> Date : 24-03-18, Time : 10:00 AM
+  <li>Co-ordinator: Himanshu Yadav (8218640230) | Ankur Yadav (9871470046)
 
 </ul>
 
@@ -776,8 +795,8 @@ E-Others (make your own idea)<br>
 	<li>Launcher will be provided.
 	<li>Build quality and distance achieved will be the judging criteria.
 	<li>Misbehaviour of participants will lead to disqualification from competition.
-
-
+  <li>Date : 23-03-18, Time : 1:30 PM
+  <li>Co-ordinators : Ankit Tripathi (9650575205)
 
 </ul>
 
@@ -808,7 +827,6 @@ E-Others (make your own idea)<br>
 <li>Minimal Editing Allowed.
 <li>No watermarks.
 <li>Winner will be awarded with certificates.
-
 
 </ul>
 
@@ -841,7 +859,7 @@ E-Others (make your own idea)<br>
  Each participant has to show the properties of an efficient speaker in a group.
 
 <li>Cordinator: Vinayak Sharma(9208003024) | Ajeet Yadav (9654655862)
-
+<li> Date : 23-03-18, Time : 10:00 AM
 
 </ul>
 
@@ -874,7 +892,7 @@ E-Others (make your own idea)<br>
   <li> No deduction for not attempted questions.
   <li> Conclusions: Aptitude test is specially designed to find out how easily and how well we can do something or to assess our logical reasoning or thinking performance
   <li> Coordinator : Kuldeep Singh (9990439858)  | Vinayak Sharma (9208003024)
-
+  <li> Date : 23-03-18, Time : 1:30 PM
 
 </ul>
 </div>
@@ -900,7 +918,9 @@ E-Others (make your own idea)<br>
       <li>Level by level questions will become difficult.
       <li> A game of 3 rounds
 
-      <li>Cordinator:  Priyanka Karan and Divyanshi
+      <li>Student Co-ordinator: Prerit (8077974510) | Vasudha
+      
+      <li> Date : 22-03-18, Time : 11:00 AM
     </ul>
   </div>
   
@@ -929,6 +949,8 @@ E-Others (make your own idea)<br>
 present on the date of event.
       <li>Every member of the group must explain the model to the judge.
       <li>Mode of explanation should be English only.
+      <li> Priyanshu Garg (9205026533) | Raghvendra Tripathi | Mini Gupta
+      <li> Date : 22-03-18, Time : 2:30 PM
     </ul>
   </div>
   
@@ -960,6 +982,8 @@ present on the date of event.
 <li>At the end of the track colored balls are placed .
 
 <li>Blind fold member collect the maximum balls and place it at starting point.
+<li>Co-ordinators: Shujat Abbas (9897669154)
+<li> Date : 23-03-18, Time : 11:30 AM
     </ul>
   </div>
   
@@ -974,18 +998,22 @@ present on the date of event.
 
 <!--#####################################################################################################-->
 <div class="item">
-    <h3>MUSICAL.LY</h3>
+    <h3> STUBBORN IDEAS</h3>
     <div class"event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
       
-      <li>8 selected teams enter in this round.
+      <li>Stubborn ideas help you to show a dogged determination through your sketches, designs and your artworks. The pictures could speak itself, we will make them share their words with the public.
 
-      <li>2 team compete (at one time)
+      <li>COORDINATORS- Rajat Pundir (Cse 3 Year) | Spriha Srivastava (Cse 3 Year)
 
-      <li>We play instrumental song
+      <li>The artwork can be on any topic or theme.
 
-      <li>Teams have to guess song lyrics.
+      <li>There can be any 2D or 3D artwork.
+
+      <li>It should not be printed or traced.
+
+      <li>Co-ordinators : 
     </ul>
   </div>
   
@@ -994,59 +1022,6 @@ present on the date of event.
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
        <button class="back" type="button" data-target="#myCarousel2" data-slide-to="25">&gt;</button>
-    </form>
-  </center>
-  </div>
-
-<!--#####################################################################################################-->
-
-
-<!--#####################################################################################################-->
-<div class="item">
-    <h3>BALLOON BUILDING</h3>
-    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
-    <ul>
-      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      
-      <li>4 selected team play this game.
-
-      <li> 3 member grab the balloon and blow it up.
-
-      <li> Then paste the maximum number of balloons on 4 th member in given time period.
-    </ul>
-  </div>
-  
-    <center>
-    <form action="login.php" method="POST">
-      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
-      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="26">&gt;</button>
-    </form>
-  </center>
-  </div>
-
-<!--#####################################################################################################-->
-
-<!--#####################################################################################################-->
-<div class="item">
-    <h3>LEGEND OF THE LOST</h3>
-    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
-    <ul>
-      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      
-      <li>3 selected team enter in this round .
-
-      <li>All the clues of the team are same
-
-      <li>The team which find the treasure win first.
-    </ul>
-  </div>
-  
-    <center>
-    <form action="login.php" method="POST">
-      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
-      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="27">&gt;</button>
     </form>
   </center>
   </div>
@@ -1070,6 +1045,11 @@ present on the date of event.
 <li>If any team member is found in any undisciplinary action, the team will get debarred from the event.
 
 <li>The judges score will be final and unchanged
+
+<li> Date : 23-03-18, Time : 2:00 PM
+<li> Venue : 211 B-Block
+
+<li>Co-ordinators: Disha Dwivedi (9582795041)
     </ul>
   </div>
   
@@ -1077,7 +1057,7 @@ present on the date of event.
     <form action="login.php" method="POST">
       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
       <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
-       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="28">&gt;</button>
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="26">&gt;</button>
     </form>
   </center>
   </div>
@@ -1103,6 +1083,72 @@ present on the date of event.
 <li>The team will get scores on the basis of their design presentation and explanation.
 
 <li>If any team member is found in any undisciplinary action, the team will get debarred from the event.
+
+<li> Date : 24-03-18, Time : 10:00 AM
+<li> Venue : 308 B and 310 B
+<li>Co-ordinator : Manish Bhardwaj (8800970331)
+    </ul>
+  </div>
+  
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="27">&gt;</button>
+    </form>
+  </center>
+  </div>
+
+<!--#####################################################################################################-->
+
+
+
+<!--#####################################################################################################-->
+
+<div class="item">
+    <h3>POETRY SLAM</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+     <li>Participants have to submit their poem through email to nietchronicle.nc@gmail.com after registering on the website . Deadline for submitting the poems is 22nd March 2018.
+
+      <li>Participants may submit ONE entry only. Submission of multiple entries shall lead to disqualification.
+
+      <li> Participation will take place individually.
+
+      <li>The event is multilingual in nature: participants may submit their pieces in their desired languages i.e. English, Hindi and Urdu.
+
+      <li> Plagiarism will not be tolerated and shall lead to disqualification.
+
+      <li>The time for the recitation should not exceed 7 minutes.
+
+      <li>Venue: B-block auditorium
+    </ul>
+  </div>
+  
+    <center>
+    <form action="login.php" method="POST">
+      <button class="back" type="button" data-target="#myCarousel2" data-slide-to="0">&lt;</button>
+      <input type="submit" name="submit" placeholder="Register" value="REGISTER" class="btn-sml" style="width: auto;">
+       <button class="back" type="button" data-target="#myCarousel2" data-slide-to="28">&gt;</button>
+    </form>
+  </center>
+  </div>
+<!--#####################################################################################################-->
+
+
+
+<!--#####################################################################################################-->
+<div class="item">
+    <h3>BIO-TRESURE HUNT</h3>
+    <div class"event_overview" style="height: 250px;overflow-y: scroll;">
+    <ul>
+      <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
+      <li>A biotechnological (basic) level based treasure hunt
+inside the campus.
+      <li>Coordinator- Prerit Gupta, Sugandha
+Katiyar, Akanksha Singh, Shivangi Singh</li>
+    <li> Date : 23-03-18, Time : 10:00 AM
     </ul>
   </div>
   
@@ -1114,29 +1160,36 @@ present on the date of event.
     </form>
   </center>
   </div>
-
 <!--#####################################################################################################-->
 
 
 
-<!--#####################################################################################################-->
+
 <div class="item">
-    <h3>APTITUDE TEST</h3>
+    <h3>GREEN CANVAS</h3>
     <div class"event_overview" style="height: 250px;overflow-y: scroll;">
     <ul>
       <li style="color:rgba(24, 116, 205,1);font-weight: bolder; ">EVENT OVERVIEW</li>
-      <li>Duration of the test is 30 minutes.
+      <li>A poster is a graphically based approach to presenting research. In presenting
+your research with a poster, you should aim to use the poster as a means for
+generating active discussion of the research.
+      <li>Limit the text to about one-fourth of the poster space, and use "visuals"
+(graphs, photographs, schematics, maps, etc.) to tell your "story".
 
-      <li>Questions paper consists of 20 objective questions.
+      <li>The entire poster must be mounted on a 40" x 60" foam-core board. The poster
+does not necessarily have to fill the entire working area.
+      <li> The board must be oriented in the "landscape" position (long dimension is
+horizontal).
+      <li> A banner displaying your poster title, name, and department (or class, if
+appropriate) should be positioned at top-center of the board (see Figure 1).
+      <li>Make it obvious to the viewer how to progressively view the poster. The poster
+generally should read from left to right, and top to bottom. 
+      <li>Numbering the individuals panels, or connecting them with arrows is a standard "guidance
+system" (see Figure 1).Leave some open space in the design. An open layout is
+less tiring to the eye and mind.
 
-      <li>Each question is allotted 4 marks for correct response.
-
-      <li>0.25 marks will be deducted for indicating incorrect response of each question.
-
-    <li>No deduction for not attempted questions.
-
-      <li>Coordinator : Kuldeep Singh (9990439858) | Vinayak Sharma (9208003024)
-    
+<li> Rahul Kumar (8287351493) | Shristy Singh | Vivek Kumar Sharma  
+      <li> Date : 24-03-18, Time : 11:00 AM
     </ul>
   </div>
   
@@ -1148,7 +1201,11 @@ present on the date of event.
     </form>
   </center>
   </div>
+
 <!--#####################################################################################################-->
+
+
+
 <!--#####################################################################################################-->
 </div>
 
