@@ -46,7 +46,7 @@ function OTM($email, $roll, $name, $verification_token, $services){
                 Warm Regards<br />
                 Cloudy Vault Team<br /><br />
                 This is a system generated mail. Please Do not reply to the mail. If you have some query feel free to contact us at
-                <i><a href='https://mail.google.com/mail/?view=cm&fs=1&to=jagdish.chauhan01.com'> jagdish.chauhan01@gmail.com.com</a></i>
+                <i><a href='https://mail.google.com/mail/?view=cm&fs=1&to=jagdish.chauhan01.com'> jagdish.chauhan01@gmail.com</a></i>
             </p>    
         </body>
     </html>
